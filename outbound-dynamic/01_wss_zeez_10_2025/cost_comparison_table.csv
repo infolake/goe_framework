@@ -1,0 +1,7 @@
+Cenário,Duração (min),ElevenLabs (USD),ElevenLabs (BRL),OpenAI Realtime (USD),OpenAI Realtime (BRL),Gemini 2.5 Flash (USD),Gemini 2.5 Flash (BRL),Mais Barato,Economia vs Mais Caro (USD)
+1 minuto,1,$0.100000,R$ 0.5500,$0.270000,R$ 1.4850,$0.000630,R$ 0.0035,Gemini,$0.269370
+5 minutos,5,$0.500000,R$ 2.7500,$1.350000,R$ 7.4250,$0.003150,R$ 0.0173,Gemini,$1.346850
+10 minutos,10,$1.000000,R$ 5.5000,$2.700000,R$ 14.8500,$0.006300,R$ 0.0347,Gemini,$2.693700
+15 minutos (consulta),15,$1.500000,R$ 8.2500,$4.050000,R$ 22.2750,$0.009450,R$ 0.0520,Gemini,$4.040550
+30 minutos,30,$3.000000,R$ 16.5000,$8.100000,R$ 44.5500,$0.018900,R$ 0.1040,Gemini,$8.081100
+60 minutos (1 hora),60,$6.000000,R$ 33.0000,$16.200000,R$ 89.1000,$0.037800,R$ 0.2079,Gemini,$16.162200

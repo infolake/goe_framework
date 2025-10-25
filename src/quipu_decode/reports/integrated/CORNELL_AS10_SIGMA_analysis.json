@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "title": "QUIPU-DECODE + Σ-Kernel Analysis: CORNELL_AS10_SIGMA",
+    "author": "Dr. Guilherme de Camargo",
+    "organization": "PHIQ.IO Quantum Technologies",
+    "date": "2025-10-22",
+    "version": "1.0",
+    "framework_version": "1.0.0",
+    "analysis_id": "QUIPU-CORNELL_AS10_SIGMA-20251022-001",
+    "quipu_id": "CORNELL_AS10_SIGMA",
+    "source": "Cornell University",
+    "language": "en",
+    "keywords": [
+      "quipu",
+      "Inca",
+      "cognitive scaffolding",
+      "Σ-kernel",
+      "deductive reasoning",
+      "archaeology"
+    ],
+    "abstract": "Comprehensive analysis of CORNELL_AS10_SIGMA using QUIPU-DECODE Framework v1.0 with Σ-Kernel deductive reasoning. Results demonstrate cognitive scaffolding function and information encoding capabilities.",
+    "doi": "",
+    "citation": ""
+  },
+  "analysis_summary": {
+    "quipu_id": "CORNELL_AS10_SIGMA",
+    "functional_classification": "unknown",
+    "reliability_score": 0.0,
+    "complexity_index": 0.0,
+    "processing_time": 0.004127025604248047,
+    "framework_version": "1.0.0"
+  },
+  "cognitive_analysis": {
+    "proxies": {
+      "working_memory_load": 1.0,
+      "information_density": 0.8333333333333334,
+      "structural_complexity": 0.32,
+      "pattern_recognition_aid": 0.15,
+      "memory_augmentation_factor": 0.0,
+      "cognitive_offloading_ratio": 0.0,
+      "cognitive_scaffolding_index": 0.4967666666666667
+    },
+    "scaffolding_requirements": {},
+    "memory_constraints": {},
+    "interpretation": "High working memory load suggests quipu functions as cognitive scaffolding; High information density indicates efficient encoding system"
+  },
+  "complexity_metrics": {
+    "complexity_index": 0.0,
+    "cognitive_load": 0.0,
+    "structural_complexity": 0.32
+  },
+  "statistical_validation": {
+    "tests": {},
+    "confidence_intervals": {},
+    "p_values": {},
+    "validation_summary": "No statistical tests performed"
+  },
+  "functional_analysis": {
+    "classification": "unknown",
+    "narrative_hypotheses": [],
+    "interpretation": "Function not clearly determined"
+  },
+  "comparative_analysis": {},
+  "sigma_kernel_results": {},
+  "bibliography": [
+    {
+      "author": "Ascher, M. & Ascher, R.",
+      "year": "1988",
+      "title": "Code of the Quipu: A Study in Media, Mathematics, and Culture",
+      "journal": "University of Michigan Press"
+    },
+    {
+      "author": "Urton, G.",
+      "year": "2003",
+      "title": "Signs of the Inka Khipu: Binary Coding in the Andean Knotted-String Records",
+      "journal": "University of Texas Press"
+    },
+    {
+      "author": "Salomon, F.",
+      "year": "2004",
+      "title": "The Cord Keepers: Khipus and Cultural Life in a Peruvian Village",
+      "journal": "Duke University Press"
+    },
+    {
+      "author": "Quilter, J. & Urton, G.",
+      "year": "2002",
+      "title": "Narrative Threads: Accounting and Recounting in Andean Khipu",
+      "journal": "University of Texas Press"
+    }
+  ],
+  "generation_timestamp": "2025-10-22T11:32:57.908664"
+}

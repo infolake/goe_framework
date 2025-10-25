@@ -1,0 +1,76 @@
+2025-10-23 13:50:18,743 - INFO - 
+🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌
+2025-10-23 13:50:18,743 - INFO - ANÁLISE ALTERNATIVA SPARC - CONFIGURAÇÕES DIFERENTES
+2025-10-23 13:50:18,744 - INFO - 🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌
+2025-10-23 13:50:18,744 - INFO - Início: 2025-10-23 13:50:18
+2025-10-23 13:50:19,376 - INFO - 📂 Diretório de dados: D:\2025-Geometrodynamics_of_Entropy\Geometrodynamics_of_Entropy_Dark_Matter\01_camargo_goe_\GoE_Arxiv\astrophysics_paper\data\sparc\downloaded
+2025-10-23 13:50:20,073 - INFO - 📂 Diretório de saída: D:\2025-Geometrodynamics_of_Entropy\Geometrodynamics_of_Entropy_Dark_Matter\01_camargo_goe_\GoE_Arxiv\astrophysics_paper\alternative_analysis\outputs\alternative_configurations
+2025-10-23 13:50:20,250 - INFO - 🎯 Galáxias disponíveis: 12
+2025-10-23 13:50:20,251 - INFO - ⚙️  Configurações alternativas: 4
+2025-10-23 13:50:20,252 - INFO - 🔢 Total de análises: 48
+2025-10-23 13:50:20,252 - INFO - 
+⚙️  Configurações MCMC:
+2025-10-23 13:50:20,253 - INFO -    config_1: 16 walkers, 1000 steps, 250 burn-in
+2025-10-23 13:50:20,254 - INFO -    config_2: 32 walkers, 1500 steps, 375 burn-in
+2025-10-23 13:50:20,254 - INFO -    config_3: 48 walkers, 2500 steps, 625 burn-in
+2025-10-23 13:50:20,255 - INFO -    config_4: 64 walkers, 3000 steps, 750 burn-in
+2025-10-23 13:50:20,256 - INFO -    Likelihood: Student-t robusto
+2025-10-23 13:50:20,256 - INFO - ⏱️  Tempo estimado: ~3h (~4 min/análise)
+2025-10-23 13:50:20,257 - ERROR - ❌ Configuração não encontrada: 1
+2025-10-23 13:50:20,258 - ERROR - ❌ Configuração não encontrada: 2
+2025-10-23 13:50:20,258 - ERROR - ❌ Configuração não encontrada: 3
+2025-10-23 13:50:20,259 - ERROR - ❌ Configuração não encontrada: 4
+2025-10-23 13:50:20,260 - ERROR - ❌ Configuração não encontrada: 1
+2025-10-23 13:50:20,261 - ERROR - ❌ Configuração não encontrada: 2
+2025-10-23 13:50:20,261 - ERROR - ❌ Configuração não encontrada: 3
+2025-10-23 13:50:20,266 - ERROR - ❌ Configuração não encontrada: 4
+2025-10-23 13:50:20,267 - ERROR - ❌ Configuração não encontrada: 1
+2025-10-23 13:50:20,268 - ERROR - ❌ Configuração não encontrada: 2
+2025-10-23 13:50:20,269 - ERROR - ❌ Configuração não encontrada: 3
+2025-10-23 13:50:20,270 - ERROR - ❌ Configuração não encontrada: 4
+2025-10-23 13:50:20,270 - ERROR - ❌ Configuração não encontrada: 1
+2025-10-23 13:50:20,271 - ERROR - ❌ Configuração não encontrada: 2
+2025-10-23 13:50:20,271 - ERROR - ❌ Configuração não encontrada: 3
+2025-10-23 13:50:20,272 - ERROR - ❌ Configuração não encontrada: 4
+2025-10-23 13:50:20,273 - ERROR - ❌ Configuração não encontrada: 1
+2025-10-23 13:50:20,273 - ERROR - ❌ Configuração não encontrada: 2
+2025-10-23 13:50:20,273 - ERROR - ❌ Configuração não encontrada: 3
+2025-10-23 13:50:20,274 - ERROR - ❌ Configuração não encontrada: 4
+2025-10-23 13:50:20,274 - ERROR - ❌ Configuração não encontrada: 1
+2025-10-23 13:50:20,275 - ERROR - ❌ Configuração não encontrada: 2
+2025-10-23 13:50:20,275 - ERROR - ❌ Configuração não encontrada: 3
+2025-10-23 13:50:20,275 - ERROR - ❌ Configuração não encontrada: 4
+2025-10-23 13:50:20,276 - ERROR - ❌ Configuração não encontrada: 1
+2025-10-23 13:50:20,276 - ERROR - ❌ Configuração não encontrada: 2
+2025-10-23 13:50:20,279 - ERROR - ❌ Configuração não encontrada: 3
+2025-10-23 13:50:20,280 - ERROR - ❌ Configuração não encontrada: 4
+2025-10-23 13:50:20,281 - ERROR - ❌ Configuração não encontrada: 1
+2025-10-23 13:50:20,282 - ERROR - ❌ Configuração não encontrada: 2
+2025-10-23 13:50:20,282 - ERROR - ❌ Configuração não encontrada: 3
+2025-10-23 13:50:20,283 - ERROR - ❌ Configuração não encontrada: 4
+2025-10-23 13:50:20,283 - ERROR - ❌ Configuração não encontrada: 1
+2025-10-23 13:50:20,283 - ERROR - ❌ Configuração não encontrada: 2
+2025-10-23 13:50:20,284 - ERROR - ❌ Configuração não encontrada: 3
+2025-10-23 13:50:20,284 - ERROR - ❌ Configuração não encontrada: 4
+2025-10-23 13:50:20,284 - ERROR - ❌ Configuração não encontrada: 1
+2025-10-23 13:50:20,285 - ERROR - ❌ Configuração não encontrada: 2
+2025-10-23 13:50:20,285 - ERROR - ❌ Configuração não encontrada: 3
+2025-10-23 13:50:20,285 - ERROR - ❌ Configuração não encontrada: 4
+2025-10-23 13:50:20,286 - ERROR - ❌ Configuração não encontrada: 1
+2025-10-23 13:50:20,287 - ERROR - ❌ Configuração não encontrada: 2
+2025-10-23 13:50:20,287 - ERROR - ❌ Configuração não encontrada: 3
+2025-10-23 13:50:20,287 - ERROR - ❌ Configuração não encontrada: 4
+2025-10-23 13:50:20,288 - ERROR - ❌ Configuração não encontrada: 1
+2025-10-23 13:50:20,288 - ERROR - ❌ Configuração não encontrada: 2
+2025-10-23 13:50:20,288 - ERROR - ❌ Configuração não encontrada: 3
+2025-10-23 13:50:20,288 - ERROR - ❌ Configuração não encontrada: 4
+2025-10-23 13:50:20,289 - INFO - 
+
+================================================================================
+2025-10-23 13:50:20,289 - INFO - RESUMO FINAL - ANÁLISE ALTERNATIVA
+2025-10-23 13:50:20,289 - INFO - ================================================================================
+2025-10-23 13:50:20,289 - INFO - ✅ Sucessos: 0/48
+2025-10-23 13:50:20,290 - INFO - ❌ Falhas: 48/48
+2025-10-23 13:50:20,290 - INFO - 📊 Taxa de sucesso: 0.0%
+2025-10-23 13:50:20,290 - INFO - 
+🏁 Análise concluída: 2025-10-23 13:50:20

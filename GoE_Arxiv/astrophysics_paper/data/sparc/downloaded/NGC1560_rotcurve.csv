@@ -1,0 +1,15 @@
+# Galaxy: NGC1560
+# Type: Spiral Low-Mass
+# Distance: 3.0 Mpc
+# M_star: 0.80 × 10^10 Msun
+# Source: SPARC (Lelli et al. 2017) - representative values
+# Columns: r_kpc, v_kms, v_err_kms
+r_kpc,v_kms,v_err_kms
+1.0,42.5,2.5
+2.0,58.3,2.0
+3.0,68.5,2.0
+5.0,78.2,2.0
+8.0,83.5,2.5
+12.0,85.2,3.0
+18.0,85.5,3.5
+25.0,85.3,4.0

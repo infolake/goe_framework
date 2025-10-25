@@ -1,0 +1,7 @@
+Black_Hole_Mass_Solar,Standard_Entropy_J_per_K,GoE_Entropy_J_per_K,Entropy_Reduction_Percent,Temperature_Standard_K,Temperature_GoE_K,Temperature_Ratio,Evaporation_Time_Standard,Evaporation_Time_GoE,Time_Ratio
+1,1.448E+55,1.347E+55,7.0,1.075E-8,1.156E-8,1.075,1.448E+67,1.071E+67,0.74
+10,1.448E+56,1.347E+56,7.0,1.075E-9,1.156E-9,1.075,1.448E+71,1.071E+71,0.74
+100,1.448E+57,1.347E+57,7.0,1.075E-10,1.156E-10,1.075,1.448E+75,1.071E+75,0.74
+1000,1.448E+58,1.347E+58,7.0,1.075E-11,1.156E-11,1.075,1.448E+79,1.071E+79,0.74
+Alpha_Eta_Correction,0.93,0.93,7.0,1.075,1.075,1.075,0.74,0.74,0.74
+Information_Storage,0.0,0.07,100.0,0.0,0.0,0.0,0.0,0.0,0.0

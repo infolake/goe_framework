@@ -1,0 +1,35 @@
+{
+  "base": "/mnt/data/research_unpack",
+  "files": [
+    {
+      "path": "goe-research-article.md",
+      "size_bytes": 10973,
+      "ext": ".md",
+      "sha1": "1aaa7557f9cc360b543ad7ee85898998d7a5827d"
+    },
+    {
+      "path": "goe-computational-notebook.md",
+      "size_bytes": 34884,
+      "ext": ".md",
+      "sha1": "86275a566a4c6b3736a2fa96e5f0ca7b62160e0a"
+    },
+    {
+      "path": "collaboration-cover-letter.md",
+      "size_bytes": 5900,
+      "ext": ".md",
+      "sha1": "990f67da8b87d4e542f665f158306d738ebf8da6"
+    },
+    {
+      "path": "goe-technical-appendix.md",
+      "size_bytes": 14059,
+      "ext": ".md",
+      "sha1": "71cb2021ba0486b6eb129f27a80ee0d9ecf0f5b6"
+    },
+    {
+      "path": "script.py",
+      "size_bytes": 5437,
+      "ext": ".py",
+      "sha1": "a5471062281f9313e72a8d5e68a573e564eac51a"
+    }
+  ]
+}

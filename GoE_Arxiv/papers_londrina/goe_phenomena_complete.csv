@@ -1,0 +1,42 @@
+Paper,Seção,Fenômeno,Conteúdo,Equação Key,Status,Prioridade
+Paper 1 (Fundamentos),1. Introdução,Motivação: Crise do Modelo Padrão,"Hierarquia de massas (19 parâmetros), g-2 anomaly (5σ), Hubble tension",N/A,Contexto,Essencial
+Paper 1 (Fundamentos),2. Framework Geométrico,Métrica de Camargo 6D,ds² = -c²(dt₁² + α dτ₂² + β dτ₃²) + a² dx²,Camargo Metric,Fundamental,Essencial
+Paper 1 (Fundamentos),2. Framework Geométrico,Fibras Temporais Compactas,"R₃/R₂ = φ, topologia T² = S¹_Θ × S¹_Ξ",R₃/R₂ = φ,Derivado,Essencial
+Paper 1 (Fundamentos),2. Framework Geométrico,Espectro de Energia Universal,"E_n = n·ℏc/R → Λ_Θ, Λ_Ξ",E_n = n·Λ,Derivado,Essencial
+Paper 1 (Fundamentos),3. Hierarquia de Massas,Geometric See-Saw Mechanism,"M = [[0, m_D], [m_D, M_R]], m_light = m_D²/M_R",See-Saw Matrix,Derivado,Essencial
+Paper 1 (Fundamentos),3. Hierarquia de Massas,Fórmula Master φ-Harmônica,"m_{i,S} = v_EW · α_S · λᵢ(φ), λᵢ = 1/φ^(2(i-1))",φ-Harmonic Formula,PREDIÇÃO,KILLER
+Paper 1 (Fundamentos),3. Hierarquia de Massas,Léptons: m_μ/m_e = φ^11.080,"Predição: 206.771, Observado: 206.768, Erro: 0.001%",m_μ/m_e = φ^n,VALIDADO,KILLER
+Paper 1 (Fundamentos),3. Hierarquia de Massas,Léptons: m_τ/m_μ = φ^5.865,"Predição: 16.817, Observado: 16.818, Erro: 0.006%",m_τ/m_μ = φ^n,VALIDADO,KILLER
+Paper 1 (Fundamentos),3. Hierarquia de Massas,Quarks: Hierarquia similar,"λᵢ universal, α_u ≠ α_d (setores diferentes)","α_u, α_d from Yukawa",Fenomenológico,Importante
+Paper 1 (Fundamentos),3. Hierarquia de Massas,Neutrinos: See-Saw Tipo I,"m_ν = m_D²/M_R, M_R ~ Δ^k ~ 10¹⁴ GeV",Seesaw + M_R(Δ),Derivado,Importante
+Paper 1 (Fundamentos),4. Validação Estatística,χ² test vs PDG 2025,"Todas as 12 massas fermiônicas, χ²_red < 2",χ² analysis,Análise,Essencial
+Paper 1 (Fundamentos),5. Limite Clássico,Recovery de GR (Periélio),"Christoffel 4D = Schwarzschild, erro = 0%",Γ^μ_νσ (4D),VALIDADO,Essencial
+Paper 1 (Fundamentos),6. Discussão,Comparação com SM/BSM,"1 parâmetro vs 19 (SM), sem SUSY/strings",Occam Score,Comparativo,Importante
+Paper 2 (Cosmologia),1. Introdução,Crise Cosmológica,"Singularidade Big Bang, Hubble tension, Early galaxies (JWST)",N/A,Contexto,Essencial
+Paper 2 (Cosmologia),2. Cosmological Bounce,Radion Dynamics,ρ_radion ∝ a⁻⁶ → repulsive force → bounce,Friedmann + radions,Derivado,Essencial
+Paper 2 (Cosmologia),2. Cosmological Bounce,Bounce Scale & Temperatura,"a_bounce ~ (Λ_Ξ/M_Pl)^(1/3), T_bounce ~ 10¹⁵ K",T(a_bounce),Predição,Importante
+Paper 2 (Cosmologia),3. Primordial Black Holes,PBH Seeding por Bounce,Perturbações crescem em contração → collapse → PBH,δc (critical contrast),CÁLCULO,KILLER
+Paper 2 (Cosmologia),3. Primordial Black Holes,Abundância PBH (Press-Schechter),"f_PBH = ∫ P(δ > δc) dM, comparar com Barroso+2024",Press-Schechter β(M),CÁLCULO,KILLER
+Paper 2 (Cosmologia),3. Primordial Black Holes,Massa Range PBH,"10⁶-10¹⁰ M_☉, seeds para early galaxies",M_PBH(t_bounce),Predição,Importante
+Paper 2 (Cosmologia),4. Early Universe,JWST High-z Galaxies,"z > 10, M_* > 10¹⁰ M_☉ @ 500 Myr, acelerado por PBH",SFR(PBH),Explicação,KILLER
+Paper 2 (Cosmologia),5. Hubble Tension,H₀ Reconciliation,H₀^GoE = 69.3±0.7 km/s/Mpc (entre Planck 67.4 e Riess 73.2),H₀ from bounce,Predição,Importante
+Paper 2 (Cosmologia),6. Perturbações Quânticas,Gauge Invariant Perturbations,"Mukhanov-Sasaki em 6D, espectro P(k)",Mukhanov-Sasaki,CÁLCULO,Essencial
+Paper 2 (Cosmologia),6. Perturbações Quânticas,Scale-Invariant Spectrum,"P(k) ∝ k^(n_s), n_s ~ 0.96 (próximo Planck)",P(k),CÁLCULO,Importante
+Paper 2 (Cosmologia),7. Comparação Numérica,NumCosmo Simulations,"Background evolution, perturbations, CMB angular power",C_ℓ (CMB),CÁLCULO,Essencial
+Paper 3 (Unificação),1. Introdução,Anomalias Experimentais,"g-2 (5σ), δ_CP (neutrinos), dark matter não detectado",N/A,Contexto,Essencial
+Paper 3 (Unificação),2. Spin-Torsion Coupling,Constante K Unificadora,K = α⁴/φ² = 1.08×10⁻⁹ (geometria pura),K = α⁴/φ²,Derivado,KILLER
+Paper 3 (Unificação),2. Spin-Torsion Coupling,Unificação g-2 ↔ δ_CP,Δa_μ = K[1 - cos(δ_CP)],Unifying Formula,Derivado,KILLER
+Paper 3 (Unificação),2. Spin-Torsion Coupling,K de duas rotas independentes,"Fenomenologia: 1.91×10⁻⁹, Geometria: 1.08×10⁻⁹, 1.21σ",K consistency check,VALIDADO,KILLER
+Paper 3 (Unificação),3. Dark Matter Alternative,Curvas de Rotação Galáticas,ρ_fibers cria v_flat sem partículas DM,v²(r) = v²_baryon + v²_fibers,Fenomenológico,Importante
+Paper 3 (Unificação),4. Óptica Não-Linear,Efeito Kerr Modulado,n₂^GoE = n₂^std · φ^(1/5) + termo Δ,n₂ formula,PREDIÇÃO,TESTÁVEL
+Paper 3 (Unificação),4. Óptica Não-Linear,Dispersão Log-Periódica,β(λ) = β₀[1 + ε·cos(2π ln(λ)/ln(φ))],Log-periodic dispersion,PREDIÇÃO,TESTÁVEL
+Paper 3 (Unificação),5. Astrofísica de BH,Termodinâmica GoE (C > 0),Capacidade térmica positiva para M* < M < M_crit,C_GoE(M),Derivado,Importante
+Paper 3 (Unificação),5. Astrofísica de BH,M87* Polarização (Möbius),Flip EVPA ~180° em r < 3r_g,Δχ ~ π,PREDIÇÃO,TESTÁVEL
+Paper 3 (Unificação),6. Ondas Gravitacionais,PPE Signature,"β ~ -10⁻⁴ (abaixo LIGO, testável com LISA)",Ψ_GoE = Ψ_GR + β·u^b,PREDIÇÃO,Futuro
+Paper 3 (Unificação),7. Predições Futuras,DUNE δ_CP Refinement,δ_CP = arccos(1 - Δa_μ/K) testável 2027+,δ_CP(K),PREDIÇÃO,Importante
+Paper 4 (Métodos),1. NumCosmo Implementation,Integração Numérica GoE,"Friedmann solver, perturbations module",Numerical schemes,Implementação,Técnico
+Paper 4 (Métodos),2. MCMC Analysis,APES Algorithm Application,"Parameter estimation: K, Λ_Ξ, Λ_Θ, φ-test",Posterior sampling,Implementação,Técnico
+Paper 4 (Métodos),3. GRMHD Simulations,M87* Ray-Tracing,HARM + iPOLE com métrica GoE,Geodesic integration,Implementação,Técnico
+Paper 4 (Métodos),4. Statistical Tests,"χ², AIC, BIC Comparison",GoE vs ΛCDM vs SM,Model selection,Análise,Técnico
+Paper 5 (Review),1. Topologia de Fibrados,Möbius Structure Justification,"Twist π → φ emergence, DSI (discrete scale invariance)",Fiber bundle topology,Fundamentação,Opcional
+Paper 5 (Review),2. Quasicrystal Analogy,Penrose Tiling & φ,"Icosahedral symmetry, log-periodic modulation",Quasi-lattice operator,Fundamentação,Opcional

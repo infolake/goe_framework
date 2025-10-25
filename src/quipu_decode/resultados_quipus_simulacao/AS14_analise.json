@@ -1,0 +1,65 @@
+{
+  "quipu_id": "AS14",
+  "total_cordas": 25,
+  "soma_total": 237,
+  "media_valor": 9.48,
+  "max_valor": 40,
+  "min_valor": 0,
+  "extraction_timestamp": "2025-10-22T13:21:04.144629",
+  "soma_pendentes": 164,
+  "topos": [
+    {
+      "Cord": "T1",
+      "Value": 38
+    },
+    {
+      "Cord": "T1s1",
+      "Value": 16
+    },
+    {
+      "Cord": "T2",
+      "Value": 19
+    }
+  ],
+  "num_pendentes": 22,
+  "por_cor": {
+    "LB": {
+      "sum": 55,
+      "count": 10,
+      "mean": 5.5
+    },
+    "LB:W": {
+      "sum": 40,
+      "count": 4,
+      "mean": 10.0
+    },
+    "RG:W": {
+      "sum": 43,
+      "count": 4,
+      "mean": 10.75
+    },
+    "W": {
+      "sum": 99,
+      "count": 7,
+      "mean": 14.14
+    }
+  },
+  "cores_unicas": [
+    "LB:W",
+    "W",
+    "RG:W",
+    "LB"
+  ],
+  "validacao_51_51": {
+    "primeiros_7": 48,
+    "proximos_7": 52,
+    "total": 100,
+    "validado": "False"
+  },
+  "framework_analysis": {
+    "functional_classification": "Administrative/Accounting",
+    "reliability_score": 0.5,
+    "complexity_index": 0.21606666666666668,
+    "status": "success"
+  }
+}

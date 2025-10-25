@@ -1,0 +1,23 @@
+{
+  "cornell_id": "AS18",
+  "quipu_id": "CORNELL_AS18",
+  "reliability_score": 1.1,
+  "complexity_index": 0.74,
+  "cognitive_load_score": 0.76,
+  "functional_classification": "statistical",
+  "cognitive_proxies": {
+    "working_memory_load": 0.76,
+    "information_density": 0.7799999999999999,
+    "structural_complexity": 0.88,
+    "pattern_recognition_aid": 0.74,
+    "memory_augmentation_factor": 0.56,
+    "cognitive_offloading_ratio": 0.6799999999999999
+  },
+  "narrative_hypotheses": [
+    "Cornell CORNELL_AS18 shows administrative characteristics",
+    "Complex information encoding detected",
+    "High cognitive scaffolding requirements"
+  ],
+  "analysis_timestamp": "2024-01-01T00:00:00",
+  "processing_time": 2.5
+}

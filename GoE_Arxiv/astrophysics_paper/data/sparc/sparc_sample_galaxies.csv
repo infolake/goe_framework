@@ -1,0 +1,13 @@
+Galaxy,V_flat_kms,M_star_1e10Msun,Type,V_2kpc_kms,V_Rlast_kms,R_last_kpc,Source
+NGC3198,150,5.0,Spiral,,,30,Lelli+2017
+DDO154,45,0.03,Dwarf_Irr,36.74,44.13,25,Lelli+2017
+IC2574,75,0.5,Dwarf_Slow_Rising,,,30,Lelli+2017
+NGC1560,85,0.8,Spiral_Low_Mass,,,30,Lelli+2017
+UGC5005,55,0.15,Dwarf_Irr,,,25,Lelli+2017
+F568-3,60,0.2,LSB,,,30,Lelli+2017
+NGC2841,280,80.0,Massive_Spiral,,,35,Lelli+2017
+DDO43,30,0.01,Ultra_Faint_Dwarf,,,20,Lelli+2017
+Malin1,120,10.0,LSB_Giant,,,40,Lelli+2017
+NGC2403,,,Spiral,,,30,MCMC_Fit
+NGC6946,,,Spiral,,,30,MCMC_Fit
+NGC7793,,,Spiral,,,30,MCMC_Fit

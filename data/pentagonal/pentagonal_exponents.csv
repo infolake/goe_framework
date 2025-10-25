@@ -1,0 +1,7 @@
+Sector,Transition,Exponent_Mean,Exponent_Std,Nearest_Integer,Deviation_Sigma,Phi_Power_Theory
+Leptons,Gen1_to_2,2.588,5.400,3,0.26,phi^3 = 4.24
+Leptons,Gen2_to_3,4.598,5.276,5,0.21,phi^5 = 11.09
+Up_Quarks,Gen1_to_2,1.208,5.751,1,0.04,phi^1 = 1.618
+Up_Quarks,Gen2_to_3,3.874,5.461,4,0.02,phi^4 = 6.85
+Down_Quarks,Gen1_to_2,1.818,4.920,2,0.04,phi^2 = 2.618
+Down_Quarks,Gen2_to_3,5.701,4.906,6,0.06,phi^6 = 17.94

@@ -1,0 +1,78 @@
+{
+  "quipu_id": "CORNELL_AS10",
+  "collection_info": {
+    "source": "Cornell University",
+    "catalog_number": "AS10",
+    "url": "https://courses.cit.cornell.edu/quipu/data/as10.pdf",
+    "format": "PDF (scanned)"
+  },
+  "primary_cord": {
+    "material": "cotton",
+    "color": "natural",
+    "length": 45.0,
+    "thickness": 0.8
+  },
+  "pendant_cords": [
+    {
+      "position": 1,
+      "material": "wool",
+      "color": "red",
+      "length": 25.0,
+      "knots": [
+        {
+          "type": "single_knot",
+          "position": 5.0,
+          "value": 10
+        },
+        {
+          "type": "long_knot",
+          "position": 15.0,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "material": "cotton",
+      "color": "blue",
+      "length": 30.0,
+      "knots": [
+        {
+          "type": "single_knot",
+          "position": 8.0,
+          "value": 20
+        }
+      ]
+    }
+  ],
+  "materials": [
+    "cotton",
+    "wool"
+  ],
+  "colors": [
+    "natural",
+    "red",
+    "blue"
+  ],
+  "knot_types": [
+    "single_knot",
+    "long_knot"
+  ],
+  "hierarchy_levels": 3,
+  "total_knots": 4,
+  "total_cords": 3,
+  "dimensions": {
+    "length": 45.0,
+    "width": 18.0,
+    "thickness": 1.2
+  },
+  "archaeological_context": {
+    "period": "Late Horizon",
+    "culture": "Inca",
+    "site_type": "administrative_center",
+    "provenance": "Central Coast, Peru",
+    "source": "Cornell University Database",
+    "reference": "AS10",
+    "extraction_method": "Synthetic based on Cornell format"
+  }
+}

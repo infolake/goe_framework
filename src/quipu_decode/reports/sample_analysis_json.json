@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "title": "QUIPU-DECODE Analysis: Cornell AS10 Administrative Quipu",
+    "author": "Dr. Guilherme de Camargo",
+    "organization": "PHIQ.IO Quantum Technologies",
+    "date": "2025-10-22",
+    "version": "1.0",
+    "framework_version": "1.0.0",
+    "analysis_id": "QUIPU-AS10-2025-001",
+    "quipu_id": "CORNELL_AS10_SAMPLE",
+    "source": "Cornell University",
+    "language": "en",
+    "keywords": [
+      "quipu",
+      "Inca",
+      "cognitive scaffolding",
+      "information encoding",
+      "archaeology"
+    ],
+    "abstract": "Comprehensive analysis of Inca administrative quipu using QUIPU-DECODE Framework v1.0 with Σ-Kernel deductive reasoning. Results indicate high cognitive scaffolding requirements and sophisticated information encoding system.",
+    "doi": "",
+    "citation": ""
+  },
+  "analysis_summary": {
+    "quipu_id": "CORNELL_AS10_SAMPLE",
+    "functional_classification": "accounting",
+    "reliability_score": 0.847,
+    "complexity_index": 0.623,
+    "processing_time": 2.34,
+    "framework_version": "1.0.0"
+  },
+  "cognitive_analysis": {
+    "proxies": {
+      "working_memory_load": 0.923,
+      "information_density": 0.756,
+      "structural_complexity": 0.634,
+      "pattern_recognition_aid": 0.445,
+      "memory_augmentation_factor": 0.678,
+      "cognitive_offloading_ratio": 0.512
+    },
+    "scaffolding_requirements": {
+      "expertise_level": 0.8,
+      "training_required": 0.7,
+      "cultural_knowledge": 0.9
+    },
+    "memory_constraints": {
+      "working_memory_limit": 0.6,
+      "attention_span": 0.5,
+      "processing_speed": 0.7
+    },
+    "interpretation": "High working memory load suggests quipu functions as cognitive scaffolding; High information density indicates efficient encoding system; Moderate structural complexity suggests hierarchical organization"
+  },
+  "complexity_metrics": {
+    "complexity_index": 0.623,
+    "cognitive_load": 0.891,
+    "structural_complexity": 0.634
+  },
+  "statistical_validation": {
+    "tests": {},
+    "confidence_intervals": {},
+    "p_values": {},
+    "validation_summary": "No statistical tests performed"
+  },
+  "functional_analysis": {
+    "classification": "accounting",
+    "narrative_hypotheses": [
+      "Quipu represents administrative record-keeping system",
+      "High cognitive load suggests specialized training required",
+      "Structural complexity indicates hierarchical data organization"
+    ],
+    "interpretation": "Administrative record-keeping system"
+  },
+  "comparative_analysis": {
+    "similar_quipus": [
+      {
+        "quipu_id": "AS11",
+        "similarity_score": 0.823
+      },
+      {
+        "quipu_id": "AS12",
+        "similarity_score": 0.756
+      }
+    ]
+  },
+  "sigma_kernel_results": {
+    "hypotheses": [
+      {
+        "title": "Cognitive Scaffolding",
+        "resonance_score": 0.847
+      },
+      {
+        "title": "Information Encoding",
+        "resonance_score": 0.623
+      }
+    ]
+  },
+  "bibliography": [
+    {
+      "author": "Ascher, M. & Ascher, R.",
+      "year": "1988",
+      "title": "Code of the Quipu: A Study in Media, Mathematics, and Culture",
+      "journal": "University of Michigan Press"
+    },
+    {
+      "author": "Urton, G.",
+      "year": "2003",
+      "title": "Signs of the Inka Khipu: Binary Coding in the Andean Knotted-String Records",
+      "journal": "University of Texas Press"
+    },
+    {
+      "author": "Salomon, F.",
+      "year": "2004",
+      "title": "The Cord Keepers: Khipus and Cultural Life in a Peruvian Village",
+      "journal": "Duke University Press"
+    },
+    {
+      "author": "Quilter, J. & Urton, G.",
+      "year": "2002",
+      "title": "Narrative Threads: Accounting and Recounting in Andean Khipu",
+      "journal": "University of Texas Press"
+    }
+  ],
+  "generation_timestamp": "2025-10-22T11:31:25.686015"
+}

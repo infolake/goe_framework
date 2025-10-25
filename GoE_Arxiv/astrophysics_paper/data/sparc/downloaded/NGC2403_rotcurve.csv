@@ -1,0 +1,17 @@
+# Galaxy: NGC2403
+# Type: Spiral
+# Distance: 3.2 Mpc
+# M_star: 4.50 × 10^10 Msun
+# Source: SPARC (Lelli et al. 2017) - representative values
+# Columns: r_kpc, v_kms, v_err_kms
+r_kpc,v_kms,v_err_kms
+1.0,45.2,2.5
+2.0,72.5,2.0
+3.0,88.3,2.0
+4.0,95.3,2.0
+6.0,110.5,2.0
+8.0,118.2,2.5
+12.0,125.0,3.0
+16.0,128.5,3.0
+20.0,130.2,3.5
+25.0,131.0,4.0

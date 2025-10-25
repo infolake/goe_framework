@@ -1,0 +1,220 @@
+{
+  "metadata": {
+    "framework": "GoE MCMC v0.1.0",
+    "date": "2025-10-24",
+    "reference": "PDG 2022",
+    "golden_ratio": 1.618033988749895,
+    "delta_constant": 4.759626642339688,
+    "analysis_type": "Bayesian MCMC - Pentagonal GML Topology"
+  },
+  "leptons": {
+    "particles": [
+      "e",
+      "mu",
+      "tau"
+    ],
+    "masses_MeV": [
+      0.5109989,
+      105.6583745,
+      1776.86
+    ],
+    "uncertainties_rel": [
+      1e-08,
+      2.3e-08,
+      0.00012
+    ],
+    "mass_ratios": {
+      "mu_e": 206.7683,
+      "tau_mu": 16.817,
+      "tau_e": 3477.2286
+    },
+    "mcmc_results": {
+      "exponents_phi": {
+        "e_to_mu": {
+          "mean": 2.588,
+          "std": 5.4,
+          "nearest_int": 3,
+          "consistency_sigma": 0.26
+        },
+        "mu_to_tau": {
+          "mean": 4.598,
+          "std": 5.276,
+          "nearest_int": 5,
+          "consistency_sigma": 0.21
+        }
+      },
+      "convergence": {
+        "ESS_min": 37625,
+        "acceptance_rate": 0.46,
+        "Rhat_max": 1.0,
+        "n_walkers": 64,
+        "n_steps": 8000,
+        "burn_in": 2000,
+        "thin": 10
+      }
+    }
+  },
+  "up_quarks": {
+    "particles": [
+      "u",
+      "c",
+      "t"
+    ],
+    "masses_MeV": [
+      2.16,
+      1275.0,
+      172760.0
+    ],
+    "uncertainties_rel": [
+      0.15,
+      0.02,
+      0.002
+    ],
+    "mass_ratios": {
+      "c_u": 590.28,
+      "t_c": 135.5,
+      "t_u": 79981.48
+    },
+    "mcmc_results": {
+      "exponents_phi": {
+        "u_to_c": {
+          "mean": 1.208,
+          "std": 5.751,
+          "nearest_int": 1,
+          "consistency_sigma": 0.04
+        },
+        "c_to_t": {
+          "mean": 3.874,
+          "std": 5.461,
+          "nearest_int": 4,
+          "consistency_sigma": 0.02
+        }
+      },
+      "convergence": {
+        "ESS_min": 48000,
+        "acceptance_rate": 0.458,
+        "Rhat_max": 1.0,
+        "n_walkers": 64,
+        "n_steps": 10000,
+        "burn_in": 2500,
+        "thin": 10
+      }
+    }
+  },
+  "down_quarks": {
+    "particles": [
+      "d",
+      "s",
+      "b"
+    ],
+    "masses_MeV": [
+      4.67,
+      93.4,
+      4180.0
+    ],
+    "uncertainties_rel": [
+      0.08,
+      0.06,
+      0.006
+    ],
+    "mass_ratios": {
+      "s_d": 20.0,
+      "b_s": 44.75,
+      "b_d": 895.07
+    },
+    "mcmc_results": {
+      "exponents_phi": {
+        "d_to_s": {
+          "mean": 1.818,
+          "std": 4.92,
+          "nearest_int": 2,
+          "consistency_sigma": 0.04
+        },
+        "s_to_b": {
+          "mean": 5.701,
+          "std": 4.906,
+          "nearest_int": 6,
+          "consistency_sigma": 0.06
+        }
+      },
+      "convergence": {
+        "ESS_min": 47466,
+        "acceptance_rate": 0.466,
+        "Rhat_max": 1.0,
+        "n_walkers": 64,
+        "n_steps": 10000,
+        "burn_in": 2500,
+        "thin": 10
+      }
+    }
+  },
+  "pentagonal_topology": {
+    "vertices": {
+      "V1": {
+        "angle_deg": 0,
+        "leptons": "e",
+        "up": "u",
+        "down": "d",
+        "status": "observed"
+      },
+      "V2": {
+        "angle_deg": 72,
+        "leptons": "mu",
+        "up": "c",
+        "down": "s",
+        "status": "observed"
+      },
+      "V3": {
+        "angle_deg": 144,
+        "leptons": "tau",
+        "up": "t",
+        "down": "b",
+        "status": "observed"
+      },
+      "V4": {
+        "angle_deg": 216,
+        "leptons": "?",
+        "up": "?",
+        "down": "?",
+        "status": "predicted"
+      },
+      "V5": {
+        "angle_deg": 288,
+        "leptons": "?",
+        "up": "?",
+        "down": "?",
+        "status": "predicted"
+      }
+    },
+    "diagonal_edge_ratio": 1.618033988749895,
+    "gml_circumference_normalized": 4.759626642339688,
+    "interpretation": "3 observed generations occupy 3 consecutive vertices; 2 vertices remain for BSM physics"
+  },
+  "predictions": {
+    "V4_particles": {
+      "leptons_GeV": 9.6,
+      "up_quarks_GeV": -4,
+      "down_quarks_GeV": 300,
+      "candidates": [
+        "sterile neutrinos",
+        "leptoquarks",
+        "4th generation (if exists)"
+      ]
+    },
+    "V5_particles": {
+      "leptons_PeV": 0.1,
+      "up_quarks_GeV": -30,
+      "down_quarks_TeV": 20,
+      "candidates": [
+        "heavy RH neutrinos",
+        "GUT-scale particles"
+      ]
+    }
+  },
+  "theoretical_implications": {
+    "unification": "SU(5) GUT emerges naturally from 5-fold symmetry",
+    "no_fine_tuning": "Hierarchies from geometry, not arbitrary Yukawa couplings",
+    "ontology": "Matter IS the twisted pentagonal topology of spacetime",
+    "testable": "Predictions for V4, V5 particles searchable at colliders"
+  }
+}

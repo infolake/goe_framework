@@ -1,0 +1,7 @@
+prediction,system,laboratory,technique,timeline,goe_value,standard_value,feasibility
+Fase de Berry = π (exata),Átomos de Rydberg em rede Möbius,"MIT, JILA, MPQ Garching",Interferometria Ramsey,2025-2027,3.141593 rad,Aproximado,⭐⭐⭐⭐⭐
+Decoerência τ ∝ φ^n,Estados GHZ multi-qubit,"IBM Quantum, Google Sycamore",Quantum tomography,2025-2028,Saltos discretos,Contínuo,⭐⭐⭐⭐⭐
+Modulação log-periódica ω_φ,"GRBs, plasma turbulento","Swift, Fermi, LIGO",FFT espectral,2025-2030,13.06 rad,Ausente,⭐⭐⭐⭐
+Razões de massa neutrinos,"ν₂/ν₁, ν₃/ν₂","KATRIN, Project 8, LEGEND","β-decay, 0νββ",2025-2035,"φ^(3-5), φ^(5-8)",Livre,⭐⭐⭐
+Correção Higgs (1-5%),Acoplamentos Yukawa,HL-LHC,Precisão de 1%,2028-2035,y_f × (1+δ_holonomy),y_f (SM),⭐⭐⭐
+Padrão B-mode Möbius no CMB,Polarização CMB,"LiteBIRD, CMB-S4",Polarimetria,2028-2040,Não-orientável,Orientável,⭐⭐

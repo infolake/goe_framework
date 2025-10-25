@@ -1,0 +1,19 @@
+2025-10-22 21:19:29,147 - INFO - ================================================================================
+2025-10-22 21:19:29,147 - INFO - VALIDACAO NGC6946: min_steps=1200, SEM early stopping
+2025-10-22 21:19:29,147 - INFO - ================================================================================
+2025-10-22 21:19:32,065 - ERROR - Nao conseguiu importar funcoes de run_sparc_anisotropic.py
+2025-10-22 21:19:32,066 - ERROR - Executando versao standalone...
+2025-10-22 21:40:05,739 - INFO - ================================================================================
+2025-10-22 21:40:05,739 - INFO - VALIDACAO NGC6946: min_steps=1200, SEM early stopping
+2025-10-22 21:40:05,739 - INFO - ================================================================================
+
+2025-10-22 21:40:05,740 - INFO - Parametros:
+2025-10-22 21:40:05,740 - INFO -   Galaxy: NGC6946
+2025-10-22 21:40:05,740 - INFO -   min_steps: 1200
+2025-10-22 21:40:05,741 - INFO -   max_steps: 3000
+2025-10-22 21:40:05,741 - INFO -   nwalkers: 32
+2025-10-22 21:40:05,741 - INFO -   R-hat threshold: 1.05
+2025-10-22 21:40:05,741 - INFO - 
+2025-10-22 21:40:05,742 - ERROR - Arquivo nao encontrado: data\sparc\NGC6946_rotmod.dat
+2025-10-22 21:40:05,742 - INFO - Tentando arquivo alternativo...
+2025-10-22 21:40:05,742 - ERROR - Nenhum arquivo encontrado!

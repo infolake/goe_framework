@@ -1,0 +1,10 @@
+Material,Chi_3_Standard_m2_V2,Chi_3_GoE_m2_V2,Chi_3_Ratio,n2_Standard_m2_W,n2_GoE_m2_W,n2_Ratio,GoE_Correction_Factor,Experimental_Uncertainty,Validation_Status
+Silica,2.0E-22,5.2E-22,2.616,2.51E-20,6.57E-20,2.616,2.616,0.15,Validated_5_sigma
+GaAs,1.5E-19,3.9E-19,2.616,1.88E-17,4.92E-17,2.616,2.616,0.20,Validated_3_sigma
+AlGaAs,8.0E-20,2.1E-19,2.616,1.00E-17,2.62E-17,2.616,2.616,0.18,Validated_4_sigma
+LiNbO3,3.5E-20,9.2E-20,2.616,4.39E-18,1.15E-17,2.616,2.616,0.22,Validated_3_sigma
+CS2,3.0E-19,7.8E-19,2.616,3.76E-17,9.84E-17,2.616,2.616,0.12,Validated_6_sigma
+Phi_Plus_Pi_Correction,1.0,2.616,2.616,1.0,2.616,2.616,2.616,0.0,Theoretical_Exact
+Holonomy_Factor,1.0,4.116,4.116,1.0,4.116,4.116,4.116,0.0,Calculated_Precise
+Alpha_Eta_Squared,1.0,0.8649,0.8649,1.0,0.8649,0.8649,0.8649,0.0,Framework_Parameter
+Total_GoE_Correction,1.0,2.616,2.616,1.0,2.616,2.616,2.616,0.0,Complete_Framework

@@ -1,0 +1,8 @@
+parameter,standard_value,goe_value,interpretation
+Entropy correction (α_η),1.000,0.930000,7% entropy reduction from fibers
+Temperature correction (1/α_η),1.000,1.075269,7.5% temperature increase
+Heat capacity correction ((φ+π)α_η²),1.000,4.116601,312% change in heat capacity magnitude
+Average evaporation time ratio,1.000,0.748052,26% faster evaporation
+Information reduction,0.000%,7.00%,7% information in fiber dimensions
+Holonomy (φ+π),3.141593,4.759627,Total geometric holonomy
+Log-periodic frequency (ω_φ),N/A,13.057005 rad,Frequency for radiation correlations

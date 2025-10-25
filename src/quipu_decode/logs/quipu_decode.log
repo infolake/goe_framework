@@ -1,0 +1,1050 @@
+2025-10-22 02:03:01,442 - algorithms.pattern_recognition - INFO - Pattern Recognition system initialized
+2025-10-22 02:03:01,443 - cognitive.proxies - INFO - Cognitive Proxy System initialized
+2025-10-22 02:03:01,443 - metrics.complexity - INFO - Complexity Index system initialized
+2025-10-22 02:03:01,443 - validation_module.statistical - INFO - Statistical Validator initialized
+2025-10-22 02:03:01,448 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 02:03:01,448 - core.framework - INFO - QUIPU-DECODE Framework v1.0 initialized successfully
+2025-10-22 02:03:01,451 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 02:03:01,453 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 02:03:01,454 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS10_SIGMA
+2025-10-22 02:03:01,454 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 02:06:52,153 - algorithms.pattern_recognition - INFO - Pattern Recognition system initialized
+2025-10-22 02:06:52,153 - cognitive.proxies - INFO - Cognitive Proxy System initialized
+2025-10-22 02:06:52,153 - metrics.complexity - INFO - Complexity Index system initialized
+2025-10-22 02:06:52,153 - validation_module.statistical - INFO - Statistical Validator initialized
+2025-10-22 02:06:52,157 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 02:06:52,158 - core.framework - INFO - QUIPU-DECODE Framework v1.0 initialized successfully
+2025-10-22 02:06:52,160 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 02:06:52,162 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 02:06:52,162 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS10_SIGMA
+2025-10-22 02:06:52,162 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 02:12:46,832 - algorithms.pattern_recognition - INFO - Pattern Recognition system initialized
+2025-10-22 02:12:46,832 - cognitive.proxies - INFO - Cognitive Proxy System initialized
+2025-10-22 02:12:46,832 - metrics.complexity - INFO - Complexity Index system initialized
+2025-10-22 02:12:46,832 - validation_module.statistical - INFO - Statistical Validator initialized
+2025-10-22 02:12:46,835 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 02:12:46,835 - core.framework - INFO - QUIPU-DECODE Framework v1.0 initialized successfully
+2025-10-22 02:12:46,837 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 02:12:46,839 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 02:12:46,839 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS10_SIGMA
+2025-10-22 02:12:46,840 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 02:12:46,840 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 02:12:46,840 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 02:12:46,840 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 02:12:46,840 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 02:12:46,841 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 02:12:46,841 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 02:12:46,841 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 02:12:46,842 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 02:15:07,817 - algorithms.pattern_recognition - INFO - Pattern Recognition system initialized
+2025-10-22 02:15:12,556 - cognitive.proxies - INFO - Cognitive Proxy System initialized
+2025-10-22 02:15:12,557 - metrics.complexity - INFO - Complexity Index system initialized
+2025-10-22 02:15:12,557 - validation_module.statistical - INFO - Statistical Validator initialized
+2025-10-22 02:15:12,560 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 02:15:12,560 - core.framework - INFO - QUIPU-DECODE Framework v1.0 initialized successfully
+2025-10-22 02:15:12,562 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 02:15:12,564 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 02:15:12,564 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS10_SIGMA
+2025-10-22 02:15:12,564 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 02:15:12,564 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 02:15:12,564 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 02:15:12,565 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 02:15:12,565 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 02:15:12,565 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 02:15:12,565 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 02:15:12,565 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 02:15:12,565 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 02:16:11,857 - algorithms.pattern_recognition - INFO - Pattern Recognition system initialized
+2025-10-22 02:16:11,858 - cognitive.proxies - INFO - Cognitive Proxy System initialized
+2025-10-22 02:16:11,858 - metrics.complexity - INFO - Complexity Index system initialized
+2025-10-22 02:16:11,858 - validation_module.statistical - INFO - Statistical Validator initialized
+2025-10-22 02:16:11,860 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 02:16:11,860 - core.framework - INFO - QUIPU-DECODE Framework v1.0 initialized successfully
+2025-10-22 02:16:11,862 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 02:16:11,863 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 02:16:11,864 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS10_SIGMA
+2025-10-22 02:16:11,864 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 02:16:11,864 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 02:16:11,864 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 02:16:11,864 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 02:16:11,864 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 02:16:11,864 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 02:16:11,864 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 02:16:11,865 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 02:16:11,865 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 02:18:13,518 - algorithms.pattern_recognition - INFO - Pattern Recognition system initialized
+2025-10-22 02:18:13,518 - cognitive.proxies - INFO - Cognitive Proxy System initialized
+2025-10-22 02:18:13,519 - metrics.complexity - INFO - Complexity Index system initialized
+2025-10-22 02:18:13,519 - validation_module.statistical - INFO - Statistical Validator initialized
+2025-10-22 02:18:13,521 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 02:18:13,521 - core.framework - INFO - QUIPU-DECODE Framework v1.0 initialized successfully
+2025-10-22 02:18:13,523 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 02:18:13,525 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 02:18:13,525 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS10_SIGMA
+2025-10-22 02:18:13,526 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 02:18:13,526 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 02:18:13,526 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 02:18:13,526 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 02:18:13,526 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 02:18:13,526 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 02:18:13,526 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 02:18:13,527 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 02:18:13,527 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 02:18:13,529 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 02:18:13,529 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 02:18:13,529 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 02:20:00,332 - algorithms.pattern_recognition - INFO - Pattern Recognition system initialized
+2025-10-22 02:20:00,333 - cognitive.proxies - INFO - Cognitive Proxy System initialized
+2025-10-22 02:20:00,333 - metrics.complexity - INFO - Complexity Index system initialized
+2025-10-22 02:20:00,333 - validation_module.statistical - INFO - Statistical Validator initialized
+2025-10-22 02:20:00,335 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 02:20:00,335 - core.framework - INFO - QUIPU-DECODE Framework v1.0 initialized successfully
+2025-10-22 02:20:00,337 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 02:20:00,340 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 02:20:00,340 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS10_SIGMA
+2025-10-22 02:20:00,340 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 02:20:00,340 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 02:20:00,340 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 02:20:00,341 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 02:20:00,341 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 02:20:00,341 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 02:20:00,342 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 02:20:00,342 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 02:20:00,342 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 02:20:00,344 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 02:20:00,344 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 02:20:00,345 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 02:20:00,345 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 02:20:00,345 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 02:22:29,190 - algorithms.pattern_recognition - INFO - Pattern Recognition system initialized
+2025-10-22 02:22:29,190 - cognitive.proxies - INFO - Cognitive Proxy System initialized
+2025-10-22 02:22:29,190 - metrics.complexity - INFO - Complexity Index system initialized
+2025-10-22 02:22:29,191 - validation_module.statistical - INFO - Statistical Validator initialized
+2025-10-22 02:22:29,192 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 02:22:29,193 - core.framework - INFO - QUIPU-DECODE Framework v1.0 initialized successfully
+2025-10-22 02:22:29,195 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 02:22:29,197 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 02:22:29,197 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS10_SIGMA
+2025-10-22 02:22:29,198 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 02:22:29,198 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 02:22:29,199 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 02:22:29,199 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 02:22:29,199 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 02:22:29,199 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 02:22:29,199 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 02:22:29,200 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 02:22:29,200 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 02:22:29,202 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 02:22:29,202 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 02:22:29,203 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 02:22:29,203 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 02:22:29,205 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 02:22:29,210 - core.framework - INFO - Analysis completed in 0.01 seconds
+2025-10-22 02:22:29,211 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 02:22:29,211 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS10_SIGMA
+2025-10-22 02:22:29,211 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 02:22:29,212 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 02:22:29,212 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 02:22:29,212 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 02:22:29,212 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 02:22:29,212 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 02:22:29,213 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 02:22:29,213 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 02:22:29,213 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 02:22:29,215 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 02:22:29,215 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 02:22:29,215 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 02:22:29,215 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 02:22:29,215 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 02:22:29,215 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 02:22:29,216 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 02:22:29,216 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS10_SIGMA
+2025-10-22 02:22:29,216 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 02:22:29,216 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 02:22:29,216 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 02:22:29,217 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 02:22:29,217 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 02:22:29,217 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 02:22:29,217 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 02:22:29,217 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 02:22:29,217 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 02:22:29,219 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 02:22:29,219 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 02:22:29,219 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 02:22:29,220 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 02:22:29,220 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 02:22:29,220 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 02:22:29,221 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 02:22:29,221 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS10_SIGMA
+2025-10-22 02:22:29,222 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 02:22:29,222 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 02:22:29,222 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 02:22:29,222 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 02:22:29,223 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 02:22:29,223 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 02:22:29,223 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 02:22:29,223 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 02:22:29,223 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 02:22:29,225 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 02:22:29,225 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 02:22:29,225 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 02:22:29,225 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 02:22:29,226 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 02:22:29,226 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 02:22:29,226 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 02:22:29,226 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS10_SIGMA
+2025-10-22 02:22:29,226 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 02:22:29,227 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 02:22:29,227 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 02:22:29,228 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 02:22:29,228 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 02:22:29,228 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 02:22:29,228 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 02:22:29,228 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 02:22:29,228 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 02:22:29,229 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 02:22:29,230 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 02:22:29,230 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 02:22:29,230 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 02:22:29,230 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 02:22:29,230 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 02:22:29,231 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 02:22:29,231 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS10_SIGMA
+2025-10-22 02:22:29,232 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 02:22:29,232 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 02:22:29,232 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 02:22:29,232 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 02:22:29,232 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 02:22:29,232 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 02:22:29,233 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 02:22:29,234 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 02:22:29,234 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 02:22:29,235 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 02:22:29,235 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 02:22:29,235 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 02:22:29,236 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 02:22:29,236 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 02:22:29,236 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 02:22:29,240 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 02:22:29,241 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS12_SIGMA
+2025-10-22 02:22:29,241 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:32:57,855 - algorithms.pattern_recognition - INFO - Pattern Recognition system initialized
+2025-10-22 11:32:57,860 - cognitive.proxies - INFO - Cognitive Proxy System initialized
+2025-10-22 11:32:57,860 - metrics.complexity - INFO - Complexity Index system initialized
+2025-10-22 11:32:57,860 - validation_module.statistical - INFO - Statistical Validator initialized
+2025-10-22 11:32:57,862 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 11:32:57,863 - core.framework - INFO - QUIPU-DECODE Framework v1.0 initialized successfully
+2025-10-22 11:32:57,865 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 11:32:57,867 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:32:57,867 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS10_SIGMA
+2025-10-22 11:32:57,867 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:32:57,867 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:32:57,867 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:32:57,868 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:32:57,868 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:32:57,868 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:32:57,868 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:32:57,868 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:32:57,868 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:32:57,873 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:32:57,873 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:32:57,873 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:32:57,873 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:32:57,873 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:32:57,878 - core.framework - INFO - Analysis completed in 0.01 seconds
+2025-10-22 11:32:57,879 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:32:57,880 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS10_SIGMA
+2025-10-22 11:32:57,880 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:32:57,880 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:32:57,880 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:32:57,881 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:32:57,881 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:32:57,881 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:32:57,882 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:32:57,882 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:32:57,882 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:32:57,884 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:32:57,884 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:32:57,884 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:32:57,884 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:32:57,884 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:32:57,885 - core.framework - INFO - Analysis completed in 0.01 seconds
+2025-10-22 11:32:57,886 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:32:57,886 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS10_SIGMA
+2025-10-22 11:32:57,886 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:32:57,886 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:32:57,886 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:32:57,886 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:32:57,887 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:32:57,887 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:32:57,887 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:32:57,887 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:32:57,887 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:32:57,889 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:32:57,889 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:32:57,889 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:32:57,890 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:32:57,890 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:32:57,890 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 11:32:57,890 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:32:57,891 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS10_SIGMA
+2025-10-22 11:32:57,891 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:32:57,891 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:32:57,892 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:32:57,892 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:32:57,892 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:32:57,892 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:32:57,892 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:32:57,892 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:32:57,893 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:32:57,894 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:32:57,894 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:32:57,895 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:32:57,895 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:32:57,895 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:32:57,895 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 11:32:57,896 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:32:57,896 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS10_SIGMA
+2025-10-22 11:32:57,896 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:32:57,897 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:32:57,897 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:32:57,897 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:32:57,897 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:32:57,897 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:32:57,897 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:32:57,898 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:32:57,898 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:32:57,900 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:32:57,900 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:32:57,900 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:32:57,901 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:32:57,901 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:32:57,901 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 11:32:57,902 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:32:57,902 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS10_SIGMA
+2025-10-22 11:32:57,902 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:32:57,902 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:32:57,902 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:32:57,902 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:32:57,902 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:32:57,902 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:32:57,903 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:32:57,903 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:32:57,903 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:32:57,904 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:32:57,905 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:32:57,905 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:32:57,905 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:32:57,905 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:32:57,905 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 11:32:57,907 - analysis_report_generator - INFO - Generating markdown report for CORNELL_AS10_SIGMA
+2025-10-22 11:32:57,908 - analysis_report_generator - INFO - Report saved to: reports\integrated\CORNELL_AS10_SIGMA_analysis.markdown
+2025-10-22 11:32:57,908 - analysis_report_generator - INFO - Generating json report for CORNELL_AS10_SIGMA
+2025-10-22 11:32:57,909 - analysis_report_generator - INFO - Report saved to: reports\integrated\CORNELL_AS10_SIGMA_analysis.json
+2025-10-22 11:32:57,910 - analysis_report_generator - INFO - Generating latex report for CORNELL_AS10_SIGMA
+2025-10-22 11:32:57,911 - analysis_report_generator - INFO - Report saved to: reports\integrated\CORNELL_AS10_SIGMA_analysis.tex
+2025-10-22 11:32:57,911 - analysis_report_generator - INFO - Generating xml report for CORNELL_AS10_SIGMA
+2025-10-22 11:32:57,930 - analysis_report_generator - INFO - Report saved to: reports\integrated\CORNELL_AS10_SIGMA_analysis.xml
+2025-10-22 11:32:57,932 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:32:57,932 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS12_SIGMA
+2025-10-22 11:32:57,932 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:32:57,933 - analysis_report_generator - INFO - Generating markdown report for MULTIPLE
+2025-10-22 11:32:57,935 - analysis_report_generator - INFO - Report saved to: reports\integrated\SUMMARY_REPORT.markdown
+2025-10-22 11:32:57,935 - analysis_report_generator - INFO - Generating json report for MULTIPLE
+2025-10-22 11:32:57,936 - analysis_report_generator - INFO - Report saved to: reports\integrated\SUMMARY_REPORT.json
+2025-10-22 11:32:57,936 - analysis_report_generator - INFO - Generating latex report for MULTIPLE
+2025-10-22 11:32:57,938 - analysis_report_generator - INFO - Report saved to: reports\integrated\SUMMARY_REPORT.tex
+2025-10-22 11:32:57,938 - analysis_report_generator - INFO - Generating xml report for MULTIPLE
+2025-10-22 11:32:57,939 - analysis_report_generator - INFO - Report saved to: reports\integrated\SUMMARY_REPORT.xml
+2025-10-22 11:37:21,639 - algorithms.pattern_recognition - INFO - Pattern Recognition system initialized
+2025-10-22 11:37:21,639 - cognitive.proxies - INFO - Cognitive Proxy System initialized
+2025-10-22 11:37:21,639 - metrics.complexity - INFO - Complexity Index system initialized
+2025-10-22 11:37:21,640 - validation_module.statistical - INFO - Statistical Validator initialized
+2025-10-22 11:37:21,642 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 11:37:21,643 - core.framework - INFO - QUIPU-DECODE Framework v1.0 initialized successfully
+2025-10-22 11:37:21,647 - algorithms.pattern_recognition - INFO - Pattern Recognition system initialized
+2025-10-22 11:37:21,647 - cognitive.proxies - INFO - Cognitive Proxy System initialized
+2025-10-22 11:37:21,647 - metrics.complexity - INFO - Complexity Index system initialized
+2025-10-22 11:37:21,647 - validation_module.statistical - INFO - Statistical Validator initialized
+2025-10-22 11:37:21,649 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 11:37:21,649 - core.framework - INFO - QUIPU-DECODE Framework v1.0 initialized successfully
+2025-10-22 11:37:21,652 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 11:37:21,653 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:37:21,654 - core.framework - INFO - Starting complete analysis for quipu: HYBRID_ADMIN_001
+2025-10-22 11:37:21,654 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:37:21,654 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:37:21,654 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:37:21,654 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:37:21,654 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:37:21,655 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:37:21,655 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:37:21,655 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:37:21,655 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:37:21,657 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:37:21,658 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:37:21,658 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:37:21,658 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:37:21,659 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:37:21,659 - core.framework - INFO - Analysis completed in 0.01 seconds
+2025-10-22 11:37:21,661 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:37:21,661 - core.framework - INFO - Starting complete analysis for quipu: HYBRID_ADMIN_001
+2025-10-22 11:37:21,662 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:37:21,662 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:37:21,662 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:37:21,662 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:37:21,662 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:37:21,663 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:37:21,663 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:37:21,663 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:37:21,664 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:37:21,665 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:37:21,666 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:37:21,666 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:37:21,666 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:37:21,666 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:37:21,666 - core.framework - INFO - Analysis completed in 0.01 seconds
+2025-10-22 11:37:21,667 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:37:21,667 - core.framework - INFO - Starting complete analysis for quipu: HYBRID_ADMIN_001
+2025-10-22 11:37:21,667 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:37:21,667 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:37:21,667 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:37:21,668 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:37:21,668 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:37:21,668 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:37:21,668 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:37:21,669 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:37:21,669 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:37:21,670 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:37:21,670 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:37:21,670 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:37:21,671 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:37:21,671 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:37:21,671 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 11:37:21,672 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:37:21,672 - core.framework - INFO - Starting complete analysis for quipu: HYBRID_ADMIN_001
+2025-10-22 11:37:21,672 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:37:21,673 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:37:21,673 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:37:21,673 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:37:21,673 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:37:21,673 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:37:21,673 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:37:21,674 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:37:21,674 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:37:21,676 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:37:21,676 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:37:21,676 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:37:21,676 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:37:21,676 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:37:21,677 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 11:37:21,677 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:37:21,678 - core.framework - INFO - Starting complete analysis for quipu: HYBRID_ADMIN_001
+2025-10-22 11:37:21,678 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:37:21,678 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:37:21,678 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:37:21,679 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:37:21,679 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:37:21,679 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:37:21,680 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:37:21,680 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:37:21,680 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:37:21,682 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:37:21,682 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:37:21,682 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:37:21,682 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:37:21,682 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:37:21,682 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 11:37:21,683 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:37:21,683 - core.framework - INFO - Starting complete analysis for quipu: HYBRID_ADMIN_001
+2025-10-22 11:37:21,683 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:37:21,683 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:37:21,683 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:37:21,683 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:37:21,683 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:37:21,684 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:37:21,684 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:37:21,684 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:37:21,684 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:37:21,686 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:37:21,686 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:37:21,686 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:37:21,686 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:37:21,686 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:37:21,686 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 11:37:21,687 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:37:21,687 - core.framework - INFO - Starting complete analysis for quipu: HYBRID_ADMIN_001
+2025-10-22 11:37:21,687 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:37:21,688 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:37:21,688 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:37:21,688 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:37:21,688 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:37:21,688 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:37:21,688 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:37:21,688 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:37:21,689 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:37:21,691 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:37:21,691 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:37:21,691 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:37:21,691 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:37:21,691 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:37:21,691 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 11:37:21,694 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:37:21,695 - core.framework - INFO - Starting complete analysis for quipu: HYBRID_NARRATIVE_002
+2025-10-22 11:37:21,695 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:37:21,695 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:37:21,695 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:37:21,696 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:37:21,696 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:37:21,696 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:37:21,696 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:37:21,697 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:37:21,697 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:37:21,698 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:37:21,698 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:37:21,699 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:37:21,699 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:37:21,699 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:37:21,700 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 11:37:21,701 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:37:21,701 - core.framework - INFO - Starting complete analysis for quipu: HYBRID_NARRATIVE_002
+2025-10-22 11:37:21,701 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:37:21,701 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:37:21,701 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:37:21,701 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:37:21,702 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:37:21,702 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:37:21,702 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:37:21,702 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:37:21,703 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:37:21,704 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:37:21,704 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:37:21,704 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:37:21,704 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:37:21,704 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:37:21,705 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 11:37:21,706 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:37:21,706 - core.framework - INFO - Starting complete analysis for quipu: HYBRID_NARRATIVE_002
+2025-10-22 11:37:21,706 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:37:21,706 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:37:21,706 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:37:21,706 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:37:21,706 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:37:21,706 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:37:21,707 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:37:21,707 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:37:21,707 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:37:21,709 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:37:21,709 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:37:21,709 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:37:21,709 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:37:21,709 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:37:21,709 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 11:37:21,710 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:37:21,710 - core.framework - INFO - Starting complete analysis for quipu: HYBRID_NARRATIVE_002
+2025-10-22 11:37:21,710 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:37:21,710 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:37:21,710 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:37:21,710 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:37:21,710 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:37:21,710 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:37:21,710 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:37:21,711 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:37:21,711 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:37:21,713 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:37:21,714 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:37:21,714 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:37:21,714 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:37:21,715 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:37:21,715 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 11:37:21,715 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:37:21,715 - core.framework - INFO - Starting complete analysis for quipu: HYBRID_NARRATIVE_002
+2025-10-22 11:37:21,715 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:37:21,716 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:37:21,716 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:37:21,716 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:37:21,716 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:37:21,716 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:37:21,716 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:37:21,716 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:37:21,716 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:37:21,718 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:37:21,718 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:37:21,718 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:37:21,718 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:37:21,719 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:37:21,719 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 11:37:21,719 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:37:21,719 - core.framework - INFO - Starting complete analysis for quipu: HYBRID_NARRATIVE_002
+2025-10-22 11:37:21,719 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:37:21,719 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:37:21,719 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:37:21,720 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:37:21,720 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:37:21,720 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:37:21,720 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:37:21,721 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:37:21,721 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:37:21,723 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:37:21,724 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:37:21,724 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:37:21,724 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:37:21,724 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:37:21,724 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 11:37:21,725 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:37:21,726 - core.framework - INFO - Starting complete analysis for quipu: HYBRID_NARRATIVE_002
+2025-10-22 11:37:21,726 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:37:21,726 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:37:21,726 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:37:21,726 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:37:21,726 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:37:21,726 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:37:21,727 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:37:21,727 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:37:21,727 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:37:21,730 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:37:21,730 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:37:21,730 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:37:21,730 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:37:21,730 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:37:21,730 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 11:37:21,733 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:37:21,733 - core.framework - INFO - Starting complete analysis for quipu: HYBRID_STATISTICAL_003
+2025-10-22 11:37:21,734 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:37:21,734 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:37:21,734 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:37:21,734 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:37:21,734 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:37:21,735 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:37:21,735 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:37:21,735 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:37:21,735 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:37:21,737 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:37:21,737 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:37:21,737 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:37:21,737 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:37:21,737 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:37:21,737 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 11:37:21,738 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:37:21,739 - core.framework - INFO - Starting complete analysis for quipu: HYBRID_STATISTICAL_003
+2025-10-22 11:37:21,739 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:37:21,739 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:37:21,740 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:37:21,740 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:37:21,740 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:37:21,740 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:37:21,740 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:37:21,740 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:37:21,740 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:37:21,741 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:37:21,742 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:37:21,742 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:37:21,742 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:37:21,742 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:37:21,743 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 11:37:21,743 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:37:21,743 - core.framework - INFO - Starting complete analysis for quipu: HYBRID_STATISTICAL_003
+2025-10-22 11:37:21,743 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:37:21,744 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:37:21,744 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:37:21,744 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:37:21,744 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:37:21,745 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:37:21,745 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:37:21,745 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:37:21,746 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:37:21,747 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:37:21,748 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:37:21,748 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:37:21,748 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:37:21,748 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:37:21,749 - core.framework - INFO - Analysis completed in 0.01 seconds
+2025-10-22 11:37:21,749 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:37:21,749 - core.framework - INFO - Starting complete analysis for quipu: HYBRID_STATISTICAL_003
+2025-10-22 11:37:21,749 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:37:21,749 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:37:21,750 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:37:21,750 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:37:21,750 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:37:21,750 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:37:21,750 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:37:21,750 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:37:21,750 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:37:21,752 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:37:21,752 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:37:21,752 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:37:21,752 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:37:21,753 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:37:21,753 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 11:37:21,754 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:37:21,754 - core.framework - INFO - Starting complete analysis for quipu: HYBRID_STATISTICAL_003
+2025-10-22 11:37:21,754 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:37:21,754 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:37:21,754 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:37:21,755 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:37:21,755 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:37:21,755 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:37:21,755 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:37:21,755 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:37:21,755 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:37:21,757 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:37:21,757 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:37:21,757 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:37:21,757 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:37:21,758 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:37:21,758 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 11:37:21,759 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:37:21,759 - core.framework - INFO - Starting complete analysis for quipu: HYBRID_STATISTICAL_003
+2025-10-22 11:37:21,759 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:37:21,759 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:37:21,759 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:37:21,759 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:37:21,759 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:37:21,759 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:37:21,760 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:37:21,760 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:37:21,760 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:37:21,762 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:37:21,762 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:37:21,762 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:37:21,763 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:37:21,763 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:37:21,763 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 11:37:21,763 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:37:21,764 - core.framework - INFO - Starting complete analysis for quipu: HYBRID_STATISTICAL_003
+2025-10-22 11:37:21,764 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:37:21,764 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:37:21,764 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:37:21,764 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:37:21,765 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:37:21,765 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:37:21,765 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:37:21,765 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:37:21,765 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:37:21,766 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:37:21,767 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:37:21,767 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:37:21,767 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:37:21,768 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:37:21,768 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 11:37:21,777 - templates.analysis_report_generator - INFO - Generating markdown report for HYBRID_ADMIN_001
+2025-10-22 11:37:21,777 - templates.analysis_report_generator - INFO - Generating json report for HYBRID_ADMIN_001
+2025-10-22 11:37:21,777 - templates.analysis_report_generator - INFO - Generating latex report for HYBRID_ADMIN_001
+2025-10-22 11:37:21,779 - templates.analysis_report_generator - INFO - Report saved to: reports\hybrid\HYBRID_ADMIN_001_hybrid_analysis.tex
+2025-10-22 11:37:21,780 - templates.analysis_report_generator - INFO - Generating xml report for HYBRID_ADMIN_001
+2025-10-22 11:37:21,818 - templates.analysis_report_generator - INFO - Report saved to: reports\hybrid\HYBRID_ADMIN_001_hybrid_analysis.xml
+2025-10-22 11:37:21,820 - templates.analysis_report_generator - INFO - Generating markdown report for HYBRID_NARRATIVE_002
+2025-10-22 11:37:21,822 - templates.analysis_report_generator - INFO - Generating json report for HYBRID_NARRATIVE_002
+2025-10-22 11:37:21,825 - templates.analysis_report_generator - INFO - Generating latex report for HYBRID_NARRATIVE_002
+2025-10-22 11:37:21,832 - templates.analysis_report_generator - INFO - Report saved to: reports\hybrid\HYBRID_NARRATIVE_002_hybrid_analysis.tex
+2025-10-22 11:37:21,834 - templates.analysis_report_generator - INFO - Generating xml report for HYBRID_NARRATIVE_002
+2025-10-22 11:37:21,838 - templates.analysis_report_generator - INFO - Report saved to: reports\hybrid\HYBRID_NARRATIVE_002_hybrid_analysis.xml
+2025-10-22 11:37:21,838 - templates.analysis_report_generator - INFO - Generating markdown report for HYBRID_STATISTICAL_003
+2025-10-22 11:37:21,840 - templates.analysis_report_generator - INFO - Generating json report for HYBRID_STATISTICAL_003
+2025-10-22 11:37:21,840 - templates.analysis_report_generator - INFO - Generating latex report for HYBRID_STATISTICAL_003
+2025-10-22 11:37:21,847 - templates.analysis_report_generator - INFO - Report saved to: reports\hybrid\HYBRID_STATISTICAL_003_hybrid_analysis.tex
+2025-10-22 11:37:21,847 - templates.analysis_report_generator - INFO - Generating xml report for HYBRID_STATISTICAL_003
+2025-10-22 11:37:21,849 - templates.analysis_report_generator - INFO - Report saved to: reports\hybrid\HYBRID_STATISTICAL_003_hybrid_analysis.xml
+2025-10-22 11:43:14,462 - algorithms.pattern_recognition - INFO - Pattern Recognition system initialized
+2025-10-22 11:43:14,463 - cognitive.proxies - INFO - Cognitive Proxy System initialized
+2025-10-22 11:43:14,463 - metrics.complexity - INFO - Complexity Index system initialized
+2025-10-22 11:43:14,464 - validation_module.statistical - INFO - Statistical Validator initialized
+2025-10-22 11:43:14,466 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 11:43:14,466 - core.framework - INFO - QUIPU-DECODE Framework v1.0 initialized successfully
+2025-10-22 11:43:14,469 - algorithms.pattern_recognition - INFO - Pattern Recognition system initialized
+2025-10-22 11:43:14,469 - cognitive.proxies - INFO - Cognitive Proxy System initialized
+2025-10-22 11:43:14,469 - metrics.complexity - INFO - Complexity Index system initialized
+2025-10-22 11:43:14,469 - validation_module.statistical - INFO - Statistical Validator initialized
+2025-10-22 11:43:14,471 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 11:43:14,472 - core.framework - INFO - QUIPU-DECODE Framework v1.0 initialized successfully
+2025-10-22 11:43:14,473 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 11:43:14,474 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:43:14,475 - core.framework - INFO - Starting complete analysis for quipu: GPT5_ADMIN_001
+2025-10-22 11:43:14,475 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:43:14,475 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:43:14,476 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:43:14,476 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:43:14,476 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:43:14,476 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:43:14,476 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:43:14,477 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:43:14,477 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:43:14,481 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:43:14,481 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:43:14,481 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:43:14,482 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:43:14,482 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:43:14,487 - core.framework - INFO - Analysis completed in 0.01 seconds
+2025-10-22 11:43:14,488 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:43:14,488 - core.framework - INFO - Starting complete analysis for quipu: GPT5_NARRATIVE_002
+2025-10-22 11:43:14,488 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:43:14,489 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:43:14,489 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:43:14,489 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:43:14,489 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:43:14,489 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:43:14,489 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:43:14,489 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:43:14,490 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:43:14,491 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:43:14,492 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:43:14,492 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:43:14,492 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:43:14,492 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:43:14,492 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 11:43:14,494 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:43:14,494 - core.framework - INFO - Starting complete analysis for quipu: GPT5_STATISTICAL_003
+2025-10-22 11:43:14,495 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:43:14,495 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 11:43:14,495 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 11:43:14,495 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 11:43:14,496 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 11:43:14,496 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 11:43:14,496 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 11:43:14,496 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 11:43:14,496 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 11:43:14,498 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 11:43:14,499 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 11:43:14,499 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 11:43:14,499 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 11:43:14,499 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 11:43:14,499 - core.framework - INFO - Analysis completed in 0.01 seconds
+2025-10-22 11:57:24,528 - algorithms.pattern_recognition - INFO - Pattern Recognition system initialized
+2025-10-22 11:57:24,602 - cognitive.proxies - INFO - Cognitive Proxy System initialized
+2025-10-22 11:57:24,602 - metrics.complexity - INFO - Complexity Index system initialized
+2025-10-22 11:57:24,603 - validation_module.statistical - INFO - Statistical Validator initialized
+2025-10-22 11:57:24,664 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 11:57:24,665 - core.framework - INFO - QUIPU-DECODE Framework v1.0 initialized successfully
+2025-10-22 11:57:24,665 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:57:24,665 - core.framework - INFO - Starting complete analysis for quipu: NARRATIVE_ADMIN_001
+2025-10-22 11:57:24,666 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:57:24,666 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:57:24,666 - core.framework - INFO - Starting complete analysis for quipu: NARRATIVE_CEREMONIAL_002
+2025-10-22 11:57:24,667 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 11:57:24,668 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 11:57:24,668 - core.framework - INFO - Starting complete analysis for quipu: NARRATIVE_STATISTICAL_003
+2025-10-22 11:57:24,668 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 12:19:12,358 - algorithms.pattern_recognition - INFO - Pattern Recognition system initialized
+2025-10-22 12:19:12,358 - cognitive.proxies - INFO - Cognitive Proxy System initialized
+2025-10-22 12:19:12,358 - metrics.complexity - INFO - Complexity Index system initialized
+2025-10-22 12:19:12,359 - validation_module.statistical - INFO - Statistical Validator initialized
+2025-10-22 12:19:12,361 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 12:19:12,361 - core.framework - INFO - QUIPU-DECODE Framework v1.0 initialized successfully
+2025-10-22 12:19:12,362 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 12:19:12,362 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS10_REAL
+2025-10-22 12:19:12,362 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 12:28:31,629 - algorithms.pattern_recognition - INFO - Pattern Recognition system initialized
+2025-10-22 12:28:31,639 - cognitive.proxies - INFO - Cognitive Proxy System initialized
+2025-10-22 12:28:31,640 - metrics.complexity - INFO - Complexity Index system initialized
+2025-10-22 12:28:31,640 - validation_module.statistical - INFO - Statistical Validator initialized
+2025-10-22 12:28:31,643 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 12:28:31,643 - core.framework - INFO - QUIPU-DECODE Framework v1.0 initialized successfully
+2025-10-22 12:28:31,749 - __main__ - ERROR - Error extracting text from PDF: name 'io' is not defined
+2025-10-22 12:28:31,762 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 12:28:31,764 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_UNKNOWN
+2025-10-22 12:28:31,765 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 12:28:31,766 - __main__ - ERROR - Framework analysis failed: Quipu must have at least one pendant cord
+2025-10-22 12:28:47,557 - algorithms.pattern_recognition - INFO - Pattern Recognition system initialized
+2025-10-22 12:28:47,557 - cognitive.proxies - INFO - Cognitive Proxy System initialized
+2025-10-22 12:28:47,557 - metrics.complexity - INFO - Complexity Index system initialized
+2025-10-22 12:28:47,558 - validation_module.statistical - INFO - Statistical Validator initialized
+2025-10-22 12:28:47,560 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 12:28:47,560 - core.framework - INFO - QUIPU-DECODE Framework v1.0 initialized successfully
+2025-10-22 12:28:47,967 - __main__ - ERROR - Error extracting text from PDF: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.
+2025-10-22 12:28:47,971 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 12:28:47,971 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_UNKNOWN
+2025-10-22 12:28:47,971 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 12:28:47,971 - __main__ - ERROR - Framework analysis failed: Quipu must have at least one pendant cord
+2025-10-22 12:32:35,014 - algorithms.pattern_recognition - INFO - Pattern Recognition system initialized
+2025-10-22 12:32:35,024 - cognitive.proxies - INFO - Cognitive Proxy System initialized
+2025-10-22 12:32:35,025 - metrics.complexity - INFO - Complexity Index system initialized
+2025-10-22 12:32:35,025 - validation_module.statistical - INFO - Statistical Validator initialized
+2025-10-22 12:32:35,027 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 12:32:35,028 - core.framework - INFO - QUIPU-DECODE Framework v1.0 initialized successfully
+2025-10-22 12:32:35,029 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 12:32:35,029 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS10_SYNTHETIC
+2025-10-22 12:32:35,029 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 12:34:24,575 - algorithms.pattern_recognition - INFO - Pattern Recognition system initialized
+2025-10-22 12:34:24,575 - cognitive.proxies - INFO - Cognitive Proxy System initialized
+2025-10-22 12:34:24,575 - metrics.complexity - INFO - Complexity Index system initialized
+2025-10-22 12:34:24,576 - validation_module.statistical - INFO - Statistical Validator initialized
+2025-10-22 12:34:24,579 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 12:34:24,580 - core.framework - INFO - QUIPU-DECODE Framework v1.0 initialized successfully
+2025-10-22 12:34:25,169 - __main__ - ERROR - Error extracting text from PDF: C:\Program Files\Tesseract-OCR\tesseract.exe is not installed or it's not in your PATH. See README file for more information.
+2025-10-22 12:34:25,172 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 12:34:25,172 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_UNKNOWN
+2025-10-22 12:34:25,172 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 12:34:25,173 - __main__ - ERROR - Framework analysis failed: Quipu must have at least one pendant cord
+2025-10-22 12:34:31,415 - algorithms.pattern_recognition - INFO - Pattern Recognition system initialized
+2025-10-22 12:34:31,415 - cognitive.proxies - INFO - Cognitive Proxy System initialized
+2025-10-22 12:34:31,415 - metrics.complexity - INFO - Complexity Index system initialized
+2025-10-22 12:34:31,418 - validation_module.statistical - INFO - Statistical Validator initialized
+2025-10-22 12:34:31,422 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 12:34:31,423 - core.framework - INFO - QUIPU-DECODE Framework v1.0 initialized successfully
+2025-10-22 12:34:31,426 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 12:34:31,426 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS10_SYNTHETIC
+2025-10-22 12:34:31,426 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 12:45:47,927 - algorithms.pattern_recognition - INFO - Pattern Recognition system initialized
+2025-10-22 12:45:47,946 - cognitive.proxies - INFO - Cognitive Proxy System initialized
+2025-10-22 12:45:47,946 - metrics.complexity - INFO - Complexity Index system initialized
+2025-10-22 12:45:47,946 - validation_module.statistical - INFO - Statistical Validator initialized
+2025-10-22 12:45:47,950 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 12:45:47,950 - core.framework - INFO - QUIPU-DECODE Framework v1.0 initialized successfully
+2025-10-22 12:45:47,953 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 12:45:47,953 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS10_SYNTHETIC
+2025-10-22 12:45:47,953 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 12:45:56,536 - algorithms.pattern_recognition - INFO - Pattern Recognition system initialized
+2025-10-22 12:45:56,537 - cognitive.proxies - INFO - Cognitive Proxy System initialized
+2025-10-22 12:45:56,537 - metrics.complexity - INFO - Complexity Index system initialized
+2025-10-22 12:45:56,537 - validation_module.statistical - INFO - Statistical Validator initialized
+2025-10-22 12:45:56,539 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 12:45:56,539 - core.framework - INFO - QUIPU-DECODE Framework v1.0 initialized successfully
+2025-10-22 12:45:56,540 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 12:45:56,540 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS10_REAL
+2025-10-22 12:45:56,540 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 12:46:06,105 - algorithms.pattern_recognition - INFO - Pattern Recognition system initialized
+2025-10-22 12:46:06,106 - cognitive.proxies - INFO - Cognitive Proxy System initialized
+2025-10-22 12:46:06,106 - metrics.complexity - INFO - Complexity Index system initialized
+2025-10-22 12:46:06,106 - validation_module.statistical - INFO - Statistical Validator initialized
+2025-10-22 12:46:06,108 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 12:46:06,109 - core.framework - INFO - QUIPU-DECODE Framework v1.0 initialized successfully
+2025-10-22 12:46:06,110 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 12:46:06,110 - core.framework - INFO - Starting complete analysis for quipu: NARRATIVE_ADMIN_001
+2025-10-22 12:46:06,110 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 12:46:06,111 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 12:46:06,111 - core.framework - INFO - Starting complete analysis for quipu: NARRATIVE_CEREMONIAL_002
+2025-10-22 12:46:06,112 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 12:46:06,113 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 12:46:06,113 - core.framework - INFO - Starting complete analysis for quipu: NARRATIVE_STATISTICAL_003
+2025-10-22 12:46:06,113 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 13:11:26,452 - algorithms.pattern_recognition - INFO - Pattern Recognition system initialized
+2025-10-22 13:11:26,453 - cognitive.proxies - INFO - Cognitive Proxy System initialized
+2025-10-22 13:11:26,453 - metrics.complexity - INFO - Complexity Index system initialized
+2025-10-22 13:11:26,453 - validation_module.statistical - INFO - Statistical Validator initialized
+2025-10-22 13:11:26,457 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 13:11:26,457 - core.framework - INFO - QUIPU-DECODE Framework v1.0 initialized successfully
+2025-10-22 13:15:39,716 - algorithms.pattern_recognition - INFO - Pattern Recognition system initialized
+2025-10-22 13:15:39,717 - cognitive.proxies - INFO - Cognitive Proxy System initialized
+2025-10-22 13:15:39,717 - metrics.complexity - INFO - Complexity Index system initialized
+2025-10-22 13:15:39,717 - validation_module.statistical - INFO - Statistical Validator initialized
+2025-10-22 13:15:39,720 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 13:15:39,720 - core.framework - INFO - QUIPU-DECODE Framework v1.0 initialized successfully
+2025-10-22 13:20:28,184 - algorithms.pattern_recognition - INFO - Pattern Recognition system initialized
+2025-10-22 13:20:28,184 - cognitive.proxies - INFO - Cognitive Proxy System initialized
+2025-10-22 13:20:28,185 - metrics.complexity - INFO - Complexity Index system initialized
+2025-10-22 13:20:28,185 - validation_module.statistical - INFO - Statistical Validator initialized
+2025-10-22 13:20:28,187 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 13:20:28,187 - core.framework - INFO - QUIPU-DECODE Framework v1.0 initialized successfully
+2025-10-22 13:20:28,367 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 13:20:28,367 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS10
+2025-10-22 13:20:28,368 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 13:20:28,368 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 13:20:28,368 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 13:20:28,368 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 13:20:28,369 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 13:20:28,369 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 13:20:28,369 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 13:20:28,369 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 13:20:28,369 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 13:20:28,379 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 13:20:28,379 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 13:20:28,380 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 13:20:28,380 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 13:20:28,380 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 13:20:28,404 - core.framework - INFO - Analysis completed in 0.04 seconds
+2025-10-22 13:21:04,051 - algorithms.pattern_recognition - INFO - Pattern Recognition system initialized
+2025-10-22 13:21:04,051 - cognitive.proxies - INFO - Cognitive Proxy System initialized
+2025-10-22 13:21:04,052 - metrics.complexity - INFO - Complexity Index system initialized
+2025-10-22 13:21:04,052 - validation_module.statistical - INFO - Statistical Validator initialized
+2025-10-22 13:21:04,054 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 13:21:04,054 - core.framework - INFO - QUIPU-DECODE Framework v1.0 initialized successfully
+2025-10-22 13:21:04,071 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 13:21:04,072 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS10
+2025-10-22 13:21:04,072 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 13:21:04,072 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 13:21:04,072 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 13:21:04,072 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 13:21:04,072 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 13:21:04,073 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 13:21:04,073 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 13:21:04,073 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 13:21:04,073 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 13:21:04,076 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 13:21:04,077 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 13:21:04,077 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 13:21:04,077 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 13:21:04,077 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 13:21:04,077 - core.framework - INFO - Analysis completed in 0.01 seconds
+2025-10-22 13:21:04,101 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 13:21:04,101 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS11
+2025-10-22 13:21:04,101 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 13:21:04,102 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 13:21:04,102 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 13:21:04,102 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 13:21:04,102 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 13:21:04,102 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 13:21:04,102 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 13:21:04,103 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 13:21:04,103 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 13:21:04,105 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 13:21:04,105 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 13:21:04,105 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 13:21:04,105 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 13:21:04,105 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 13:21:04,106 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 13:21:04,116 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 13:21:04,116 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS12
+2025-10-22 13:21:04,116 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 13:21:04,117 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 13:21:04,117 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 13:21:04,117 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 13:21:04,117 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 13:21:04,117 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 13:21:04,117 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 13:21:04,117 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 13:21:04,118 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 13:21:04,119 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 13:21:04,119 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 13:21:04,119 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 13:21:04,120 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 13:21:04,120 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 13:21:04,120 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 13:21:04,133 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 13:21:04,133 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS13
+2025-10-22 13:21:04,133 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 13:21:04,133 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 13:21:04,133 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 13:21:04,133 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 13:21:04,134 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 13:21:04,134 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 13:21:04,134 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 13:21:04,134 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 13:21:04,134 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 13:21:04,137 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 13:21:04,137 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 13:21:04,137 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 13:21:04,138 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 13:21:04,138 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 13:21:04,138 - core.framework - INFO - Analysis completed in 0.01 seconds
+2025-10-22 13:21:04,150 - core.analyzer - INFO - Starting quipu analysis from data
+2025-10-22 13:21:04,150 - core.framework - INFO - Starting complete analysis for quipu: CORNELL_AS14
+2025-10-22 13:21:04,150 - core.framework - INFO - Phase A: Data Acquisition and Preprocessing
+2025-10-22 13:21:04,150 - core.framework - INFO - Phase B: Pattern Recognition
+2025-10-22 13:21:04,150 - core.framework - INFO - Phase C: Cognitive Proxy Assessment
+2025-10-22 13:21:04,151 - cognitive.proxies - INFO - Calculating all cognitive proxies
+2025-10-22 13:21:04,151 - cognitive.proxies - INFO - Assessing cognitive scaffolding requirements
+2025-10-22 13:21:04,151 - cognitive.proxies - INFO - Calculating memory constraints
+2025-10-22 13:21:04,151 - metrics.complexity - INFO - Calculating complexity index
+2025-10-22 13:21:04,151 - core.framework - INFO - Phase D: Statistical Validation
+2025-10-22 13:21:04,152 - validation_module.statistical - INFO - Performing comprehensive statistical validation
+2025-10-22 13:21:04,153 - validation_module.statistical - INFO - Calculating confidence intervals
+2025-10-22 13:21:04,153 - database.reference_manager - INFO - Validating against reference database
+2025-10-22 13:21:04,153 - validation_module.statistical - INFO - Performing cross-validation
+2025-10-22 13:21:04,154 - core.framework - INFO - Phase E: Interpretation and Reporting
+2025-10-22 13:21:04,154 - database.reference_manager - INFO - Performing comparative analysis
+2025-10-22 13:21:04,154 - core.framework - INFO - Analysis completed in 0.00 seconds
+2025-10-22 14:04:48,540 - algorithms.pattern_recognition - INFO - Pattern Recognition system initialized
+2025-10-22 14:04:48,570 - cognitive.proxies - INFO - Cognitive Proxy System initialized
+2025-10-22 14:04:48,570 - metrics.complexity - INFO - Complexity Index system initialized
+2025-10-22 14:04:48,571 - validation_module.statistical - INFO - Statistical Validator initialized
+2025-10-22 14:04:48,573 - database.reference_manager - INFO - Reference Database initialized with 0 quipus and 0 patterns
+2025-10-22 14:04:48,573 - core.framework - INFO - QUIPU-DECODE Framework v1.0 initialized successfully

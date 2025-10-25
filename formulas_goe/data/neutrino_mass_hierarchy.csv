@@ -1,0 +1,9 @@
+Neutrino_Type,Mass_Standard_eV,Mass_GoE_Predicted_eV,Mass_Ratio,Phi_Power_n,Experimental_Limit_eV,GoE_Prediction_Formula,Validation_Status
+Nu_e,0.000,0.000,1.000,0.000,0.2,m_nu1_m0_phi_n,Ground_state
+Nu_mu,0.009,0.007,7.000,2.807,0.2,m_nu2_m_nu1_phi_3_to_5,Predicted_2025_2030
+Nu_tau,0.050,0.041,5.714,2.514,0.2,m_nu3_m_nu2_phi_5_to_8,Predicted_2028_2030
+Normal_Hierarchy_Sum,0.059,0.048,1.229,0.000,0.2,Sum_m_nu_0_048_eV,Consistent_with_limits
+Inverted_Hierarchy_Sum,0.100,0.082,1.220,0.000,0.2,Sum_m_nu_0_082_eV,Consistent_with_limits
+Phi_Harmonic_Ratios,1.000,2.616,2.616,0.000,0.0,Phi_plus_pi_coupling,Theoretical_framework
+Oscillation_Parameters,Standard,GoE_modified,1.000,0.000,0.0,PMNS_matrix_fiber_coupling,Predicted_corrections
+Beta_Decay_Spectrum,Standard_shape,GoE_modification,1.000,0.000,0.0,Kurie_plot_corrections,Project_8_sensitive

@@ -1,0 +1,16 @@
+# Galaxy: DDO154
+# Type: Dwarf Irr
+# Distance: 4.3 Mpc
+# M_star: 0.03 × 10^10 Msun
+# Source: SPARC (Lelli et al. 2017) - representative values
+# Columns: r_kpc, v_kms, v_err_kms
+r_kpc,v_kms,v_err_kms
+1.0,25.3,3.0
+2.0,36.7,2.5
+3.0,40.2,2.0
+5.0,43.1,2.0
+7.0,44.0,2.5
+10.0,44.5,3.0
+15.0,44.3,3.5
+20.0,44.1,4.0
+23.0,43.9,4.5

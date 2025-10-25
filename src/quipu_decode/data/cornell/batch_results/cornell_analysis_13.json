@@ -1,0 +1,23 @@
+{
+  "cornell_id": "AS13",
+  "quipu_id": "CORNELL_AS13",
+  "reliability_score": 0.85,
+  "complexity_index": 0.59,
+  "cognitive_load_score": 0.6599999999999999,
+  "functional_classification": "accounting",
+  "cognitive_proxies": {
+    "working_memory_load": 0.6599999999999999,
+    "information_density": 0.73,
+    "structural_complexity": 0.8300000000000001,
+    "pattern_recognition_aid": 0.59,
+    "memory_augmentation_factor": 0.46,
+    "cognitive_offloading_ratio": 0.63
+  },
+  "narrative_hypotheses": [
+    "Cornell CORNELL_AS13 shows administrative characteristics",
+    "Complex information encoding detected",
+    "High cognitive scaffolding requirements"
+  ],
+  "analysis_timestamp": "2024-01-01T00:00:00",
+  "processing_time": 2.5
+}

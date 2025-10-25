@@ -1,0 +1,327 @@
+[
+  {
+    "quipu_id": "AS10",
+    "total_cordas": 25,
+    "soma_total": 238,
+    "media_valor": 9.52,
+    "max_valor": 38,
+    "min_valor": 0,
+    "extraction_timestamp": "2025-10-22T13:21:04.063629",
+    "soma_pendentes": 166,
+    "topos": [
+      {
+        "Cord": "T1",
+        "Value": 33
+      },
+      {
+        "Cord": "T1s1",
+        "Value": 18
+      },
+      {
+        "Cord": "T2",
+        "Value": 21
+      }
+    ],
+    "num_pendentes": 22,
+    "por_cor": {
+      "LB": {
+        "sum": 54,
+        "count": 10,
+        "mean": 5.4
+      },
+      "LB:W": {
+        "sum": 35,
+        "count": 4,
+        "mean": 8.75
+      },
+      "RG:W": {
+        "sum": 46,
+        "count": 4,
+        "mean": 11.5
+      },
+      "W": {
+        "sum": 103,
+        "count": 7,
+        "mean": 14.71
+      }
+    },
+    "cores_unicas": [
+      "LB:W",
+      "W",
+      "RG:W",
+      "LB"
+    ],
+    "validacao_51_51": {
+      "primeiros_7": 51,
+      "proximos_7": 51,
+      "total": 102,
+      "validado": "True"
+    },
+    "framework_analysis": {
+      "functional_classification": "Administrative/Accounting",
+      "reliability_score": 0.5,
+      "complexity_index": 0.21606666666666668,
+      "status": "success"
+    }
+  },
+  {
+    "quipu_id": "AS11",
+    "total_cordas": 25,
+    "soma_total": 207,
+    "media_valor": 8.28,
+    "max_valor": 35,
+    "min_valor": 0,
+    "extraction_timestamp": "2025-10-22T13:21:04.096402",
+    "soma_pendentes": 146,
+    "topos": [
+      {
+        "Cord": "T1",
+        "Value": 28
+      },
+      {
+        "Cord": "T1s1",
+        "Value": 15
+      },
+      {
+        "Cord": "T2",
+        "Value": 18
+      }
+    ],
+    "num_pendentes": 22,
+    "por_cor": {
+      "LB": {
+        "sum": 48,
+        "count": 10,
+        "mean": 4.8
+      },
+      "LB:W": {
+        "sum": 30,
+        "count": 4,
+        "mean": 7.5
+      },
+      "RG:W": {
+        "sum": 39,
+        "count": 4,
+        "mean": 9.75
+      },
+      "W": {
+        "sum": 90,
+        "count": 7,
+        "mean": 12.86
+      }
+    },
+    "cores_unicas": [
+      "LB:W",
+      "W",
+      "RG:W",
+      "LB"
+    ],
+    "validacao_51_51": {
+      "primeiros_7": 43,
+      "proximos_7": 46,
+      "total": 89,
+      "validado": "False"
+    },
+    "framework_analysis": {
+      "functional_classification": "Administrative/Accounting",
+      "reliability_score": 0.5,
+      "complexity_index": 0.21606666666666668,
+      "status": "success"
+    }
+  },
+  {
+    "quipu_id": "AS12",
+    "total_cordas": 25,
+    "soma_total": 299,
+    "media_valor": 11.96,
+    "max_valor": 45,
+    "min_valor": 1,
+    "extraction_timestamp": "2025-10-22T13:21:04.110723",
+    "soma_pendentes": 212,
+    "topos": [
+      {
+        "Cord": "T1",
+        "Value": 42
+      },
+      {
+        "Cord": "T1s1",
+        "Value": 20
+      },
+      {
+        "Cord": "T2",
+        "Value": 25
+      }
+    ],
+    "num_pendentes": 22,
+    "por_cor": {
+      "LB": {
+        "sum": 73,
+        "count": 10,
+        "mean": 7.3
+      },
+      "LB:W": {
+        "sum": 47,
+        "count": 4,
+        "mean": 11.75
+      },
+      "RG:W": {
+        "sum": 57,
+        "count": 4,
+        "mean": 14.25
+      },
+      "W": {
+        "sum": 122,
+        "count": 7,
+        "mean": 17.43
+      }
+    },
+    "cores_unicas": [
+      "LB:W",
+      "W",
+      "RG:W",
+      "LB"
+    ],
+    "validacao_51_51": {
+      "primeiros_7": 66,
+      "proximos_7": 66,
+      "total": 132,
+      "validado": "False"
+    },
+    "framework_analysis": {
+      "functional_classification": "Administrative/Accounting",
+      "reliability_score": 0.5,
+      "complexity_index": 0.21606666666666668,
+      "status": "success"
+    }
+  },
+  {
+    "quipu_id": "AS13",
+    "total_cordas": 25,
+    "soma_total": 127,
+    "media_valor": 5.08,
+    "max_valor": 20,
+    "min_valor": 0,
+    "extraction_timestamp": "2025-10-22T13:21:04.125980",
+    "soma_pendentes": 89,
+    "topos": [
+      {
+        "Cord": "T1",
+        "Value": 19
+      },
+      {
+        "Cord": "T1s1",
+        "Value": 9
+      },
+      {
+        "Cord": "T2",
+        "Value": 10
+      }
+    ],
+    "num_pendentes": 22,
+    "por_cor": {
+      "LB": {
+        "sum": 30,
+        "count": 10,
+        "mean": 3.0
+      },
+      "LB:W": {
+        "sum": 21,
+        "count": 4,
+        "mean": 5.25
+      },
+      "RG:W": {
+        "sum": 25,
+        "count": 4,
+        "mean": 6.25
+      },
+      "W": {
+        "sum": 51,
+        "count": 7,
+        "mean": 7.29
+      }
+    },
+    "cores_unicas": [
+      "LB:W",
+      "W",
+      "RG:W",
+      "LB"
+    ],
+    "validacao_51_51": {
+      "primeiros_7": 29,
+      "proximos_7": 28,
+      "total": 57,
+      "validado": "False"
+    },
+    "framework_analysis": {
+      "functional_classification": "Administrative/Accounting",
+      "reliability_score": 0.5,
+      "complexity_index": 0.21606666666666668,
+      "status": "success"
+    }
+  },
+  {
+    "quipu_id": "AS14",
+    "total_cordas": 25,
+    "soma_total": 237,
+    "media_valor": 9.48,
+    "max_valor": 40,
+    "min_valor": 0,
+    "extraction_timestamp": "2025-10-22T13:21:04.144629",
+    "soma_pendentes": 164,
+    "topos": [
+      {
+        "Cord": "T1",
+        "Value": 38
+      },
+      {
+        "Cord": "T1s1",
+        "Value": 16
+      },
+      {
+        "Cord": "T2",
+        "Value": 19
+      }
+    ],
+    "num_pendentes": 22,
+    "por_cor": {
+      "LB": {
+        "sum": 55,
+        "count": 10,
+        "mean": 5.5
+      },
+      "LB:W": {
+        "sum": 40,
+        "count": 4,
+        "mean": 10.0
+      },
+      "RG:W": {
+        "sum": 43,
+        "count": 4,
+        "mean": 10.75
+      },
+      "W": {
+        "sum": 99,
+        "count": 7,
+        "mean": 14.14
+      }
+    },
+    "cores_unicas": [
+      "LB:W",
+      "W",
+      "RG:W",
+      "LB"
+    ],
+    "validacao_51_51": {
+      "primeiros_7": 48,
+      "proximos_7": 52,
+      "total": 100,
+      "validado": "False"
+    },
+    "framework_analysis": {
+      "functional_classification": "Administrative/Accounting",
+      "reliability_score": 0.5,
+      "complexity_index": 0.21606666666666668,
+      "status": "success"
+    }
+  }
+]

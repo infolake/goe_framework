@@ -1,0 +1,8 @@
+Fenômeno,Padrão,GoE,Fórmula_GoE,Testável
+Radiação Hawking,Térmica pura (sem memória),Modulação φ-harmônica (unitária),S_GoE = α_η · S_BH,Espectro de correlação em BH primordiais
+Emaranhamento quântico,Não-local instantâneo (EPR),Holonomia em fibras (agulha rígida),γ_A + γ_B = φ + π,Fase Berry = π (átomos Rydberg)
+Turbulência,Cascata Kolmogorov k^(-5/3),Modulação log-periódica φ,E(k) × [1 + cos(ω_φ log k)],"FFT em plasma, GRBs"
+Capacidade calorífica BH,C < 0 sempre (instável),C reduzido por (φ+π)α_η²,C_GoE = (φ+π)α_η² × C_std,Platôs térmicos em GRBs
+Decoerência,τ ~ constante (exponencial),τ ~ φⁿ (discretizado),τ_n = τ_0 · φⁿ,"IBM Quantum, Google Sycamore"
+Matéria escura,Partículas WIMPs/axiões,Geometria projetada das fibras,V(r) ~ (φ+π)/r,Curvas rotação (24σ validado!)
+Informação em BH,Paradoxo (perda),"Armazenada em fibras (t₂,t₃)",S_total = S₁ + S₂ + S₃,Correlações na radiação

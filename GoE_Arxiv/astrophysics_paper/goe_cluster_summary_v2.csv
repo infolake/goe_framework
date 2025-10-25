@@ -1,0 +1,6 @@
+cluster,R500_kpc,R_theta_kpc_used,M_GoE_at_R500_Msun,M500_Msun(master),T_central_keV(master),T_profile_png,MGoE_profile_png
+A1795,1520.0,912.0,2.9511507459699833e+37,580000000000000.0,,A1795_T_profile.png,A1795_MGoE_profile.png
+A2029,1820.0,1092.0,5.400453147246157e+37,1270000000000000.0,,A2029_T_profile.png,A2029_MGoE_profile.png
+A2199,1180.0,708.0,1.202785907049487e+37,390000000000000.0,,A2199_T_profile.png,A2199_MGoE_profile.png
+A401,1610.0,966.0,7.9519741119406e+37,620000000000000.0,,A401_T_profile.png,A401_MGoE_profile.png
+Coma,2300.0,1380.0,7.792381659052775e+37,840000000000000.0,,Coma_T_profile.png,Coma_MGoE_profile.png

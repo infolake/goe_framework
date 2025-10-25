@@ -1,0 +1,14 @@
+# Galaxy: Malin1
+# Type: LSB Giant
+# Distance: 366.0 Mpc
+# M_star: 10.00 × 10^10 Msun
+# Source: SPARC (Lelli et al. 2017) - representative values
+# Columns: r_kpc, v_kms, v_err_kms
+r_kpc,v_kms,v_err_kms
+5.0,85.3,3.0
+10.0,105.5,2.5
+15.0,115.2,2.5
+20.0,118.5,3.0
+30.0,120.2,3.5
+40.0,120.5,4.0
+50.0,120.3,4.5

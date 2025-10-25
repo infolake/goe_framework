@@ -1,0 +1,6 @@
+Vertex,Angle_deg,Generation,Leptons,Up_Quarks,Down_Quarks,Status,Predicted_Mass_Scale
+V1,0,1,e (0.511 MeV),u (2.16 MeV),d (4.67 MeV),Observed,MeV
+V2,72,2,mu (105.66 MeV),c (1.28 GeV),s (93.4 MeV),Observed,100 MeV - 1 GeV
+V3,144,3,tau (1.78 GeV),t (173 GeV),b (4.18 GeV),Observed,1-200 GeV
+V4,216,4 (?),~10 GeV,~10-15 GeV,~300 GeV,Predicted (BSM),10-300 GeV
+V5,288,5 (?),~0.1 PeV,~70-100 GeV,~20 TeV,Predicted (BSM),100 GeV - PeV

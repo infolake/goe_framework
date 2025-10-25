@@ -1,0 +1,191 @@
+{
+  "quipu_id": "SAMPLE_QUIPU_001",
+  "collection_info": {
+    "museum": "Larco Museum",
+    "accession_number": "LM-2024-001",
+    "excavation_site": "Pachacamac, Peru",
+    "date_excavated": "2024-01-15",
+    "catalog_number": "QUIPU-LM-001"
+  },
+  "primary_cord": {
+    "material": "cotton",
+    "color": "natural",
+    "length": 45.5,
+    "thickness": 0.8,
+    "twist_direction": "Z-twist"
+  },
+  "pendant_cords": [
+    {
+      "position": 1,
+      "material": "wool",
+      "color": "red",
+      "length": 25.0,
+      "thickness": 0.3,
+      "knots": [
+        {
+          "type": "single_knot",
+          "position_from_top": 5.0,
+          "value": 10,
+          "knot_direction": "right"
+        },
+        {
+          "type": "long_knot",
+          "position_from_top": 15.0,
+          "value": 5,
+          "knot_direction": "right"
+        },
+        {
+          "type": "single_knot",
+          "position_from_top": 20.0,
+          "value": 3,
+          "knot_direction": "right"
+        }
+      ],
+      "subsidiary_cords": []
+    },
+    {
+      "position": 2,
+      "material": "cotton",
+      "color": "blue",
+      "length": 30.0,
+      "thickness": 0.4,
+      "knots": [
+        {
+          "type": "single_knot",
+          "position_from_top": 8.0,
+          "value": 20,
+          "knot_direction": "left"
+        },
+        {
+          "type": "figure_eight_knot",
+          "position_from_top": 18.0,
+          "value": 1,
+          "knot_direction": "left"
+        }
+      ],
+      "subsidiary_cords": [
+        {
+          "level": 3,
+          "material": "wool",
+          "color": "yellow",
+          "length": 12.0,
+          "knots": [
+            {
+              "type": "single_knot",
+              "position_from_top": 3.0,
+              "value": 7,
+              "knot_direction": "right"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "material": "wool",
+      "color": "yellow",
+      "length": 22.0,
+      "thickness": 0.35,
+      "knots": [
+        {
+          "type": "single_knot",
+          "position_from_top": 6.0,
+          "value": 15,
+          "knot_direction": "right"
+        }
+      ],
+      "subsidiary_cords": []
+    },
+    {
+      "position": 4,
+      "material": "cotton",
+      "color": "green",
+      "length": 28.0,
+      "thickness": 0.4,
+      "knots": [
+        {
+          "type": "double_knot",
+          "position_from_top": 10.0,
+          "value": 8,
+          "knot_direction": "left"
+        }
+      ],
+      "subsidiary_cords": []
+    }
+  ],
+  "subsidiary_cords": [],
+  "top_cord": {
+    "material": "cotton",
+    "color": "natural",
+    "length": 15.0,
+    "thickness": 1.0,
+    "attachment_method": "loop"
+  },
+  "materials": [
+    "cotton",
+    "wool"
+  ],
+  "colors": [
+    "natural",
+    "red",
+    "blue",
+    "yellow",
+    "green"
+  ],
+  "knot_types": [
+    "single_knot",
+    "long_knot",
+    "figure_eight_knot",
+    "double_knot"
+  ],
+  "hierarchy_levels": 3,
+  "total_knots": 8,
+  "total_cords": 6,
+  "dimensions": {
+    "length": 45.5,
+    "width": 18.0,
+    "thickness": 1.2,
+    "weight_grams": 12.5
+  },
+  "weight": 12.5,
+  "archaeological_context": {
+    "period": "Late Horizon",
+    "culture": "Inca",
+    "site_type": "administrative_center",
+    "associated_artifacts": [
+      "ceramics",
+      "textiles",
+      "metallurgy"
+    ],
+    "stratigraphic_layer": "Layer 4",
+    "dating_method": "ceramic_typology",
+    "date_range": "1450-1550 CE"
+  },
+  "provenance": {
+    "region": "Central Coast",
+    "site": "Pachacamac",
+    "sector": "Temple Complex",
+    "coordinates": {
+      "latitude": -12.25,
+      "longitude": -76.9
+    },
+    "elevation_meters": 50
+  },
+  "image_paths": [
+    "images/sample_quipu_001_front.jpg",
+    "images/sample_quipu_001_back.jpg",
+    "images/sample_quipu_001_detail_1.jpg"
+  ],
+  "scan_data": {
+    "scan_type": "3D_laser_scan",
+    "resolution_mm": 0.1,
+    "file_format": "STL",
+    "scan_date": "2024-02-01"
+  },
+  "notes": "Well-preserved administrative quipu with clear numerical patterns. Shows evidence of systematic record-keeping.",
+  "researcher_notes": "Pattern suggests accounting function with hierarchical organization typical of Inca administrative systems.",
+  "references": [
+    "Urton, Gary. 2003. Signs of the Inka Khipu.",
+    "Ascher, Marcia. 1991. Ethnomathematics."
+  ]
+}

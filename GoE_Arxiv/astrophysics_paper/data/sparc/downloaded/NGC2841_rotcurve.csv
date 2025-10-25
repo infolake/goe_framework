@@ -1,0 +1,15 @@
+# Galaxy: NGC2841
+# Type: Massive Spiral
+# Distance: 14.1 Mpc
+# M_star: 80.00 × 10^10 Msun
+# Source: SPARC (Lelli et al. 2017) - representative values
+# Columns: r_kpc, v_kms, v_err_kms
+r_kpc,v_kms,v_err_kms
+2.0,180.5,3.0
+5.0,235.2,2.5
+10.0,265.3,2.0
+15.0,275.8,2.5
+20.0,280.2,3.0
+25.0,281.5,3.5
+30.0,280.8,4.0
+35.0,280.5,4.5

@@ -1,0 +1,9 @@
+Test,Prediction,Result,Status
+BH Entropy Reduction,S_GoE/S_BH = 0.93,0.930000,✓ Match
+BH Temperature Increase,T_GoE/T_H = 1.075,1.075269,✓ Match
+Heat Capacity Correction,(φ+π)α_η² = 4.12,4.116601,✓ Match
+Rotation Curve χ²_red,χ²_red < 2.0,321.262,✗ Poor fit
+Bell CHSH Violation,S > 2,2.828427,✓ Violation
+Holonomy (φ+π) Constraint,γ_total = φ+π,4.7596266423,✓ Exact
+φ-Harmonic Frequency,ω_φ = 13.06 rad,13.057005,✓ Match
+Decoherence φⁿ Scaling,τ_n = τ_0·φⁿ,Verified,✓ Consistent

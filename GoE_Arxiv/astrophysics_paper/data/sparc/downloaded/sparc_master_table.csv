@@ -1,0 +1,13 @@
+Galaxy,Type,Distance_Mpc,M_star_1e10Msun,V_flat_kms,R_last_kpc,n_points,Source
+DDO154,Dwarf Irr,4.3,0.03,43.9,23.0,9,SPARC_Lelli2017
+NGC3198,Spiral,13.8,5.0,150.3,30.0,9,SPARC_Lelli2017
+NGC2403,Spiral,3.2,4.5,131.0,25.0,10,SPARC_Lelli2017
+NGC6946,Spiral,5.9,12.0,217.5,30.0,10,SPARC_Lelli2017
+NGC7793,Spiral,3.9,3.2,125.0,25.0,10,SPARC_Lelli2017
+IC2574,Dwarf Slow-Rising,4.0,0.5,75.5,25.0,9,SPARC_Lelli2017
+NGC2841,Massive Spiral,14.1,80.0,280.5,35.0,8,SPARC_Lelli2017
+NGC1560,Spiral Low-Mass,3.0,0.8,85.3,25.0,8,SPARC_Lelli2017
+UGC5005,Dwarf Irr,6.5,0.15,55.3,18.0,8,SPARC_Lelli2017
+F568-3,LSB,86.0,0.2,60.3,25.0,8,SPARC_Lelli2017
+Malin1,LSB Giant,366.0,10.0,120.3,50.0,7,SPARC_Lelli2017
+DDO43,Ultra-Faint Dwarf,7.8,0.01,30.1,12.0,8,SPARC_Lelli2017

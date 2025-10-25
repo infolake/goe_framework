@@ -1,0 +1,23 @@
+{
+  "cornell_id": "AS17",
+  "quipu_id": "CORNELL_AS17",
+  "reliability_score": 1.05,
+  "complexity_index": 0.71,
+  "cognitive_load_score": 0.74,
+  "functional_classification": "narrative",
+  "cognitive_proxies": {
+    "working_memory_load": 0.74,
+    "information_density": 0.77,
+    "structural_complexity": 0.8700000000000001,
+    "pattern_recognition_aid": 0.71,
+    "memory_augmentation_factor": 0.54,
+    "cognitive_offloading_ratio": 0.6699999999999999
+  },
+  "narrative_hypotheses": [
+    "Cornell CORNELL_AS17 shows administrative characteristics",
+    "Complex information encoding detected",
+    "High cognitive scaffolding requirements"
+  ],
+  "analysis_timestamp": "2024-01-01T00:00:00",
+  "processing_time": 2.5
+}

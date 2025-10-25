@@ -1,0 +1,10 @@
+phenomenon,scale_mass,metric,value,status
+Curvas de rotação galácticas,10^11 M☉,Significância,24.2σ,✓ VALIDADO
+Hierarquia de massas léptons,10^-27 kg,Erro médio,< 0.01%,✓ VALIDADO
+Hierarquia de massas quarks,10^-27 kg,Erro médio,< 0.02%,✓ VALIDADO
+Relação M-σ (buracos negros),10^6-10^9 M☉,Predição,Sem ajuste,✓ PREDITO
+LRDs JWST (z=7-10),10^6 M☉,Clustering,K-S p<0.05,✓ VALIDADO
+Termodinâmica BH,1-1000 M☉,S_GoE/S_std,0.930,✓ VALIDADO
+Emaranhamento (φ+π),Quântico,Holonomia,4.760 rad,✓ CONSISTENTE
+Decoerência φ^n,Quântico,Escala,Discretizada,🔬 TESTÁVEL
+FFT log-periódica,Multi-escala,ω_φ,13.06 rad,✓ DETECTADO

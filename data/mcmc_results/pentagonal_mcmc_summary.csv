@@ -1,0 +1,7 @@
+Sector,Particle1,Particle2,Mass1_MeV,Mass2_MeV,Ratio_Observed,Exponent_Mean,Exponent_Std,Nearest_Int,Consistency_Sigma,ESS,Acceptance
+Leptons,e,mu,0.511,105.66,206.77,2.588,5.400,3,0.26,37625,0.460
+Leptons,mu,tau,105.66,1776.86,16.82,4.598,5.276,5,0.21,37625,0.460
+Up_Quarks,u,c,2.16,1275.0,590.28,1.208,5.751,1,0.04,48000,0.458
+Up_Quarks,c,t,1275.0,172760.0,135.50,3.874,5.461,4,0.02,48000,0.458
+Down_Quarks,d,s,4.67,93.4,20.00,1.818,4.920,2,0.04,47466,0.466
+Down_Quarks,s,b,93.4,4180.0,44.75,5.701,4.906,6,0.06,47466,0.466

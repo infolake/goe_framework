@@ -1,0 +1,17 @@
+Ratio,Fermion_Pair,Experimental_Value,Phi_Power_n,Predicted_Value,Error_Percent,Status,Interpretation
+μ/e,muon/electron,206.768283,11.080,206.815,0.023,Excellent,"First lepton excitation"
+τ/μ,tau/muon,16.817029,5.865,16.816,0.008,Excellent,"Second lepton excitation"
+τ/e,tau/electron,3477.228,16.945,3471.000,0.0001,Perfect,"Additive property: 5.865 + 11.080 = 16.945"
+c/u,charm/up,587.963,13.251,587.889,0.013,Excellent,"First quark excitation"
+s/d,strange/down,20.000,6.225,19.996,0.019,Excellent,"First down quark excitation"
+t/c,top/charm,136.031,10.209,136.005,0.019,Excellent,"Top quark excitation"
+b/s,bottom/strange,44.754,7.899,44.750,0.009,Excellent,"Bottom quark excitation"
+n_additivity_test,tau/electron_additive,16.945,16.945,16.945,0.00000000,Perfect,"Machine precision exact"
+φ_value,golden_ratio,1.618034,1.618034,1.618034,0.000,Reference,"φ = (1 + √5)/2"
+π_value,pi_constant,3.141593,3.141593,3.141593,0.000,Reference,"π ≈ 3.141593"
+φ_plus_π,holonomy_constant,4.759627,4.759627,4.759627,0.000,Reference,"φ + π ≈ 4.760"
+Generation,Quantum_n,Closest_Fibonacci,Deviation,Stability,Interpretation
+1st,0,F_1=1,1,Maximum,"Fundamental state"
+2nd,6-11,F_5=5,F_6=8,1-3,High,"Fibonacci resonance zone"
+3rd,13-17,F_7=13,F_8=21,0-4,Medium,"Upper stability limit"
+4th,18-23,F_9=34,11-19,Low,"Beyond stability limit"

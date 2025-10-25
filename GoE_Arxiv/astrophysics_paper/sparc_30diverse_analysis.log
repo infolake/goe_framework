@@ -1,0 +1,261 @@
+2025-10-22 16:22:27,460 - INFO - 
+================================================================================
+2025-10-22 16:22:27,461 - INFO - ANÁLISE SPARC - 30 GALÁXIAS DIVERSAS COM GoE
+2025-10-22 16:22:27,461 - INFO - ================================================================================
+2025-10-22 16:22:27,462 - INFO - Início: 2025-10-22 16:22:27.462104
+2025-10-22 16:22:27,462 - INFO - Galáxias selecionadas: 30
+2025-10-22 16:22:27,462 - INFO - 
+Critérios de seleção:
+2025-10-22 16:22:27,462 - INFO -   - 5 Anãs (v < 60 km/s)
+2025-10-22 16:22:27,462 - INFO -   - 5 Baixa massa (60 < v < 100 km/s)
+2025-10-22 16:22:27,462 - INFO -   - 8 Intermediárias (100 < v < 150 km/s)
+2025-10-22 16:22:27,463 - INFO -   - 7 Massivas (v > 150 km/s)
+2025-10-22 16:22:27,463 - INFO -   - 5 LSB e especiais
+2025-10-22 16:22:27,464 - INFO - 
+Configuração MCMC:
+2025-10-22 16:22:27,464 - INFO -   - Walkers: 32
+2025-10-22 16:22:27,464 - INFO -   - Steps: 800-2000 (adaptativo)
+2025-10-22 16:22:27,464 - INFO -   - Convergence: R-hat < 1.1 (Gelman-Rubin)
+2025-10-22 16:22:27,465 - INFO - 
+[1/30] Processando DDO154...
+2025-10-22 16:22:27,465 - INFO - 
+============================================================
+2025-10-22 16:22:27,465 - INFO - Analisando: DDO154
+2025-10-22 16:22:27,465 - INFO - ============================================================
+2025-10-22 16:22:27,470 - ERROR -    ERRO ao ler dados: 'utf-8' codec can't decode byte 0xd7 in position 73: invalid continuation byte
+2025-10-22 16:22:27,470 - WARNING -    FALHOU: DDO154
+2025-10-22 16:22:27,470 - INFO - 
+[2/30] Processando DDO168...
+2025-10-22 16:22:27,470 - INFO - 
+============================================================
+2025-10-22 16:22:27,470 - INFO - Analisando: DDO168
+2025-10-22 16:22:27,470 - INFO - ============================================================
+2025-10-22 16:22:27,471 - ERROR -    ERRO ao ler dados: [Errno 2] No such file or directory: 'D:\\2025-Geometrodynamics_of_Entropy\\Geometrodynamics_of_Entropy_Dark_Matter\\01_camargo_goe_\\GoE_Arxiv\\astrophysics_paper\\data\\sparc\\downloaded\\DDO168_rotcurve.csv'
+2025-10-22 16:22:27,471 - WARNING -    FALHOU: DDO168
+2025-10-22 16:22:27,471 - INFO - 
+[3/30] Processando DDO64...
+2025-10-22 16:22:27,471 - INFO - 
+============================================================
+2025-10-22 16:22:27,471 - INFO - Analisando: DDO64
+2025-10-22 16:22:27,472 - INFO - ============================================================
+2025-10-22 16:22:27,473 - ERROR -    ERRO ao ler dados: [Errno 2] No such file or directory: 'D:\\2025-Geometrodynamics_of_Entropy\\Geometrodynamics_of_Entropy_Dark_Matter\\01_camargo_goe_\\GoE_Arxiv\\astrophysics_paper\\data\\sparc\\downloaded\\DDO64_rotcurve.csv'
+2025-10-22 16:22:27,473 - WARNING -    FALHOU: DDO64
+2025-10-22 16:22:27,473 - INFO - 
+[4/30] Processando KK98-251...
+2025-10-22 16:22:27,474 - INFO - 
+============================================================
+2025-10-22 16:22:27,474 - INFO - Analisando: KK98-251
+2025-10-22 16:22:27,475 - INFO - ============================================================
+2025-10-22 16:22:27,475 - ERROR -    ERRO ao ler dados: [Errno 2] No such file or directory: 'D:\\2025-Geometrodynamics_of_Entropy\\Geometrodynamics_of_Entropy_Dark_Matter\\01_camargo_goe_\\GoE_Arxiv\\astrophysics_paper\\data\\sparc\\downloaded\\KK98-251_rotcurve.csv'
+2025-10-22 16:22:27,475 - WARNING -    FALHOU: KK98-251
+2025-10-22 16:22:27,476 - INFO - 
+[5/30] Processando NGC2366...
+2025-10-22 16:22:27,476 - INFO - 
+============================================================
+2025-10-22 16:22:27,476 - INFO - Analisando: NGC2366
+2025-10-22 16:22:27,476 - INFO - ============================================================
+2025-10-22 16:22:27,477 - ERROR -    ERRO ao ler dados: [Errno 2] No such file or directory: 'D:\\2025-Geometrodynamics_of_Entropy\\Geometrodynamics_of_Entropy_Dark_Matter\\01_camargo_goe_\\GoE_Arxiv\\astrophysics_paper\\data\\sparc\\downloaded\\NGC2366_rotcurve.csv'
+2025-10-22 16:22:27,477 - WARNING -    FALHOU: NGC2366
+2025-10-22 16:22:27,478 - INFO - 
+[6/30] Processando NGC1560...
+2025-10-22 16:22:27,478 - INFO - 
+============================================================
+2025-10-22 16:22:27,478 - INFO - Analisando: NGC1560
+2025-10-22 16:22:27,478 - INFO - ============================================================
+2025-10-22 16:22:27,479 - ERROR -    ERRO ao ler dados: 'utf-8' codec can't decode byte 0xd7 in position 80: invalid continuation byte
+2025-10-22 16:22:27,479 - WARNING -    FALHOU: NGC1560
+2025-10-22 16:22:27,479 - INFO - 
+[7/30] Processando IC2574...
+2025-10-22 16:22:27,479 - INFO - 
+============================================================
+2025-10-22 16:22:27,479 - INFO - Analisando: IC2574
+2025-10-22 16:22:27,480 - INFO - ============================================================
+2025-10-22 16:22:27,481 - ERROR -    ERRO ao ler dados: 'utf-8' codec can't decode byte 0xd7 in position 81: invalid continuation byte
+2025-10-22 16:22:27,481 - WARNING -    FALHOU: IC2574
+2025-10-22 16:22:27,481 - INFO - 
+[8/30] Processando NGC3109...
+2025-10-22 16:22:27,481 - INFO - 
+============================================================
+2025-10-22 16:22:27,481 - INFO - Analisando: NGC3109
+2025-10-22 16:22:27,482 - INFO - ============================================================
+2025-10-22 16:22:27,482 - ERROR -    ERRO ao ler dados: [Errno 2] No such file or directory: 'D:\\2025-Geometrodynamics_of_Entropy\\Geometrodynamics_of_Entropy_Dark_Matter\\01_camargo_goe_\\GoE_Arxiv\\astrophysics_paper\\data\\sparc\\downloaded\\NGC3109_rotcurve.csv'
+2025-10-22 16:22:27,482 - WARNING -    FALHOU: NGC3109
+2025-10-22 16:22:27,483 - INFO - 
+[9/30] Processando UGC4325...
+2025-10-22 16:22:27,483 - INFO - 
+============================================================
+2025-10-22 16:22:27,484 - INFO - Analisando: UGC4325
+2025-10-22 16:22:27,484 - INFO - ============================================================
+2025-10-22 16:22:27,484 - ERROR -    ERRO ao ler dados: [Errno 2] No such file or directory: 'D:\\2025-Geometrodynamics_of_Entropy\\Geometrodynamics_of_Entropy_Dark_Matter\\01_camargo_goe_\\GoE_Arxiv\\astrophysics_paper\\data\\sparc\\downloaded\\UGC4325_rotcurve.csv'
+2025-10-22 16:22:27,485 - WARNING -    FALHOU: UGC4325
+2025-10-22 16:22:27,485 - INFO - 
+[10/30] Processando NGC7793...
+2025-10-22 16:22:27,485 - INFO - 
+============================================================
+2025-10-22 16:22:27,485 - INFO - Analisando: NGC7793
+2025-10-22 16:22:27,485 - INFO - ============================================================
+2025-10-22 16:22:27,487 - ERROR -    ERRO ao ler dados: 'utf-8' codec can't decode byte 0xd7 in position 71: invalid continuation byte
+2025-10-22 16:22:27,487 - WARNING -    FALHOU: NGC7793
+2025-10-22 16:22:27,487 - INFO - 
+[11/30] Processando NGC2403...
+2025-10-22 16:22:27,487 - INFO - 
+============================================================
+2025-10-22 16:22:27,487 - INFO - Analisando: NGC2403
+2025-10-22 16:22:27,487 - INFO - ============================================================
+2025-10-22 16:22:27,490 - ERROR -    ERRO ao ler dados: 'utf-8' codec can't decode byte 0xd7 in position 71: invalid continuation byte
+2025-10-22 16:22:27,491 - WARNING -    FALHOU: NGC2403
+2025-10-22 16:22:27,491 - INFO - 
+[12/30] Processando NGC3198...
+2025-10-22 16:22:27,491 - INFO - 
+============================================================
+2025-10-22 16:22:27,491 - INFO - Analisando: NGC3198
+2025-10-22 16:22:27,492 - INFO - ============================================================
+2025-10-22 16:22:27,493 - ERROR -    ERRO ao ler dados: 'utf-8' codec can't decode byte 0xd7 in position 72: invalid continuation byte
+2025-10-22 16:22:27,493 - WARNING -    FALHOU: NGC3198
+2025-10-22 16:22:27,493 - INFO - 
+[13/30] Processando NGC6946...
+2025-10-22 16:22:27,494 - INFO - 
+============================================================
+2025-10-22 16:22:27,494 - INFO - Analisando: NGC6946
+2025-10-22 16:22:27,494 - INFO - ============================================================
+2025-10-22 16:22:27,495 - ERROR -    ERRO ao ler dados: 'utf-8' codec can't decode byte 0xd7 in position 72: invalid continuation byte
+2025-10-22 16:22:27,495 - WARNING -    FALHOU: NGC6946
+2025-10-22 16:22:27,495 - INFO - 
+[14/30] Processando NGC0055...
+2025-10-22 16:22:27,496 - INFO - 
+============================================================
+2025-10-22 16:22:27,496 - INFO - Analisando: NGC0055
+2025-10-22 16:22:27,496 - INFO - ============================================================
+2025-10-22 16:22:27,496 - ERROR -    ERRO ao ler dados: [Errno 2] No such file or directory: 'D:\\2025-Geometrodynamics_of_Entropy\\Geometrodynamics_of_Entropy_Dark_Matter\\01_camargo_goe_\\GoE_Arxiv\\astrophysics_paper\\data\\sparc\\downloaded\\NGC0055_rotcurve.csv'
+2025-10-22 16:22:27,497 - WARNING -    FALHOU: NGC0055
+2025-10-22 16:22:27,497 - INFO - 
+[15/30] Processando NGC0247...
+2025-10-22 16:22:27,497 - INFO - 
+============================================================
+2025-10-22 16:22:27,497 - INFO - Analisando: NGC0247
+2025-10-22 16:22:27,497 - INFO - ============================================================
+2025-10-22 16:22:27,498 - ERROR -    ERRO ao ler dados: [Errno 2] No such file or directory: 'D:\\2025-Geometrodynamics_of_Entropy\\Geometrodynamics_of_Entropy_Dark_Matter\\01_camargo_goe_\\GoE_Arxiv\\astrophysics_paper\\data\\sparc\\downloaded\\NGC0247_rotcurve.csv'
+2025-10-22 16:22:27,498 - WARNING -    FALHOU: NGC0247
+2025-10-22 16:22:27,498 - INFO - 
+[16/30] Processando NGC0300...
+2025-10-22 16:22:27,498 - INFO - 
+============================================================
+2025-10-22 16:22:27,498 - INFO - Analisando: NGC0300
+2025-10-22 16:22:27,499 - INFO - ============================================================
+2025-10-22 16:22:27,499 - ERROR -    ERRO ao ler dados: [Errno 2] No such file or directory: 'D:\\2025-Geometrodynamics_of_Entropy\\Geometrodynamics_of_Entropy_Dark_Matter\\01_camargo_goe_\\GoE_Arxiv\\astrophysics_paper\\data\\sparc\\downloaded\\NGC0300_rotcurve.csv'
+2025-10-22 16:22:27,499 - WARNING -    FALHOU: NGC0300
+2025-10-22 16:22:27,499 - INFO - 
+[17/30] Processando NGC1003...
+2025-10-22 16:22:27,499 - INFO - 
+============================================================
+2025-10-22 16:22:27,499 - INFO - Analisando: NGC1003
+2025-10-22 16:22:27,499 - INFO - ============================================================
+2025-10-22 16:22:27,500 - ERROR -    ERRO ao ler dados: [Errno 2] No such file or directory: 'D:\\2025-Geometrodynamics_of_Entropy\\Geometrodynamics_of_Entropy_Dark_Matter\\01_camargo_goe_\\GoE_Arxiv\\astrophysics_paper\\data\\sparc\\downloaded\\NGC1003_rotcurve.csv'
+2025-10-22 16:22:27,501 - WARNING -    FALHOU: NGC1003
+2025-10-22 16:22:27,501 - INFO - 
+[18/30] Processando NGC0024...
+2025-10-22 16:22:27,501 - INFO - 
+============================================================
+2025-10-22 16:22:27,501 - INFO - Analisando: NGC0024
+2025-10-22 16:22:27,501 - INFO - ============================================================
+2025-10-22 16:22:27,502 - ERROR -    ERRO ao ler dados: [Errno 2] No such file or directory: 'D:\\2025-Geometrodynamics_of_Entropy\\Geometrodynamics_of_Entropy_Dark_Matter\\01_camargo_goe_\\GoE_Arxiv\\astrophysics_paper\\data\\sparc\\downloaded\\NGC0024_rotcurve.csv'
+2025-10-22 16:22:27,502 - WARNING -    FALHOU: NGC0024
+2025-10-22 16:22:27,502 - INFO - 
+[19/30] Processando NGC2841...
+2025-10-22 16:22:27,502 - INFO - 
+============================================================
+2025-10-22 16:22:27,502 - INFO - Analisando: NGC2841
+2025-10-22 16:22:27,502 - INFO - ============================================================
+2025-10-22 16:22:27,504 - ERROR -    ERRO ao ler dados: 'utf-8' codec can't decode byte 0xd7 in position 81: invalid continuation byte
+2025-10-22 16:22:27,504 - WARNING -    FALHOU: NGC2841
+2025-10-22 16:22:27,504 - INFO - 
+[20/30] Processando NGC2903...
+2025-10-22 16:22:27,504 - INFO - 
+============================================================
+2025-10-22 16:22:27,504 - INFO - Analisando: NGC2903
+2025-10-22 16:22:27,504 - INFO - ============================================================
+2025-10-22 16:22:27,504 - ERROR -    ERRO ao ler dados: [Errno 2] No such file or directory: 'D:\\2025-Geometrodynamics_of_Entropy\\Geometrodynamics_of_Entropy_Dark_Matter\\01_camargo_goe_\\GoE_Arxiv\\astrophysics_paper\\data\\sparc\\downloaded\\NGC2903_rotcurve.csv'
+2025-10-22 16:22:27,506 - WARNING -    FALHOU: NGC2903
+2025-10-22 16:22:27,507 - INFO - 
+[21/30] Processando NGC0891...
+2025-10-22 16:22:27,507 - INFO - 
+============================================================
+2025-10-22 16:22:27,507 - INFO - Analisando: NGC0891
+2025-10-22 16:22:27,508 - INFO - ============================================================
+2025-10-22 16:22:27,508 - ERROR -    ERRO ao ler dados: [Errno 2] No such file or directory: 'D:\\2025-Geometrodynamics_of_Entropy\\Geometrodynamics_of_Entropy_Dark_Matter\\01_camargo_goe_\\GoE_Arxiv\\astrophysics_paper\\data\\sparc\\downloaded\\NGC0891_rotcurve.csv'
+2025-10-22 16:22:27,509 - WARNING -    FALHOU: NGC0891
+2025-10-22 16:22:27,509 - INFO - 
+[22/30] Processando NGC2683...
+2025-10-22 16:22:27,510 - INFO - 
+============================================================
+2025-10-22 16:22:27,510 - INFO - Analisando: NGC2683
+2025-10-22 16:22:27,510 - INFO - ============================================================
+2025-10-22 16:22:27,510 - ERROR -    ERRO ao ler dados: [Errno 2] No such file or directory: 'D:\\2025-Geometrodynamics_of_Entropy\\Geometrodynamics_of_Entropy_Dark_Matter\\01_camargo_goe_\\GoE_Arxiv\\astrophysics_paper\\data\\sparc\\downloaded\\NGC2683_rotcurve.csv'
+2025-10-22 16:22:27,511 - WARNING -    FALHOU: NGC2683
+2025-10-22 16:22:27,511 - INFO - 
+[23/30] Processando NGC0801...
+2025-10-22 16:22:27,511 - INFO - 
+============================================================
+2025-10-22 16:22:27,511 - INFO - Analisando: NGC0801
+2025-10-22 16:22:27,511 - INFO - ============================================================
+2025-10-22 16:22:27,512 - ERROR -    ERRO ao ler dados: [Errno 2] No such file or directory: 'D:\\2025-Geometrodynamics_of_Entropy\\Geometrodynamics_of_Entropy_Dark_Matter\\01_camargo_goe_\\GoE_Arxiv\\astrophysics_paper\\data\\sparc\\downloaded\\NGC0801_rotcurve.csv'
+2025-10-22 16:22:27,513 - WARNING -    FALHOU: NGC0801
+2025-10-22 16:22:27,513 - INFO - 
+[24/30] Processando NGC2955...
+2025-10-22 16:22:27,513 - INFO - 
+============================================================
+2025-10-22 16:22:27,513 - INFO - Analisando: NGC2955
+2025-10-22 16:22:27,513 - INFO - ============================================================
+2025-10-22 16:22:27,514 - ERROR -    ERRO ao ler dados: [Errno 2] No such file or directory: 'D:\\2025-Geometrodynamics_of_Entropy\\Geometrodynamics_of_Entropy_Dark_Matter\\01_camargo_goe_\\GoE_Arxiv\\astrophysics_paper\\data\\sparc\\downloaded\\NGC2955_rotcurve.csv'
+2025-10-22 16:22:27,514 - WARNING -    FALHOU: NGC2955
+2025-10-22 16:22:27,514 - INFO - 
+[25/30] Processando IC4202...
+2025-10-22 16:22:27,514 - INFO - 
+============================================================
+2025-10-22 16:22:27,514 - INFO - Analisando: IC4202
+2025-10-22 16:22:27,515 - INFO - ============================================================
+2025-10-22 16:22:27,516 - ERROR -    ERRO ao ler dados: [Errno 2] No such file or directory: 'D:\\2025-Geometrodynamics_of_Entropy\\Geometrodynamics_of_Entropy_Dark_Matter\\01_camargo_goe_\\GoE_Arxiv\\astrophysics_paper\\data\\sparc\\downloaded\\IC4202_rotcurve.csv'
+2025-10-22 16:22:27,516 - WARNING -    FALHOU: IC4202
+2025-10-22 16:22:27,516 - INFO - 
+[26/30] Processando Malin1...
+2025-10-22 16:22:27,516 - INFO - 
+============================================================
+2025-10-22 16:22:27,516 - INFO - Analisando: Malin1
+2025-10-22 16:22:27,516 - INFO - ============================================================
+2025-10-22 16:22:27,517 - ERROR -    ERRO ao ler dados: 'utf-8' codec can't decode byte 0xd7 in position 76: invalid continuation byte
+2025-10-22 16:22:27,517 - WARNING -    FALHOU: Malin1
+2025-10-22 16:22:27,517 - INFO - 
+[27/30] Processando F563-1...
+2025-10-22 16:22:27,518 - INFO - 
+============================================================
+2025-10-22 16:22:27,518 - INFO - Analisando: F563-1
+2025-10-22 16:22:27,518 - INFO - ============================================================
+2025-10-22 16:22:27,519 - ERROR -    ERRO ao ler dados: [Errno 2] No such file or directory: 'D:\\2025-Geometrodynamics_of_Entropy\\Geometrodynamics_of_Entropy_Dark_Matter\\01_camargo_goe_\\GoE_Arxiv\\astrophysics_paper\\data\\sparc\\downloaded\\F563-1_rotcurve.csv'
+2025-10-22 16:22:27,519 - WARNING -    FALHOU: F563-1
+2025-10-22 16:22:27,519 - INFO - 
+[28/30] Processando F568-3...
+2025-10-22 16:22:27,519 - INFO - 
+============================================================
+2025-10-22 16:22:27,519 - INFO - Analisando: F568-3
+2025-10-22 16:22:27,519 - INFO - ============================================================
+2025-10-22 16:22:27,520 - ERROR -    ERRO ao ler dados: 'utf-8' codec can't decode byte 0xd7 in position 68: invalid continuation byte
+2025-10-22 16:22:27,520 - WARNING -    FALHOU: F568-3
+2025-10-22 16:22:27,520 - INFO - 
+[29/30] Processando UGC5005...
+2025-10-22 16:22:27,521 - INFO - 
+============================================================
+2025-10-22 16:22:27,521 - INFO - Analisando: UGC5005
+2025-10-22 16:22:27,521 - INFO - ============================================================
+2025-10-22 16:22:27,523 - ERROR -    ERRO ao ler dados: 'utf-8' codec can't decode byte 0xd7 in position 74: invalid continuation byte
+2025-10-22 16:22:27,523 - WARNING -    FALHOU: UGC5005
+2025-10-22 16:22:27,523 - INFO - 
+[30/30] Processando F571-8...
+2025-10-22 16:22:27,523 - INFO - 
+============================================================
+2025-10-22 16:22:27,524 - INFO - Analisando: F571-8
+2025-10-22 16:22:27,524 - INFO - ============================================================
+2025-10-22 16:22:27,525 - ERROR -    ERRO ao ler dados: [Errno 2] No such file or directory: 'D:\\2025-Geometrodynamics_of_Entropy\\Geometrodynamics_of_Entropy_Dark_Matter\\01_camargo_goe_\\GoE_Arxiv\\astrophysics_paper\\data\\sparc\\downloaded\\F571-8_rotcurve.csv'
+2025-10-22 16:22:27,525 - WARNING -    FALHOU: F571-8
+2025-10-22 16:22:27,525 - INFO - 
+Análise concluída: 2025-10-22 16:22:27.525816
+2025-10-22 16:22:27,526 - INFO - ================================================================================

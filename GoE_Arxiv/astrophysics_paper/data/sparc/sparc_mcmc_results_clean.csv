@@ -1,0 +1,4 @@
+Galaxy,M_disk_Msun,M_disk_err_Msun,R_disk_kpc,R_disk_err_kpc,M_bulge_Msun,M_bulge_err_Msun,R_bulge_kpc,R_bulge_err_kpc,R_theta_kpc,R_theta_err_kpc,chi2_red,n_data,acceptance_rate
+NGC2403,5.69e10,7.00e10,8.14,13.02,8.20e10,3.28e10,12.70,4.43,22.04,9.28,2.321,25,0.326
+NGC6946,2.14e11,2.12e11,23.42,12.05,4.55e11,1.45e11,16.34,4.91,31.58,11.14,0.754,30,0.314
+NGC7793,3.58e10,5.10e10,8.80,13.70,5.56e10,2.44e10,12.85,4.30,21.33,9.87,2.974,28,0.313

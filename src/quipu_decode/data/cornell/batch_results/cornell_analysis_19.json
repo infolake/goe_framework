@@ -1,0 +1,23 @@
+{
+  "cornell_id": "AS19",
+  "quipu_id": "CORNELL_AS19",
+  "reliability_score": 1.15,
+  "complexity_index": 0.77,
+  "cognitive_load_score": 0.78,
+  "functional_classification": "accounting",
+  "cognitive_proxies": {
+    "working_memory_load": 0.78,
+    "information_density": 0.7899999999999999,
+    "structural_complexity": 0.89,
+    "pattern_recognition_aid": 0.77,
+    "memory_augmentation_factor": 0.5800000000000001,
+    "cognitive_offloading_ratio": 0.69
+  },
+  "narrative_hypotheses": [
+    "Cornell CORNELL_AS19 shows administrative characteristics",
+    "Complex information encoding detected",
+    "High cognitive scaffolding requirements"
+  ],
+  "analysis_timestamp": "2024-01-01T00:00:00",
+  "processing_time": 2.5
+}

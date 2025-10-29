@@ -1061,7 +1061,7 @@ The analysis reveals that $\varphi = 1.618034$ produces a \textbf{local minimum}
 The complete validation framework, including Leave-One-Out Cross-Validation (LOOCV), Bayesian MCMC analysis, permutation tests, and model comparison scripts, is available at:
 
 \begin{center}
-\url{https://github.com/infolake/goe-framework}
+\url{https://github.com/infolake/goe_framework}
 \end{center}
 
 All code is released under CC BY 4.0 license to maximize reproducibility and scientific collaboration.
@@ -1762,18 +1762,19 @@ All calculations use Python 3.11 with the following dependencies:
 \item \textbf{Differential equations:} scipy.integrate.odeint (LSODA adaptive solver)
 \end{itemize}
 
-\noindent Environment setup via: \texttt{conda env create -f environment.yml} or \texttt{pip install -r requirements.txt}
+\noindent Environment setup via: \texttt{pip install -r requirements.txt}
 
 \paragraph{Reproducibility Protocol.}
-One-command reproduction: \texttt{make all} (requires GNU Make 4.3+) executes:
+All figures and results can be reproduced using the provided Jupyter notebooks and code capsules:
 \begin{enumerate}
-\item \texttt{python scripts/spectral\_c5.py} → Figure 1 (C$_5$ spectrum)
-\item \texttt{python scripts/mass\_phi\_law.py} → Figure 2 (LOOCV scatter plot)
-\item \texttt{python scripts/phi\_global\_scan.py} → Figure 3 ($\varphi$ sensitivity)
-\item \texttt{python scripts/bounce\_solver.py} → Figure 4 (E-C bounce)
-\item \texttt{python scripts/mcmc\_gminus2.py} → Figure 5 (g-2 posteriors)
-\item \texttt{python scripts/permutation\_test.py} → Figure 6 (permutation histogram)
-\item \texttt{latexmk -pdf paper/main.tex} → Compile paper (PDF output)
+\item \textbf{Code Capsule S4:} \texttt{papers/arxiv\_submission/code\_capsules/S4\_proton\_spin\_prediction.py} → Proton spin EIC prediction figure
+\item \textbf{Notebooks:} Complete computational protocol available in \texttt{Shared\_Resources/notebooks/}
+\begin{itemize}
+\item \texttt{goe\_unified\_quantum\_foundations.ipynb} → Framework foundations
+\item \texttt{goe\_fermion\_hierarchy\_pentagonal.ipynb} → Fermion mass validation
+\item \texttt{goe\_computational\_protocol\_fermion\_mass\_quantization.ipynb} → Full analysis pipeline
+\end{itemize}
+\item \textbf{Paper compilation:} \texttt{pdflatex main.tex \&\& bibtex main \&\& pdflatex main.tex \&\& pdflatex main.tex}
 \end{enumerate}
 
 \noindent\textbf{Random Seeds:} LOOCV (42), permutation test (2025), MCMC ($\text{seed} = \text{SHA256}(\text{``GoE''})[:8]$) for deterministic reproducibility.
@@ -1801,7 +1802,7 @@ The complete fermion mass quantization analysis can be reproduced interactively 
 Permanent archived version with DOI: \href{https://doi.org/10.5281/zenodo.XXXXXXX}{10.5281/zenodo.XXXXXXX} (to be assigned upon publication). This snapshot includes all code, data, notebooks, and generated figures frozen at submission time.
 
 \paragraph{Continuous Integration.}
-Automated tests and figure regeneration via GitHub Actions: \texttt{.github/workflows/ci.yml} (linting + unit tests) and \texttt{.github/workflows/paper.yml} (LaTeX compilation). All tests passing: \url{https://github.com/infolake/goe-framework/actions}
+Repository available at: \url{https://github.com/infolake/goe_framework}
 
 \appendix
 

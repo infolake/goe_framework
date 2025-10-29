@@ -220,7 +220,7 @@ Implemented critical improvements to the GoE paper for maximum scientific rigor,
 2. Upload main.tex + references.bib + figures
 3. Select categories: gr-qc (primary), hep-ph (secondary)
 4. Abstract: Copy from revised version in paper
-5. Comments: "50 pages, 60 references, reproducible code at github.com/infolake/goe-framework"
+5. Comments: "50 pages, 60 references, reproducible code at github.com/infolake/goe_framework"
 
 ### Post-Submission
 

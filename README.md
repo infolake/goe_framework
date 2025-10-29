@@ -82,10 +82,12 @@ goe_framework/
 │   │   ├── goe_fermion_hierarchy_pentagonal.ipynb
 │   │   └── goe_computational_protocol_fermion_mass_quantization.ipynb
 │   │
-│   ├── data/                           # Experimental data
-│   └── scripts/                        # Analysis scripts
+│   └── data/                           # Experimental data
+│       ├── Bounce_Top_20_aggregate_all_masses.csv
+│       ├── bounce_Top_10_M_6_5e_09_M_sun.csv
+│       └── bounce_Top_10__M___4e_06_M_sun.csv
 │
-└── docs/                               # Additional documentation
+└── GITHUB_SETUP.md                     # GitHub setup instructions
 ```
 
 ---

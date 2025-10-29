@@ -1,7 +1,7 @@
 # Geometrodynamics of Entropy (GoE) Framework
 
 [![arXiv](https://img.shields.io/badge/arXiv-YYMM.NNNNN-b31b1b.svg)](https://arxiv.org/abs/YYMM.NNNNN)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17471368.svg)](https://doi.org/10.5281/zenodo.17471368)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **A geometric framework unifying fermion mass quantization and cosmological bounce through 6D pentagonal topology**

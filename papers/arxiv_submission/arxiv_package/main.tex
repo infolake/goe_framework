@@ -1774,7 +1774,7 @@ All figures and results can be reproduced using the provided Jupyter notebooks a
 \item \texttt{goe\_fermion\_hierarchy\_pentagonal.ipynb} → Fermion mass validation
 \item \texttt{goe\_computational\_protocol\_fermion\_mass\_quantization.ipynb} → Full analysis pipeline
 \end{itemize}
-\item \textbf{Paper compilation:} \texttt{cd papers/arxiv\_submission \&\& pdflatex main.tex \&\& bibtex main \&\& pdflatex main.tex \&\& pdflatex main.tex}
+\item \textbf{Paper compilation:} \texttt{pdflatex main.tex \&\& bibtex main \&\& pdflatex main.tex \&\& pdflatex main.tex}
 \end{enumerate}
 
 \noindent\textbf{Random Seeds:} LOOCV (42), permutation test (2025), MCMC ($\text{seed} = \text{SHA256}(\text{``GoE''})[:8]$) for deterministic reproducibility.

@@ -609,7 +609,7 @@ def export_to_json(results, filename='fermion_models_comparison_results.json'):
                     'A': float(r['model_A']['A']),
                     'p': float(r['model_A']['p'])
                 },
-                'predictions_MeV': {f: float(v) for f, v in zip(SECTORS[r['sector']], r['model_A']['predictions'])},
+                'predictions_MeV': {f: float(v) for f, v in zip(SECTORS[r['sector']], r['model_A']['masses_pred'])},
                 'errors_percent': {f: float(v) for f, v in zip(SECTORS[r['sector']], r['model_A']['errors'])},
                 'statistics': {
                     'mean_error_percent': float(r['model_A']['mean_error']),
@@ -624,8 +624,8 @@ def export_to_json(results, filename='fermion_models_comparison_results.json'):
                     'm0': float(r['model_B']['m0']),
                     'phi': float(r['model_B']['phi'])
                 },
-                'n_values': {f: int(n) for f, n in zip(SECTORS[r['sector']], r['model_B']['n_values'])},
-                'predictions_MeV': {f: float(v) for f, v in zip(SECTORS[r['sector']], r['model_B']['predictions'])},
+                'n_values': {f: int(n) for f, n in zip(SECTORS[r['sector']], r['model_B']['n_rounded'])},
+                'predictions_MeV': {f: float(v) for f, v in zip(SECTORS[r['sector']], r['model_B']['masses_pred'])},
                 'errors_percent': {f: float(v) for f, v in zip(SECTORS[r['sector']], r['model_B']['errors'])},
                 'statistics': {
                     'mean_error_percent': float(r['model_B']['mean_error']),
@@ -684,12 +684,12 @@ def export_to_csv(results, filename='fermion_models_comparison_results.csv'):
                 'fermion': fermion,
                 'mass_exp_MeV': FERMION_MASSES_EXP[fermion],
                 'mass_uncertainty': FERMION_MASSES_UNC[fermion] if isinstance(FERMION_MASSES_UNC[fermion], (int, float)) else f"+{FERMION_MASSES_UNC[fermion][0]}/-{FERMION_MASSES_UNC[fermion][1]}",
-                'model_A_prediction_MeV': r['model_A']['predictions'][i],
+                'model_A_prediction_MeV': r['model_A']['masses_pred'][i],
                 'model_A_error_percent': r['model_A']['errors'][i],
                 'model_A_A': r['model_A']['A'],
                 'model_A_p': r['model_A']['p'],
-                'model_B_n': r['model_B']['n_values'][i],
-                'model_B_prediction_MeV': r['model_B']['predictions'][i],
+                'model_B_n': int(r['model_B']['n_rounded'][i]),
+                'model_B_prediction_MeV': r['model_B']['masses_pred'][i],
                 'model_B_error_percent': r['model_B']['errors'][i],
                 'model_B_m0': r['model_B']['m0'],
                 'model_B_phi': r['model_B']['phi']

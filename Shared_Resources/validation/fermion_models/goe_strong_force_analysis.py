@@ -40,12 +40,12 @@ LAMBDA_QCD = 0.200  # GeV - QCD confinement scale
 R_N = HBAR_C / LAMBDA_QCD  # Nuclear fiber radius
 L_N = 2 * np.pi * R_N  # Nuclear fiber circumference
 
-print("FORCA NUCLEAR FORTE NO FRAMEWORK GoE")
+print("STRONG NUCLEAR FORCE IN GoE FRAMEWORK")
 print("="*60)
-print(f"PARAMETROS DA FIBRA NUCLEAR S1_N:")
-print(f"  Escala de confinamento: Lambda_QCD = {LAMBDA_QCD} GeV")
-print(f"  Raio da fibra: R_N = {R_N:.4f} fm")
-print(f"  Comprimento: L_N = 2*pi*R_N = {L_N:.4f} fm")
+print(f"NUCLEAR FIBER S1_N PARAMETERS:")
+print(f"  Confinement scale: Lambda_QCD = {LAMBDA_QCD} GeV")
+print(f"  Fiber radius: R_N = {R_N:.4f} fm")
+print(f"  Length: L_N = 2*pi*R_N = {L_N:.4f} fm")
 
 # =============================================================================
 # STRONG COUPLING CONSTANT GoE
@@ -53,7 +53,7 @@ print(f"  Comprimento: L_N = 2*pi*R_N = {L_N:.4f} fm")
 
 def strong_coupling_goe(Q, Lambda_QCD=LAMBDA_QCD, beta_0=9/(4*np.pi)):
     """
-    Calcula α_s(Q²) no framework GoE
+    Calculate α_s(Q²) in GoE framework
     
     Formula: α_s(Q²) = 1/(β₀ ln(Q²/Λ²)) + κ_N/φ⁴
     
@@ -89,12 +89,12 @@ def calculate_strong_coupling_values():
     Q_values = np.logspace(-1, 2, 100)  # 0.1 to 100 GeV
     alpha_s_values = [strong_coupling_goe(Q) for Q in Q_values]
     
-    print(f"\nCONSTANTE DE ACOPLAMENTO FORTE GoE:")
+    print(f"\nSTRONG COUPLING CONSTANT GoE:")
     print(f"  alpha_s(0.5 GeV) = {strong_coupling_goe(0.5):.4f}")
     print(f"  alpha_s(1 GeV) = {strong_coupling_goe(1.0):.4f}")
     print(f"  alpha_s(10 GeV) = {strong_coupling_goe(10.0):.4f}")
     print(f"  alpha_s(100 GeV) = {strong_coupling_goe(100.0):.4f}")
-    print(f"  alpha_s(inf) = {1/(PHI**4):.4f} (correcao geometrica)")
+    print(f"  alpha_s(inf) = {1/(PHI**4):.4f} (geometric correction)")
     
     return Q_values, alpha_s_values
 
@@ -158,7 +158,7 @@ def calculate_quark_potential():
         V_coul.append(v_c)
         V_geom.append(v_g)
     
-    print(f"\nPOTENCIAL INTERQUARK GoE:")
+    print(f"\nINTERQUARK POTENTIAL GoE:")
     print(f"  V(0.5 fm) = {quark_potential_goe(0.5)[0]:.3f} GeV")
     print(f"  V(1.0 fm) = {quark_potential_goe(1.0)[0]:.3f} GeV")
     print(f"  V(1.5 fm) = {quark_potential_goe(1.5)[0]:.3f} GeV")
@@ -170,9 +170,9 @@ def calculate_quark_potential():
 # =============================================================================
 
 def meson_masses_goe():
-    """Calcula massas dos mésons via quantização φⁿ"""
+    """Calculate meson masses via φⁿ quantization"""
     
-    # Massa base para mésons (π⁰ como referência)
+    # Base mass for mesons (π⁰ as reference)
     m0_meson = 135.0 / (PHI**1)  # MeV - π⁰ como n=1
     
     meson_data = {
@@ -185,8 +185,8 @@ def meson_masses_goe():
         'Upsilon':  {'n': 12, 'exp': 9460.30}
     }
     
-    print("\nMASSAS DOS MESONS VIA phi^n:")
-    print("Meson    n   Experimental (MeV)  GoE (MeV)    Erro (%)")
+    print("\nMESON MASSES VIA phi^n:")
+    print("Meson    n   Experimental (MeV)  GoE (MeV)    Error (%)")
     print("-"*55)
     
     errors = []
@@ -196,13 +196,13 @@ def meson_masses_goe():
         errors.append(error)
         print(f"{meson:4}   {data['n']:2}   {data['exp']:12.2f}   {m_goe:10.2f}   {error:8.2f}")
     
-    print(f"\nErro médio dos mésons: {np.mean(errors):.2f}%")
+    print(f"\nAverage meson error: {np.mean(errors):.2f}%")
     return meson_data, errors
 
 def baryon_masses_goe():
-    """Calcula massas dos bárions via quantização φⁿ"""
+    """Calculate baryon masses via φⁿ quantization"""
     
-    # Massa base para bárions (próton como referência)
+    # Base mass for baryons (proton as reference)
     m0_baryon = 938.27 / (PHI**3)  # MeV - próton como n=3
     
     baryon_data = {
@@ -216,8 +216,8 @@ def baryon_masses_goe():
         'Omega-': {'n': 6, 'exp': 1672.45}
     }
     
-    print("\nMASSAS DOS BARIONS VIA phi^n:")
-    print("Barion   n   Experimental (MeV)  GoE (MeV)    Erro (%)")
+    print("\nBARYON MASSES VIA phi^n:")
+    print("Baryon   n   Experimental (MeV)  GoE (MeV)    Error (%)")
     print("-"*55)
     
     errors = []
@@ -227,7 +227,7 @@ def baryon_masses_goe():
         errors.append(error)
         print(f"{baryon:4}   {data['n']:2}   {data['exp']:12.2f}   {m_goe:10.2f}   {error:8.2f}")
     
-    print(f"\nErro médio dos bárions: {np.mean(errors):.2f}%")
+    print(f"\nAverage baryon error: {np.mean(errors):.2f}%")
     return baryon_data, errors
 
 # =============================================================================
@@ -245,25 +245,25 @@ def plot_strong_force_goe():
     
     # 1. Running coupling α_s(Q)
     ax1.loglog(Q_values, alpha_s_values, 'r-', linewidth=3, label='GoE α_s(Q)')
-    ax1.axhline(y=1, color='gray', linestyle='--', alpha=0.7, label='Confinamento')
+    ax1.axhline(y=1, color='gray', linestyle='--', alpha=0.7, label='Confinement')
     ax1.set_xlabel('Q (GeV)')
     ax1.set_ylabel('α_s(Q)')
-    ax1.set_title('Constante de Acoplamento Forte - GoE')
+    ax1.set_title('Strong Coupling Constant - GoE')
     ax1.legend()
     ax1.grid(True, alpha=0.3)
     
-    # 2. Potencial interquark
+    # 2. Interquark potential
     ax2.plot(r_values, V_total, 'b-', linewidth=3, label='V(r) total')
-    ax2.plot(r_values, V_lin, 'r--', alpha=0.7, label='Termo linear')
-    ax2.plot(r_values, V_coul, 'g--', alpha=0.7, label='Termo Coulomb')
-    ax2.plot(r_values, V_geom, 'm--', alpha=0.7, label='Termo geométrico')
+    ax2.plot(r_values, V_lin, 'r--', alpha=0.7, label='Linear term')
+    ax2.plot(r_values, V_coul, 'g--', alpha=0.7, label='Coulomb term')
+    ax2.plot(r_values, V_geom, 'm--', alpha=0.7, label='Geometric term')
     ax2.set_xlabel('r (fm)')
     ax2.set_ylabel('V(r) (GeV)')
-    ax2.set_title('Potencial Interquark - GoE')
+    ax2.set_title('Interquark Potential - GoE')
     ax2.legend()
     ax2.grid(True, alpha=0.3)
     
-    # 3. Massas dos mésons
+    # 3. Meson masses
     meson_data, _ = meson_masses_goe()
     mesons = list(meson_data.keys())
     masses_exp = [data['exp'] for data in meson_data.values()]
@@ -276,26 +276,26 @@ def plot_strong_force_goe():
     for i, meson in enumerate(mesons):
         ax3.annotate(meson, (n_values[i], masses_exp[i]), xytext=(5, 5), 
                     textcoords='offset points', fontsize=9)
-    ax3.set_xlabel('Número quântico n')
-    ax3.set_ylabel('Massa (MeV)')
-    ax3.set_title('Massas dos Mésons - Quantização φⁿ')
+    ax3.set_xlabel('Quantum number n')
+    ax3.set_ylabel('Mass (MeV)')
+    ax3.set_title('Meson Masses - φⁿ Quantization')
     ax3.legend()
     ax3.grid(True, alpha=0.3)
     
-    # 4. Estrutura da fibra nuclear
+    # 4. Nuclear fiber structure
     theta = np.linspace(0, 4*np.pi, 1000)
-    # Representação da fibra com torção Möbius
+    # Representation of fiber with Möbius twist
     x = np.cos(theta)
     y = np.sin(theta) 
-    z = 0.5 * np.sin(theta/2)  # Componente Möbius
+    z = 0.5 * np.sin(theta/2)  # Möbius component
     
-    ax4.plot(x, y, 'b-', alpha=0.7, label='Fibra S¹_N')
+    ax4.plot(x, y, 'b-', alpha=0.7, label='Fiber S¹_N')
     ax4.scatter([x[0], x[250], x[500], x[750]], 
                [y[0], y[250], y[500], y[750]], 
                c=['red', 'green', 'blue', 'yellow'], s=100)
     ax4.set_xlabel('x')
     ax4.set_ylabel('y')
-    ax4.set_title('Fibra Nuclear com Torção Möbius')
+    ax4.set_title('Nuclear Fiber with Möbius Twist')
     ax4.legend()
     ax4.grid(True, alpha=0.3)
     ax4.set_aspect('equal')
@@ -466,12 +466,12 @@ def export_to_json(results, filename='goe_strong_force_analysis_results.json'):
             'L_N_fm': float(L_N)
         },
         'strong_coupling': {
-            'Q_values_GeV': results['Q_values'].tolist(),
-            'alpha_s_values': results['alpha_s_values'].tolist()
+            'Q_values_GeV': results['Q_values'].tolist() if hasattr(results['Q_values'], 'tolist') else list(results['Q_values']),
+            'alpha_s_values': results['alpha_s_values'].tolist() if hasattr(results['alpha_s_values'], 'tolist') else list(results['alpha_s_values'])
         },
         'quark_potential': {
-            'r_values_fm': results['r_values'].tolist(),
-            'V_total_GeV': results['V_total'].tolist(),
+            'r_values_fm': results['r_values'].tolist() if hasattr(results['r_values'], 'tolist') else list(results['r_values']),
+            'V_total_GeV': results['V_total'].tolist() if hasattr(results['V_total'], 'tolist') else list(results['V_total']),
             'description': 'V(r) = V_Coulomb + V_Linear + V_Geometric'
         },
         'hadron_masses': {
@@ -509,27 +509,35 @@ def export_to_csv(results, filename='goe_strong_force_analysis_results.csv'):
     # Prepare CSV data for hadron masses
     csv_data = []
     
+    # Calculate m0 for mesons and baryons
+    m0_meson = 135.0 / (PHI**1)  # pi0 as reference
+    m0_baryon = 938.27 / (PHI**3)  # proton as reference
+    
     # Add meson data
-    for meson, data in results['meson_data'].items():
+    meson_errors = results['meson_errors']
+    for i, (meson, data) in enumerate(results['meson_data'].items()):
+        m_pred = m0_meson * (PHI ** data['n'])
         row = {
             'type': 'meson',
             'particle': meson,
             'n': data['n'],
-            'mass_predicted_MeV': data['mass_pred'],
-            'mass_experimental_MeV': data['mass_exp'],
-            'error_percent': results['meson_errors'][meson]
+            'mass_predicted_MeV': m_pred,
+            'mass_experimental_MeV': data['exp'],
+            'error_percent': meson_errors[i] if isinstance(meson_errors, list) else 0
         }
         csv_data.append(row)
     
     # Add baryon data
-    for baryon, data in results['baryon_data'].items():
+    baryon_errors = results['baryon_errors']
+    for i, (baryon, data) in enumerate(results['baryon_data'].items()):
+        m_pred = m0_baryon * (PHI ** data['n'])
         row = {
             'type': 'baryon',
             'particle': baryon,
             'n': data['n'],
-            'mass_predicted_MeV': data['mass_pred'],
-            'mass_experimental_MeV': data['mass_exp'],
-            'error_percent': results['baryon_errors'][baryon]
+            'mass_predicted_MeV': m_pred,
+            'mass_experimental_MeV': data['exp'],
+            'error_percent': baryon_errors[i] if isinstance(baryon_errors, list) else 0
         }
         csv_data.append(row)
     

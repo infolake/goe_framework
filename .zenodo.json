@@ -30,6 +30,11 @@
       "resource_type": "software"
     },
     {
+      "identifier": "10.5281/zenodo.17479743",
+      "relation": "isVersionOf",
+      "resource_type": "software"
+    },
+    {
       "identifier": "https://github.com/infolake/goe_framework",
       "relation": "isSupplementTo",
       "resource_type": "software"

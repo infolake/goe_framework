@@ -1,0 +1,281 @@
+{
+  "catalog_version": "1.0",
+  "generated": "2025-10-29T16:46:53.328485",
+  "framework": "Geometrodynamics of Entropy",
+  "doi": "10.5281/zenodo.14513152",
+  "repository": "https://github.com/infolake/goe_framework",
+  "total_files": 43,
+  "total_size_mb": 82.22,
+  "categories": {
+    "raw": {
+      "description": "Dados brutos de entrada (PDG, Planck, constantes experimentais)",
+      "file_count": 0,
+      "total_size_mb": 0,
+      "files": []
+    },
+    "mcmc": {
+      "description": "Resultados de amostragem MCMC Bayesiana (chains, posteriors)",
+      "file_count": 3,
+      "total_size_mb": 37.15,
+      "files": [
+        {
+          "filename": "mcmc_results_large.npz",
+          "size_mb": 37.15,
+          "pattern": "*mcmc*.npz"
+        },
+        {
+          "filename": "mcmc_analysis_report.json",
+          "size_mb": 0.0,
+          "pattern": "*mcmc*.json"
+        },
+        {
+          "filename": "mcmc_detailed_report.json",
+          "size_mb": 0.0,
+          "pattern": "*mcmc*.json"
+        }
+      ]
+    },
+    "permutation": {
+      "description": "Testes de permutação (null hypothesis, p-values)",
+      "file_count": 8,
+      "total_size_mb": 4.55,
+      "files": [
+        {
+          "filename": "mape_permutation_100K.npy",
+          "size_mb": 0.76,
+          "pattern": "*permutation*.npy"
+        },
+        {
+          "filename": "mape_permutation_100K_clean.npy",
+          "size_mb": 0.76,
+          "pattern": "*permutation*.npy"
+        },
+        {
+          "filename": "mape_permutation_100K.pt",
+          "size_mb": 0.76,
+          "pattern": "*permutation*.pt"
+        },
+        {
+          "filename": "mape_permutation_100K_clean.pt",
+          "size_mb": 0.76,
+          "pattern": "*permutation*.pt"
+        },
+        {
+          "filename": "mape_permutation_100K_gpu.pt",
+          "size_mb": 0.76,
+          "pattern": "*permutation*.pt"
+        },
+        {
+          "filename": "goe_complete_perm_results.npy",
+          "size_mb": 0.38,
+          "pattern": "*perm_results*"
+        },
+        {
+          "filename": "test_goe_perm_results.npy",
+          "size_mb": 0.0,
+          "pattern": "*perm_results*"
+        },
+        {
+          "filename": "mape_permutation_100k_analysis.png",
+          "size_mb": 0.37,
+          "pattern": "mape_permutation_*"
+        }
+      ]
+    },
+    "monte_carlo": {
+      "description": "Simulações Monte Carlo (sensitivity scans, error propagation)",
+      "file_count": 8,
+      "total_size_mb": 4.96,
+      "files": [
+        {
+          "filename": "mape_monte_carlo_100K.npy",
+          "size_mb": 0.76,
+          "pattern": "*monte_carlo*.npy"
+        },
+        {
+          "filename": "mape_monte_carlo_100K_clean.npy",
+          "size_mb": 0.76,
+          "pattern": "*monte_carlo*.npy"
+        },
+        {
+          "filename": "mape_monte_carlo_100K.pt",
+          "size_mb": 0.76,
+          "pattern": "*monte_carlo*.pt"
+        },
+        {
+          "filename": "mape_monte_carlo_100K_clean.pt",
+          "size_mb": 0.76,
+          "pattern": "*monte_carlo*.pt"
+        },
+        {
+          "filename": "mape_monte_carlo_100K_gpu.pt",
+          "size_mb": 0.76,
+          "pattern": "*monte_carlo*.pt"
+        },
+        {
+          "filename": "goe_complete_mc_results.npy",
+          "size_mb": 0.76,
+          "pattern": "*mc_results*"
+        },
+        {
+          "filename": "test_goe_mc_results.npy",
+          "size_mb": 0.01,
+          "pattern": "*mc_results*"
+        },
+        {
+          "filename": "mape_monte_carlo_100k_analysis.png",
+          "size_mb": 0.39,
+          "pattern": "mape_monte_carlo_*"
+        }
+      ]
+    },
+    "phi_samples": {
+      "description": "Amostras de sensibilidade ao parâmetro phi (golden ratio)",
+      "file_count": 5,
+      "total_size_mb": 3.8,
+      "files": [
+        {
+          "filename": "phi_samples_100K.npy",
+          "size_mb": 0.76,
+          "pattern": "phi_samples_*.npy"
+        },
+        {
+          "filename": "phi_samples_100K_clean.npy",
+          "size_mb": 0.76,
+          "pattern": "phi_samples_*.npy"
+        },
+        {
+          "filename": "phi_samples_100K.pt",
+          "size_mb": 0.76,
+          "pattern": "phi_samples_*.pt"
+        },
+        {
+          "filename": "phi_samples_100K_clean.pt",
+          "size_mb": 0.76,
+          "pattern": "phi_samples_*.pt"
+        },
+        {
+          "filename": "phi_samples_100K_gpu.pt",
+          "size_mb": 0.76,
+          "pattern": "phi_samples_*.pt"
+        }
+      ]
+    },
+    "validation": {
+      "description": "Resultados compilados de validação (LOOCV, BIC, cross-validation)",
+      "file_count": 7,
+      "total_size_mb": 0.08,
+      "files": [
+        {
+          "filename": "validation_results.json",
+          "size_mb": 0.0,
+          "pattern": "*validation*.json"
+        },
+        {
+          "filename": "tensor_analysis_summary.csv",
+          "size_mb": 0.0,
+          "pattern": "tensor_analysis_summary.*"
+        },
+        {
+          "filename": "tensor_analysis_summary.json",
+          "size_mb": 0.0,
+          "pattern": "tensor_analysis_summary.*"
+        },
+        {
+          "filename": "tensor_summary.json",
+          "size_mb": 0.0,
+          "pattern": "tensor_summary.json"
+        },
+        {
+          "filename": "robust_statistical_analysis_results.json",
+          "size_mb": 0.0,
+          "pattern": "robust_statistical_analysis*.json"
+        },
+        {
+          "filename": "goe_complete_summary.json",
+          "size_mb": 0.0,
+          "pattern": "*goe_*_summary.json"
+        },
+        {
+          "filename": "goe_complete_telemetry.json",
+          "size_mb": 0.08,
+          "pattern": "*goe_*_telemetry.json"
+        }
+      ]
+    },
+    "analysis_outputs": {
+      "description": "Outputs de análises massivas e sampling",
+      "file_count": 8,
+      "total_size_mb": 1.06,
+      "files": [
+        {
+          "filename": "massive_sampling_sample_30K.csv",
+          "size_mb": 0.53,
+          "pattern": "massive_sampling_*.csv"
+        },
+        {
+          "filename": "massive_sampling_sample_30K_clean.csv",
+          "size_mb": 0.53,
+          "pattern": "massive_sampling_*.csv"
+        },
+        {
+          "filename": "massive_sampling_results.json",
+          "size_mb": 0.0,
+          "pattern": "massive_sampling_*.json"
+        },
+        {
+          "filename": "massive_data_metadata.json",
+          "size_mb": 0.0,
+          "pattern": "massive_data_metadata*.json"
+        },
+        {
+          "filename": "massive_data_metadata_clean.json",
+          "size_mb": 0.0,
+          "pattern": "massive_data_metadata*.json"
+        },
+        {
+          "filename": "final_analysis_summary.txt",
+          "size_mb": 0.0,
+          "pattern": "*analysis_summary.*"
+        },
+        {
+          "filename": "optimized_analysis_summary.txt",
+          "size_mb": 0.0,
+          "pattern": "*analysis_summary.*"
+        },
+        {
+          "filename": "robust_analysis_summary.txt",
+          "size_mb": 0.0,
+          "pattern": "*analysis_summary.*"
+        }
+      ]
+    },
+    "gpu_tensors": {
+      "description": "Tensores em formato PyTorch (GPU-accelerated computations)",
+      "file_count": 4,
+      "total_size_mb": 30.52,
+      "files": [
+        {
+          "filename": "mape_bootstrap_1M_gpu.pt",
+          "size_mb": 7.63,
+          "pattern": "*_gpu.pt"
+        },
+        {
+          "filename": "rmse_bootstrap_1M_gpu.pt",
+          "size_mb": 7.63,
+          "pattern": "*_gpu.pt"
+        },
+        {
+          "filename": "mape_bootstrap_1M_clean.pt",
+          "size_mb": 7.63,
+          "pattern": "*_clean.pt"
+        },
+        {
+          "filename": "rmse_bootstrap_1M_clean.pt",
+          "size_mb": 7.63,
+          "pattern": "*_clean.pt"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "files_created": [
+    "mape_bootstrap_1M_clean.npy",
+    "rmse_bootstrap_1M_clean.npy",
+    "phi_samples_100K_clean.npy",
+    "mape_monte_carlo_100K_clean.npy",
+    "mape_permutation_100K_clean.npy",
+    "mape_bootstrap_1M_clean.pt",
+    "rmse_bootstrap_1M_clean.pt",
+    "phi_samples_100K_clean.pt",
+    "mape_monte_carlo_100K_clean.pt",
+    "mape_permutation_100K_clean.pt",
+    "complete_massive_data_clean.pkl",
+    "massive_sampling_sample_30K_clean.csv"
+  ],
+  "total_samples": 1200000,
+  "bootstrap_samples": 1000000,
+  "monte_carlo_samples": 100000,
+  "permutation_samples": 100000,
+  "formats": [
+    "numpy",
+    "pytorch",
+    "pickle",
+    "csv"
+  ],
+  "size_estimate_mb": 18.4
+}

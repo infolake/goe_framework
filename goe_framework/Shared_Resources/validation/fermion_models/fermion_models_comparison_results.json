@@ -1,0 +1,242 @@
+{
+  "metadata": {
+    "date": "2025-10-30T19:59:48.535655",
+    "pdg_version": "2025",
+    "script": "goe_fermion_models_comparison.py",
+    "description": "Comparison of fermion mass models in GoE framework"
+  },
+  "experimental_data": {
+    "masses_MeV": {
+      "e": 0.51099895,
+      "mu": 105.6583755,
+      "tau": 1776.86,
+      "u": 2.16,
+      "c": 1273.0,
+      "t": 172500,
+      "d": 4.67,
+      "s": 93.4,
+      "b": 4183
+    },
+    "uncertainties": {
+      "e": 1.5e-10,
+      "mu": 2.3e-06,
+      "tau": 0.12,
+      "u": [
+        0.49,
+        0.26
+      ],
+      "c": 4.6,
+      "t": 500,
+      "d": [
+        0.48,
+        0.17
+      ],
+      "s": [
+        8.6,
+        3.4
+      ],
+      "b": 7
+    },
+    "source": "Particle Data Group 2025",
+    "reference": "https://pdg.lbl.gov/2025/"
+  },
+  "results": [
+    {
+      "sector": "leptons",
+      "fermions": [
+        "e",
+        "mu",
+        "tau"
+      ],
+      "model_A": {
+        "name": "Power Law",
+        "parameters": {
+          "A": 0.46438433804639984,
+          "p": 3.2203950916793835
+        },
+        "predictions_MeV": {
+          "e": 0.46438433804639984,
+          "mu": 148.87851611656905,
+          "tau": 1387.6104185549236
+        },
+        "errors_percent": {
+          "e": 9.122252003374982,
+          "mu": 40.9055509438237,
+          "tau": 21.906598237625715
+        },
+        "statistics": {
+          "mean_error_percent": 23.9781337282748,
+          "rms_error_percent": 27.30310498811189,
+          "chi2_reduced": 0.2236378625975581,
+          "BIC": 2.4208624399337775
+        }
+      },
+      "model_B": {
+        "name": "Golden Ratio Quantization",
+        "parameters": {
+          "m0": 0.51099895,
+          "phi": 1.618033988749895
+        },
+        "n_values": {
+          "e": 0,
+          "mu": 11,
+          "tau": 17
+        },
+        "predictions_MeV": {
+          "e": 0.51099895,
+          "mu": 101.69135881908025,
+          "tau": 1824.7773935468674
+        },
+        "errors_percent": {
+          "e": 0.0,
+          "mu": 3.754569064825112,
+          "tau": 2.696745581917963
+        },
+        "statistics": {
+          "mean_error_percent": 2.150438215581025,
+          "rms_error_percent": 2.668908990338922,
+          "chi2_reduced": 0.0010684612798067886,
+          "max_n_deviation": 0.07952565327256877,
+          "BIC": 1.1007492112277233
+        }
+      },
+      "comparison": {
+        "delta_BIC": 1.3201132287060542,
+        "preference": "No clear preference"
+      }
+    },
+    {
+      "sector": "up_quarks",
+      "fermions": [
+        "u",
+        "c",
+        "t"
+      ],
+      "model_A": {
+        "name": "Power Law",
+        "parameters": {
+          "A": 1.5884886477724878,
+          "p": 4.346620178851217
+        },
+        "predictions_MeV": {
+          "u": 1.5884886477724878,
+          "c": 3830.999034925017,
+          "t": 77942.63720932874
+        },
+        "errors_percent": {
+          "u": 26.458858899421866,
+          "c": 200.94257933425115,
+          "t": 54.815862487345655
+        },
+        "statistics": {
+          "mean_error_percent": 94.07243357367288,
+          "rms_error_percent": 121.21986936141138,
+          "chi2_reduced": 4.408277018399292,
+          "BIC": 6.605501595735511
+        }
+      },
+      "model_B": {
+        "name": "Golden Ratio Quantization",
+        "parameters": {
+          "m0": 2.16,
+          "phi": 1.618033988749895
+        },
+        "n_values": {
+          "u": 0,
+          "c": 13,
+          "t": 23
+        },
+        "predictions_MeV": {
+          "u": 2.16,
+          "c": 1125.3641458580476,
+          "t": 138410.6400337085
+        },
+        "errors_percent": {
+          "u": 0.0,
+          "c": 11.59747479512588,
+          "t": 19.761947806545795
+        },
+        "statistics": {
+          "mean_error_percent": 10.453140867223892,
+          "rms_error_percent": 13.229210139337122,
+          "chi2_reduced": 0.02625180013661101,
+          "max_n_deviation": 0.4575372131790978,
+          "BIC": 1.1511158889413318
+        }
+      },
+      "comparison": {
+        "delta_BIC": 5.454385706794179,
+        "preference": "Positive preference for Model B"
+      }
+    },
+    {
+      "sector": "down_quarks",
+      "fermions": [
+        "d",
+        "s",
+        "b"
+      ],
+      "model_A": {
+        "name": "Power Law",
+        "parameters": {
+          "A": 3.3482624447403504,
+          "p": 2.523346334232344
+        },
+        "predictions_MeV": {
+          "d": 3.3482624447403504,
+          "s": 307.8680329075018,
+          "b": 1769.9766328831267
+        },
+        "errors_percent": {
+          "d": 28.302731376009625,
+          "s": 229.62316157120105,
+          "b": 57.68643000518464
+        },
+        "statistics": {
+          "mean_error_percent": 105.20410765079845,
+          "rms_error_percent": 137.66573664743106,
+          "chi2_reduced": 5.6855565140039515,
+          "BIC": 7.882781091340171
+        }
+      },
+      "model_B": {
+        "name": "Golden Ratio Quantization",
+        "parameters": {
+          "m0": 4.67,
+          "phi": 1.618033988749895
+        },
+        "n_values": {
+          "d": 0,
+          "s": 6,
+          "b": 14
+        },
+        "predictions_MeV": {
+          "d": 4.67,
+          "s": 83.79974981969609,
+          "b": 3936.804460253179
+        },
+        "errors_percent": {
+          "d": 0.0,
+          "s": 10.278640450004191,
+          "b": 5.8856213183557475
+        },
+        "statistics": {
+          "mean_error_percent": 5.38808725611998,
+          "rms_error_percent": 6.838396200951069,
+          "chi2_reduced": 0.007014549390177302,
+          "max_n_deviation": 0.22539205719422206,
+          "BIC": 1.1126413874484644
+        }
+      },
+      "comparison": {
+        "delta_BIC": 6.770139703891706,
+        "preference": "Strong preference for Model B"
+      }
+    }
+  ],
+  "combined_statistics": {
+    "total_BIC_model_A": 16.90914512700946,
+    "total_BIC_model_B": 3.3645064876175192,
+    "total_delta_BIC": 13.544638639391941
+  }
+}

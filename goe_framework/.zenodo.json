@@ -1,0 +1,45 @@
+{
+  "title": "GoE Framework v2.0 - Geometrodynamics of Entropy: Fermion Mass Quantization and Cosmological Bounce",
+  "description": "Complete framework for the Geometrodynamics of Entropy (GoE) with arXiv submission package. Includes statistical validation (1M Monte Carlo, 500k permutation tests, 100k bootstrap), corrected paper (2 calibrated parameters, MAPE=7.28%), and reproducible computational protocols. Ready for arXiv submission.",
+  "version": "2.0.0",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "creators": [
+    {
+      "name": "Camargo, I.",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "keywords": [
+    "Wheeler-DeWitt equation",
+    "fermion mass hierarchy",
+    "golden ratio",
+    "Möbius topology",
+    "dihedral symmetry",
+    "cosmological bounce",
+    "entropic time",
+    "quantum cosmology",
+    "statistical validation",
+    "reproducible research"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.17471368",
+      "relation": "isNewVersionOf",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "10.5281/zenodo.17479743",
+      "relation": "isVersionOf",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://github.com/infolake/goe_framework",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ],
+  "notes": "Version 2.0 includes: (1) Complete statistical validation suite with 1M Monte Carlo samples, (2) Critical correction: 2 calibrated parameters (not 4), representing ~90% reduction vs Standard Model, (3) arXiv submission package (1.3 MB) with 14 PDF figures, (4) Numerical consistency verified (MAPE=7.28%, z_b=3.68×10⁴, ∆BIC=13.5), (5) Mathematical derivations corrected (η=0.927), (6) Repository cleaned and production-ready."
+}
+

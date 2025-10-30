@@ -1,0 +1,66 @@
+{
+  "file": "mcmc_results_large.npz",
+  "parameters": {
+    "Lambda_Xi (GeV)": 1557.2570039279226,
+    "kappa": 1.5433110014883975,
+    "eps_theta": 9.627691380215316e-11,
+    "prediction": 2.809999416415931e-09,
+    "chi2": 5.322278196276965e-13
+  },
+  "posterior_stats": {
+    "Lambda_Xi (GeV)": {
+      "mean": 1049.8735335834763,
+      "std": 548.1245612987087,
+      "q2_5": 148.08370458971456,
+      "q97_5": 1952.5537863705897
+    },
+    "kappa": {
+      "mean": 1.0001006004203445,
+      "std": 0.3000807921893175,
+      "q2_5": 0.41160221932999286,
+      "q97_5": 1.5879099513166406
+    },
+    "eps_theta": {
+      "mean": 3.6877327800284215e-14,
+      "std": 1.0007304141068715e-10,
+      "q2_5": -1.9606169224333132e-10,
+      "q97_5": 1.9643501555982255e-10
+    },
+    "prediction": {
+      "mean": 2.1237609365389637e-08,
+      "std": 5.4788109328226087e-08,
+      "q2_5": 7.633355376522676e-10,
+      "q97_5": 1.9119791136492703e-07
+    },
+    "chi2": {
+      "mean": 5220.8026729426565,
+      "std": 29894.48013044671,
+      "q2_5": 0.018787959851209284,
+      "q97_5": 55453.133046078554
+    }
+  },
+  "quality_scores": {
+    "sample_size": 10.0,
+    "ess_quality": 10.0,
+    "convergence": 9.999994151380799,
+    "chi2_quality": 10.0
+  },
+  "importance_scores": {
+    "sample_size": 3.0,
+    "physics_significance": 4.0,
+    "parameter_constraints": 2.0,
+    "completeness": 1.0
+  },
+  "ess_results": {
+    "Lambda_Xi (GeV)": 988904.6857612267,
+    "kappa": 988166.6532129948,
+    "eps_theta": 992381.5910811471,
+    "prediction": 993039.9018785508,
+    "chi2": 996157.0257972053
+  },
+  "combined_score": 19.9999985378452,
+  "category": "\ud83d\udd34 CRITICAL",
+  "recommendations": [
+    "This is a CRITICAL result - preserve carefully"
+  ]
+}

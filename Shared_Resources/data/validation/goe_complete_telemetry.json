@@ -1,0 +1,3885 @@
+[
+  {
+    "timestamp": 1761448602.8295283,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.489667391068025,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 0,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448602.8305278,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.31834657713775,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 0,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448623.0671792,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.744991007468048,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 1,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448623.0671792,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.4273228309815154,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 1,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448642.8723667,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.761095881831068,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 2,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448642.8733668,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.343515017402309,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 2,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448660.7997348,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.697844185740232,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 3,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448660.7997348,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.408121142869318,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 3,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448678.1652927,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.632723957687242,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 4,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448678.1652927,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.3112334273428283,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 4,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448696.113516,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.817244414948386,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 5,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448696.113516,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.5462135534839327,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 5,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448718.2248638,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.561104065244422,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 6,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448718.2248638,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.2934383138738172,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 6,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448739.4227026,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.55668963267102,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 7,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448739.4227026,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.2024990022136155,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 7,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448761.031328,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.76234742231817,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 8,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448761.0323281,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.4780694505709695,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 8,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448781.1987166,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.722246691499198,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 9,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448781.1987166,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.381224179646582,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 9,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448801.7769525,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.762740696883132,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 10,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448801.777949,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.3646326758076968,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 10,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448820.9589894,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.857004806125275,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 11,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448820.9589894,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.6116718219080064,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 11,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448839.4150102,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.497673789845722,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 12,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448839.4150102,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.2201902648382594,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 12,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448858.0065625,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.68970407681394,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 13,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448858.0065625,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.4968317384058794,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 13,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448876.4640374,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.496813766162475,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 14,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448876.4640374,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.2287925123574754,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 14,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448895.446441,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.59558852028634,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 15,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448895.446441,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.295855645653487,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 15,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448914.2904925,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.627658745176785,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 16,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448914.2904925,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.42176702436177,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 16,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448932.7899685,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.786071063903998,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 17,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448932.7899685,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.475070136074609,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 17,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448951.3686204,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.504919809416545,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 18,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448951.3686204,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.267528669364401,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 18,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448969.1705925,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.765810696414857,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 19,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448969.1705925,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.430348487235078,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 19,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448987.0999012,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.608722813893158,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 20,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761448987.0999012,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.4112289484355296,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 20,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449006.288896,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.778018714588878,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 21,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449006.288896,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.5102920377118534,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 21,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449029.3808033,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.578861000449375,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 22,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449029.3818057,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.223002346783879,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 22,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449053.3926313,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.665972254892218,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 23,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449053.3936312,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.4297027117146817,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 23,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449082.2532947,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.567406645194547,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 24,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449082.2532947,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.263983169614454,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 24,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449102.6747174,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.548315647855492,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 25,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449102.6747174,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.0894222056531873,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 25,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449120.1750512,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.832683357061352,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 26,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449120.1750512,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.70163515598492,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 26,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449138.5686908,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.664946412829122,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 27,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449138.5696905,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.376928459036789,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 27,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449160.0483696,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.758058247057404,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 28,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449160.0483696,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.4636411598181276,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 28,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449177.5942423,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.776296889265929,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 29,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449177.5942423,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.4183310221925947,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 29,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449198.4832218,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.899155593407173,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 30,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449198.4832218,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.6492236088855474,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 30,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449217.251861,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.699993707673887,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 31,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449217.251861,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.4264859610749276,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 31,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449235.7155771,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.902072300647768,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 32,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449235.7165787,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.561991461671014,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 32,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449259.279243,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.80469865462492,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 33,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449259.279243,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.4416700532470355,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 33,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449282.9006078,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.633438498343457,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 34,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449282.9006078,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.286006411825388,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 34,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449305.8186734,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.761329819749582,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 35,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449305.8186734,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.5495982312319674,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 35,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449330.519399,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.587094558795743,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 36,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449330.519399,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.4245715611850605,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 36,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449352.832908,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.646598577536148,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 37,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449352.8339086,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.235052189647394,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 37,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449372.3303928,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.82845332963346,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 38,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449372.3303928,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.5737503966955138,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 38,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449390.4917958,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.57446440909978,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 39,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449390.4917958,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.2512805307825445,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 39,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449410.5801156,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.559651139124474,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 40,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449410.5801156,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.3755183746491997,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 40,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449433.7084525,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.493981190122394,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 41,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449433.7084525,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.209797846057999,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 41,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449456.7463424,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.753200423833219,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 42,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449456.7463424,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.4067327700381105,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 42,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449474.2602816,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.805028424537612,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 43,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449474.2602816,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.3392435889256338,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 43,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449491.7746882,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.762422672284337,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 44,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449491.7746882,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.444254506523021,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 44,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449509.514468,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.5052937853491,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 45,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449509.5154665,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.2826651412001127,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 45,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449527.7041886,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.68629467145528,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 46,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449527.7041886,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.4387286654756104,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 46,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449546.209892,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.821659460304305,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 47,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449546.209892,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.517301471027173,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 47,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449566.4941535,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.655028885950266,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 48,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449566.4941535,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.4278451544029505,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 48,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449586.820437,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.57185660867141,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 49,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449586.820437,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.3371738004611533,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 49,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449605.7271028,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.699568207398997,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 50,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449605.7271028,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.438284896399086,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 50,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449621.8581264,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.597583959838484,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 51,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449621.8581264,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.3389179401614215,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 51,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449637.472805,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.54241138968841,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 52,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449637.472805,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.250609150828544,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 52,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449651.3957496,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.676800107456442,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 53,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449651.3957496,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.4351715521804813,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 53,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449665.4615386,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.69363725900556,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 54,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449665.4615386,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.4135153062759254,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 54,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449680.944802,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.677805008232742,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 55,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449680.944802,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.336718953630307,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 55,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449696.0401113,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.886104856839925,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 56,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449696.0401113,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.5102785597714816,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 56,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449710.9388897,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.633984829443945,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 57,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449710.9388897,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.358577740791033,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 57,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449726.9434547,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.614131286555585,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 58,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449726.9434547,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.3757311069296176,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 58,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449740.2607887,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.636224703914545,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 59,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449740.2607887,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.3194745000341466,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 59,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449751.37876,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.69941276041713,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 60,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449751.37876,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.6004122707470305,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 60,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449761.5004146,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.615120223293424,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 61,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449761.5014167,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.2585333108144976,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 61,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449771.6159325,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.687986863938471,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 62,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449771.6159325,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.4206402635584445,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 62,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449781.4992254,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.518617448059825,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 63,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449781.4992254,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.208777744480204,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 63,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449791.5543818,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.65701792931091,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 64,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449791.5553815,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.364656460028222,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 64,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449803.9468527,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.599000515545235,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 65,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449803.9468527,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.4209988205521755,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 65,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449815.5105798,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.854663657827604,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 66,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449815.5105798,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.374327914374179,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 66,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449827.7610438,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.41312559751454,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 67,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449827.7620456,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.15940661186663,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 67,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449838.9002562,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.669625132627909,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 68,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449838.9002562,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.4177285626148577,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 68,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449851.01723,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.55024856044654,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 69,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449851.01723,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.1601887748058526,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 69,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449863.304025,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.734767779218059,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 70,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449863.304025,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.43251956667918,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 70,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449876.5055733,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.797245593229366,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 71,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449876.5055733,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.4888101155093247,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 71,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449888.980413,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.635083784207676,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 72,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449888.9814134,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.4171967780952768,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 72,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449900.5757804,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.821339274976141,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 73,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449900.5757804,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.572440948590327,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 73,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449911.4316483,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.682790821357056,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 74,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449911.4326437,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.34798032520442,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 74,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449925.3966024,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.819679393934294,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 75,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449925.3966024,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.5661999525027785,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 75,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449935.9708984,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.733201603664432,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 76,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449935.9708984,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.401319514112261,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 76,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449946.4621024,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.800106694278723,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 77,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449946.4621024,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.6260988214269423,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 77,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449956.6190581,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.744208594032287,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 78,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449956.6190581,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.5380921284683984,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 78,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449968.146094,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.595191140502862,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 79,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449968.146094,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.467339040685994,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 79,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449978.3243234,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.634868902375628,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 80,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449978.3243234,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.3653952613605975,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 80,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449989.5316722,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.79533166710429,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 81,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761449989.5316722,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.5522837143584542,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 81,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450000.1286488,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.897927906974836,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 82,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450000.1296487,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.5333682957182893,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 82,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450010.577582,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.823529457011224,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 83,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450010.577582,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.4724522615628577,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 83,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450021.610375,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.799467883059165,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 84,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450021.610375,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.5149721557145415,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 84,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450032.8074398,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.64987681067159,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 85,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450032.8074398,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.4806570117864672,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 85,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450044.051321,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.663829371418586,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 86,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450044.051321,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.3426449548402473,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 86,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450056.3885107,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.753650321293524,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 87,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450056.3885107,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.456399509743094,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 87,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450067.2973545,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.780036996286855,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 88,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450067.2973545,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.685553359161987,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 88,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450081.9613116,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.589903926746883,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 89,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450081.9613116,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.3470584650929918,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 89,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450092.3815355,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.785839699428175,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 90,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450092.3815355,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.488978520590483,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 90,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450103.464971,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.826384838817454,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 91,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450103.464971,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.5023792746708087,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 91,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450115.0275748,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.718162933036986,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 92,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450115.028575,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.50213995388556,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 92,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450126.2417946,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.573160872077722,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 93,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450126.2417946,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.3808466447598233,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 93,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450137.9571733,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.821453305087385,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 94,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450137.9571733,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.521548264395537,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 94,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450148.6130438,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.6252848840695,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 95,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450148.6130438,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.439583561708956,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 95,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450163.5763264,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.64181833394667,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 96,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450163.5763264,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.279334356094663,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 96,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450176.6902459,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.492783268828672,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 97,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450176.6902459,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.161297117900229,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 97,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450192.0295699,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.799124533346367,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 98,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450192.0295699,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.477652961509888,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 98,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450206.6385932,
+    "event_type": "monte_carlo",
+    "event_name": "batch_complete",
+    "value": 8.536293634960671,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 99,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450206.6385932,
+    "event_type": "monte_carlo",
+    "event_name": "batch_std",
+    "value": 3.372284537704336,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 99,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450206.6575935,
+    "event_type": "monte_carlo",
+    "event_name": "analysis_complete",
+    "value": 8.68556353839036,
+    "unit": "MAPE%",
+    "tags": {
+      "total_samples": 100000,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450224.2550662,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 68897758.43657917,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 0,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450249.1730778,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 72064533.09004605,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 1,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450264.8566937,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 79377930.28472205,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 2,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450279.1477118,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 74894191.45954813,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 3,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450292.7893062,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 75378833.9355043,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 4,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450305.7471762,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 70037858.30781534,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 5,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450319.8569853,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 71463645.28618562,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 6,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450333.2161093,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 70391776.50104396,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 7,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450346.4495535,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 77869008.75445572,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 8,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450359.4898083,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 73668190.08825625,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 9,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450372.3283684,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 73622923.57736158,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 10,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450385.361176,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 70014386.57628207,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 11,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450398.3425398,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 70850043.23857746,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 12,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450411.718795,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 71938573.08765012,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 13,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450424.681872,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 72124215.27935895,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 14,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450437.8927104,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 73862898.0514305,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 15,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450450.1281111,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 74469138.95663358,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 16,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450462.8037357,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 72754352.49531525,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 17,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450474.5742772,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 72384806.89836997,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 18,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450486.794802,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 71910227.49466023,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 19,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450499.3104393,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 74692961.13163519,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 20,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450511.9402542,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 72709853.77397029,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 21,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450528.8739214,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 74042708.47101322,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 22,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450543.3183854,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 72759918.03485708,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 23,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450557.3561044,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 69365327.52962403,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 24,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450570.0466762,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 71924632.90817142,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 25,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450584.6027365,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 75321249.98339373,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 26,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450599.9092417,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 77520334.30032992,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 27,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450614.20996,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 75986825.73156086,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 28,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450627.978719,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 69139579.5346159,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 29,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450641.8465254,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 74475212.0253075,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 30,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450655.4832866,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 73631235.8053551,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 31,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450668.1809483,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 71856356.00616618,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 32,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450682.036946,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 70404813.69587493,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 33,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450694.9161942,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 76653719.8748355,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 34,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450707.6097944,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 72565986.76443903,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 35,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450723.5007937,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 76775872.28593679,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 36,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450737.2617116,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 69154293.29389526,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 37,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450750.0211809,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 67420404.92907678,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 38,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450762.717404,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 65237523.33372365,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 39,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450776.2101836,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 68281200.01739104,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 40,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450789.0037131,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 74279685.71233761,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 41,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450801.9209275,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 71318649.41026181,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 42,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450815.9382195,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 69433733.52936588,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 43,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450829.6851935,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 72929150.18240768,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 44,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450842.9309573,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 70837074.77458686,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 45,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450855.8981779,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 73017011.07309498,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 46,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450868.8531628,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 71003738.45832752,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 47,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450882.7406259,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 73860480.5192865,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 48,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450897.542351,
+    "event_type": "permutation",
+    "event_name": "batch_complete",
+    "value": 76794805.98508191,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 49,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450897.5456567,
+    "event_type": "permutation",
+    "event_name": "analysis_complete",
+    "value": 72627392.61751442,
+    "unit": "MAPE%",
+    "tags": {
+      "total_samples": 50000,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450899.5746732,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685689934292462,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 0,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450901.6898406,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.686241658811909,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 1,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450903.5854237,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685594648444727,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 2,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450905.561356,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685931284177132,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 3,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450907.4008312,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685711076897128,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 4,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450909.3193681,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685465226761506,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 5,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450910.776912,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.68557992607147,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 6,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450912.4505897,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.68558922123199,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 7,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450914.155217,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685830064410688,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 8,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450915.6571908,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685986577771637,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 9,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450918.1073682,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685354123785483,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 10,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450921.0403411,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685436691060367,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 11,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450923.848098,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685904632618062,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 12,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450926.5051625,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.68523470593932,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 13,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450928.0544767,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685247326341287,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 14,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450930.0107312,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685686654706968,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 15,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450931.8872378,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685254028232153,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 16,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450934.1061852,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685211719078,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 17,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450936.264586,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.68516660356861,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 18,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450938.038547,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.6853074971864,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 19,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450939.697358,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.68568069044984,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 20,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450941.2406693,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685287452821573,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 21,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450942.8270545,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685738103645704,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 22,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450944.3503983,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.68560912832861,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 23,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450945.8474624,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.686227280175224,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 24,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450947.4187107,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685573046488303,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 25,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450949.4074159,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685215188196464,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 26,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450950.8689659,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685875773314296,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 27,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450952.4480486,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685619612295167,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 28,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450953.8941898,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685805064418457,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 29,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450955.4399974,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685482736248746,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 30,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450956.9199617,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685740555072753,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 31,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450958.4427652,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.68537266017511,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 32,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450960.220022,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.68577904060601,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 33,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450962.2069285,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685460127221624,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 34,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450964.191638,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.684284087868356,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 35,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450966.0052147,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685434874588768,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 36,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450967.7098658,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685671411459936,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 37,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450969.7205245,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.686049192474114,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 38,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450971.5287666,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685462576241404,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 39,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450973.1256218,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685236445084987,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 40,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450974.7009115,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685295736658173,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 41,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450976.3096182,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685592901564196,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 42,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450978.2298293,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685316797760787,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 43,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450980.1096256,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685310008730193,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 44,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450981.7404592,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.68531580375458,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 45,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450983.3852527,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.686089244528564,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 46,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450985.062696,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.68485006268977,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 47,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450986.6777112,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685361006649782,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 48,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450988.3472848,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685442662401721,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 49,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450990.6886806,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685845564662966,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 50,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450992.54577,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685562906686846,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 51,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450994.08407,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.68534852429101,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 52,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450995.678881,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.684898288048293,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 53,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450997.40996,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.68545421150963,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 54,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761450998.986552,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.68533046282699,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 55,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451000.7163386,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.6851151941845,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 56,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451002.3378007,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685198370900672,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 57,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451003.9110756,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685240844273437,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 58,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451005.4347658,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685221030303103,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 59,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451007.0006757,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685759257501799,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 60,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451009.4407115,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685053463588263,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 61,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451011.5973618,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685928172195071,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 62,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451013.6068087,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685736260299029,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 63,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451015.9144177,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.684979245714786,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 64,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451017.9458342,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.686218525201914,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 65,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451019.6757438,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.686093964413534,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 66,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451021.469878,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.68568342371876,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 67,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451023.3929648,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.68522644232514,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 68,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451025.5416813,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685526512334675,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 69,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451027.5697901,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685532255904894,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 70,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451029.3008676,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685305201664239,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 71,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451030.8918533,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.686019792469091,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 72,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451032.6887228,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685706377316155,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 73,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451034.4929695,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.68574266247924,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 74,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451036.284466,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.68535881798387,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 75,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451038.1471953,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.68583383753039,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 76,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451040.0740056,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685118657901054,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 77,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451041.8724213,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685357858263556,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 78,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451043.9801536,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.68494079140414,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 79,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451045.8100584,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685709371519886,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 80,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451047.719019,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685576967036553,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 81,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451049.657957,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685514076434147,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 82,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451052.0923507,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685773401865521,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 83,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451054.083544,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.68544185501542,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 84,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451056.3049276,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.686013238358385,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 85,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451058.753278,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685274502446017,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 86,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451060.479666,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685970664791261,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 87,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451062.3110704,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685198340763877,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 88,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451063.9408467,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.686034064495226,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 89,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451065.6328452,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.68574650539898,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 90,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451067.398454,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685129948151625,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 91,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451069.350843,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.684620710800365,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 92,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451070.957255,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.686487017675734,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 93,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451072.6283615,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685010757489339,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 94,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451074.4611838,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.68544090998159,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 95,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451076.3277419,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685313983342398,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 96,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451077.9342227,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.68543036977509,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 97,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451079.4614122,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.685269583775003,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 98,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451080.98726,
+    "event_type": "bootstrap",
+    "event_name": "batch_complete",
+    "value": 8.68512719015291,
+    "unit": "MAPE%",
+    "tags": {
+      "batch": 99,
+      "run_id": "goe_1761448583"
+    }
+  },
+  {
+    "timestamp": 1761451080.9932604,
+    "event_type": "bootstrap",
+    "event_name": "analysis_complete",
+    "value": 8.685510232504669,
+    "unit": "MAPE%",
+    "tags": {
+      "total_samples": 100000,
+      "run_id": "goe_1761448583"
+    }
+  }
+]

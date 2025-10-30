@@ -1,0 +1,27 @@
+{
+  "files_created": [
+    "mape_bootstrap_1M.npy",
+    "rmse_bootstrap_1M.npy",
+    "phi_samples_100K.npy",
+    "mape_monte_carlo_100K.npy",
+    "mape_permutation_100K.npy",
+    "mape_bootstrap_1M.pt",
+    "rmse_bootstrap_1M.pt",
+    "phi_samples_100K.pt",
+    "mape_monte_carlo_100K.pt",
+    "mape_permutation_100K.pt",
+    "complete_massive_data.pkl",
+    "massive_sampling_sample_30K.csv"
+  ],
+  "total_samples": 1200000,
+  "bootstrap_samples": 1000000,
+  "monte_carlo_samples": 100000,
+  "permutation_samples": 100000,
+  "formats": [
+    "numpy",
+    "pytorch",
+    "pickle",
+    "csv"
+  ],
+  "size_estimate_mb": 18.4
+}

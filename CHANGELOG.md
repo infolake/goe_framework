@@ -7,6 +7,13 @@ All notable changes to the GoE Framework will be documented in this file.
 ### 🎯 Major Release - arXiv Submission Ready
 
 #### Added
+- **MCMC Analysis Package** (39 MB - complete audit trail)
+  - mcmc_results_large.npz (37 MB, 1M samples, score 20/20)
+  - 4 analysis scripts: comprehensive, detailed, g-2, GPU-accelerated
+  - 2 JSON reports: analysis + detailed statistics
+  - Diagnostic plot: trace + posterior + convergence (1.8 MB)
+  - Organized: Shared_Resources/data/mcmc/, scripts/mcmc/, figures/mcmc/
+
 - **Complete statistical validation suite**
   - 1M Monte Carlo samples validation
   - 500k permutation tests (p=0.004476)

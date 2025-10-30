@@ -34,20 +34,33 @@ sns.set_palette("husl")
 # Golden ratio
 PHI = (1 + np.sqrt(5)) / 2
 
-# Experimental fermion masses (PDG 2023) in MeV
+# Experimental fermion masses (PDG 2025) in MeV
 FERMION_MASSES_EXP = {
-    # Charged leptons
-    'e': 0.5109989461,
-    'mu': 105.6583745,
-    'tau': 1776.86,
-    # Up-type quarks (MS-bar @ 2 GeV)
-    'u': 2.16,
-    'c': 1275,
-    't': 172760,
-    # Down-type quarks (MS-bar @ 2 GeV)
-    'd': 4.67,
-    's': 93.4,
-    'b': 4180
+    # Charged leptons (full precision)
+    'e': 0.51099895000,      # ±0.00000000015 MeV
+    'mu': 105.6583755,       # ±0.0000023 MeV
+    'tau': 1776.86,          # ±0.12 MeV
+    # Up-type quarks (MS-bar @ 2 GeV for u; @ m_c for c; pole mass for t)
+    'u': 2.16,               # +0.49/-0.26 MeV @ 2 GeV
+    'c': 1273.0,             # ±4.6 MeV @ m_c
+    't': 172500,             # ±500 MeV (pole mass)
+    # Down-type quarks (MS-bar @ 2 GeV for d,s; @ m_b for b)
+    'd': 4.67,               # +0.48/-0.17 MeV @ 2 GeV
+    's': 93.4,               # +8.6/-3.4 MeV @ 2 GeV
+    'b': 4183                # ±7 MeV @ m_b
+}
+
+# Experimental uncertainties (PDG 2025)
+FERMION_MASSES_UNC = {
+    'e': 0.00000000015,
+    'mu': 0.0000023,
+    'tau': 0.12,
+    'u': (0.49, 0.26),       # (+upper, -lower)
+    'c': 4.6,
+    't': 500,
+    'd': (0.48, 0.17),
+    's': (8.6, 3.4),
+    'b': 7
 }
 
 # Fermion sectors
@@ -550,5 +563,162 @@ def main():
     
     return all_results
 
+# =============================================================================
+# DATA EXPORT FUNCTIONS
+# =============================================================================
+
+def export_to_json(results, filename='fermion_models_comparison_results.json'):
+    """
+    Export analysis results to JSON file.
+    
+    Parameters:
+    -----------
+    results : list
+        List of result dictionaries from main()
+    filename : str
+        Output JSON filename
+    """
+    import json
+    from datetime import datetime
+    
+    # Prepare export data
+    export_data = {
+        'metadata': {
+            'date': datetime.now().isoformat(),
+            'pdg_version': '2025',
+            'script': 'goe_fermion_models_comparison.py',
+            'description': 'Comparison of fermion mass models in GoE framework'
+        },
+        'experimental_data': {
+            'masses_MeV': FERMION_MASSES_EXP,
+            'uncertainties': FERMION_MASSES_UNC,
+            'source': 'Particle Data Group 2025',
+            'reference': 'https://pdg.lbl.gov/2025/'
+        },
+        'results': []
+    }
+    
+    # Add results for each sector
+    for r in results:
+        sector_data = {
+            'sector': r['sector'],
+            'fermions': SECTORS[r['sector']],
+            'model_A': {
+                'name': 'Power Law',
+                'parameters': {
+                    'A': float(r['model_A']['A']),
+                    'p': float(r['model_A']['p'])
+                },
+                'predictions_MeV': {f: float(v) for f, v in zip(SECTORS[r['sector']], r['model_A']['predictions'])},
+                'errors_percent': {f: float(v) for f, v in zip(SECTORS[r['sector']], r['model_A']['errors'])},
+                'statistics': {
+                    'mean_error_percent': float(r['model_A']['mean_error']),
+                    'rms_error_percent': float(r['model_A']['rms_error']),
+                    'chi2_reduced': float(r['model_A']['chi2_red']),
+                    'BIC': float(r['comparison']['BIC_A'])
+                }
+            },
+            'model_B': {
+                'name': 'Golden Ratio Quantization',
+                'parameters': {
+                    'm0': float(r['model_B']['m0']),
+                    'phi': float(r['model_B']['phi'])
+                },
+                'n_values': {f: int(n) for f, n in zip(SECTORS[r['sector']], r['model_B']['n_values'])},
+                'predictions_MeV': {f: float(v) for f, v in zip(SECTORS[r['sector']], r['model_B']['predictions'])},
+                'errors_percent': {f: float(v) for f, v in zip(SECTORS[r['sector']], r['model_B']['errors'])},
+                'statistics': {
+                    'mean_error_percent': float(r['model_B']['mean_error']),
+                    'rms_error_percent': float(r['model_B']['rms_error']),
+                    'chi2_reduced': float(r['model_B']['chi2_red']),
+                    'max_n_deviation': float(r['model_B']['max_n_deviation']),
+                    'BIC': float(r['comparison']['BIC_B'])
+                }
+            },
+            'comparison': {
+                'delta_BIC': float(r['comparison']['ΔBIC']),
+                'preference': r['comparison']['preference']
+            }
+        }
+        export_data['results'].append(sector_data)
+    
+    # Calculate combined statistics
+    total_bic_A = sum([r['comparison']['BIC_A'] for r in results])
+    total_bic_B = sum([r['comparison']['BIC_B'] for r in results])
+    export_data['combined_statistics'] = {
+        'total_BIC_model_A': float(total_bic_A),
+        'total_BIC_model_B': float(total_bic_B),
+        'total_delta_BIC': float(total_bic_A - total_bic_B)
+    }
+    
+    # Save to file
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(export_data, f, indent=2, ensure_ascii=False)
+    
+    print(f"\n[OK] Results exported to: {filename}")
+    return filename
+
+def export_to_csv(results, filename='fermion_models_comparison_results.csv'):
+    """
+    Export analysis results to CSV file.
+    
+    Parameters:
+    -----------
+    results : list
+        List of result dictionaries from main()
+    filename : str
+        Output CSV filename
+    """
+    import csv
+    
+    # Prepare CSV data
+    csv_data = []
+    
+    for r in results:
+        sector = r['sector']
+        fermions = SECTORS[sector]
+        
+        for i, fermion in enumerate(fermions):
+            row = {
+                'sector': sector,
+                'fermion': fermion,
+                'mass_exp_MeV': FERMION_MASSES_EXP[fermion],
+                'mass_uncertainty': FERMION_MASSES_UNC[fermion] if isinstance(FERMION_MASSES_UNC[fermion], (int, float)) else f"+{FERMION_MASSES_UNC[fermion][0]}/-{FERMION_MASSES_UNC[fermion][1]}",
+                'model_A_prediction_MeV': r['model_A']['predictions'][i],
+                'model_A_error_percent': r['model_A']['errors'][i],
+                'model_A_A': r['model_A']['A'],
+                'model_A_p': r['model_A']['p'],
+                'model_B_n': r['model_B']['n_values'][i],
+                'model_B_prediction_MeV': r['model_B']['predictions'][i],
+                'model_B_error_percent': r['model_B']['errors'][i],
+                'model_B_m0': r['model_B']['m0'],
+                'model_B_phi': r['model_B']['phi']
+            }
+            csv_data.append(row)
+    
+    # Save to CSV
+    if csv_data:
+        fieldnames = csv_data[0].keys()
+        with open(filename, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(csv_data)
+        
+        print(f"[OK] Results exported to: {filename}")
+    
+    return filename
+
 if __name__ == "__main__":
     results = main()
+    
+    # Export results to JSON and CSV
+    print("\n" + "="*70)
+    print("EXPORTING RESULTS")
+    print("="*70)
+    
+    export_to_json(results)
+    export_to_csv(results)
+    
+    print("\n" + "="*70)
+    print("ALL FILES SAVED SUCCESSFULLY")
+    print("="*70)

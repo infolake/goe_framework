@@ -431,5 +431,141 @@ def main():
         'baryon_errors': baryon_errors
     }
 
+# =============================================================================
+# DATA EXPORT FUNCTIONS
+# =============================================================================
+
+def export_to_json(results, filename='goe_strong_force_analysis_results.json'):
+    """
+    Export strong force analysis results to JSON file.
+    
+    Parameters:
+    -----------
+    results : dict
+        Dictionary of results from main()
+    filename : str
+        Output JSON filename
+    """
+    import json
+    from datetime import datetime
+    
+    # Prepare export data
+    export_data = {
+        'metadata': {
+            'date': datetime.now().isoformat(),
+            'pdg_version': '2025',
+            'script': 'goe_strong_force_analysis.py',
+            'description': 'Strong nuclear force analysis in GoE framework'
+        },
+        'constants': {
+            'phi': float(PHI),
+            'alpha_em': float(ALPHA_EM),
+            'hbar_c_GeV_fm': float(HBAR_C),
+            'Lambda_QCD_GeV': float(LAMBDA_QCD),
+            'R_N_fm': float(R_N),
+            'L_N_fm': float(L_N)
+        },
+        'strong_coupling': {
+            'Q_values_GeV': results['Q_values'].tolist(),
+            'alpha_s_values': results['alpha_s_values'].tolist()
+        },
+        'quark_potential': {
+            'r_values_fm': results['r_values'].tolist(),
+            'V_total_GeV': results['V_total'].tolist(),
+            'description': 'V(r) = V_Coulomb + V_Linear + V_Geometric'
+        },
+        'hadron_masses': {
+            'mesons': {
+                'data': results['meson_data'],
+                'errors_percent': results['meson_errors']
+            },
+            'baryons': {
+                'data': results['baryon_data'],
+                'errors_percent': results['baryon_errors']
+            }
+        }
+    }
+    
+    # Save to file
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(export_data, f, indent=2, ensure_ascii=False)
+    
+    print(f"\n[OK] Results exported to: {filename}")
+    return filename
+
+def export_to_csv(results, filename='goe_strong_force_analysis_results.csv'):
+    """
+    Export strong force analysis results to CSV file.
+    
+    Parameters:
+    -----------
+    results : dict
+        Dictionary of results from main()
+    filename : str
+        Output CSV filename
+    """
+    import csv
+    
+    # Prepare CSV data for hadron masses
+    csv_data = []
+    
+    # Add meson data
+    for meson, data in results['meson_data'].items():
+        row = {
+            'type': 'meson',
+            'particle': meson,
+            'n': data['n'],
+            'mass_predicted_MeV': data['mass_pred'],
+            'mass_experimental_MeV': data['mass_exp'],
+            'error_percent': results['meson_errors'][meson]
+        }
+        csv_data.append(row)
+    
+    # Add baryon data
+    for baryon, data in results['baryon_data'].items():
+        row = {
+            'type': 'baryon',
+            'particle': baryon,
+            'n': data['n'],
+            'mass_predicted_MeV': data['mass_pred'],
+            'mass_experimental_MeV': data['mass_exp'],
+            'error_percent': results['baryon_errors'][baryon]
+        }
+        csv_data.append(row)
+    
+    # Save to CSV
+    if csv_data:
+        fieldnames = ['type', 'particle', 'n', 'mass_predicted_MeV', 'mass_experimental_MeV', 'error_percent']
+        with open(filename, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(csv_data)
+        
+        print(f"[OK] Results exported to: {filename}")
+    
+    # Also save coupling constant data
+    coupling_filename = filename.replace('.csv', '_coupling.csv')
+    with open(coupling_filename, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.writer(f)
+        writer.writerow(['Q_GeV', 'alpha_s'])
+        for Q, alpha in zip(results['Q_values'], results['alpha_s_values']):
+            writer.writerow([Q, alpha])
+    
+    print(f"[OK] Coupling constant data exported to: {coupling_filename}")
+    
+    return filename
+
 if __name__ == "__main__":
     results = main()
+    
+    # Export results to JSON and CSV
+    print("\n" + "="*60)
+    print("EXPORTING RESULTS")
+    print("="*60)
+    
+    export_to_json(results)
+    export_to_csv(results)
+    
+    print("\n" + "="*60)
+    print("ALL FILES SAVED SUCCESSFULLY")
+    print("="*60)

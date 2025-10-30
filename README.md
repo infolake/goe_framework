@@ -6,6 +6,19 @@
 
 **A geometric framework unifying fermion mass quantization and cosmological bounce through 6D pentagonal topology**
 
+---
+
+## 📄 Paper
+
+**📖 [Geometrodynamics of Entropy: Fermion Mass Quantization and Cosmological Bounce from an Extended Wheeler-DeWitt Framework](Geometrodynamics_of_Entropy_Fermion_Mass_Quantization_and_Cosmological_Bounce_from_Extended_Wheeler_DeWitt_Framework.pdf)** (PDF, 870 KB, 45 pages)
+
+- **Status:** Production ready for arXiv submission
+- **Version:** v2.0 (2025-10-29)
+- **DOI:** [10.5281/zenodo.17479743](https://doi.org/10.5281/zenodo.17479743)
+- **Statistical Validation:** 1M Monte Carlo + 500k Permutation + 100k Bootstrap
+- **Key Result:** MAPE = 7.28%, only 2 calibrated parameters (~90% reduction vs SM)
+- **arXiv Submission Package:** [papers/arxiv_submission/arxiv_submission_final_corrected.zip](papers/arxiv_submission/arxiv_submission_final_corrected.zip)
+
 **Author:** Guilherme de Camargo, MD (PHIQ.IO Research Group)  
 **Date:** October 2025  
 **Status:** Ready for arXiv submission

@@ -1,6 +1,11 @@
 \documentclass[12pt]{article}
 \usepackage[utf8]{inputenc}
+% Use scalable Latin Modern fonts to enable microtype expansion
+\usepackage{lmodern}
 \usepackage{amsmath,amsfonts,amssymb,mathrsfs}
+\usepackage{amsthm}
+% Improve kerning, protrusion and line-breaking to avoid overfull boxes
+\usepackage[final]{microtype}
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{siunitx}
@@ -24,6 +29,13 @@
     citecolor=[rgb]{0.2,0.4,0.5}
 }
 
+% Gentler line-breaking defaults to reduce overfull hboxes without affecting layout
+\allowdisplaybreaks[2]
+\tolerance=1200
+\emergencystretch=2em
+\binoppenalty=700
+\relpenalty=700
+
 % Code listing setup
 \lstset{
     language=Python,
@@ -39,10 +51,19 @@
     backgroundcolor=\color{white}
 }
 
+% Theorem environments
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\theoremstyle{plain}
+\newtheorem{proposition}{Proposition}
+\newtheorem{lemma}{Lemma}
+
 % Nomenclature for Sigma-Moebius terms
 \newcommand{\Moebius}{M\"obius}
-\newcommand{\SigMoeb}{\Sigma\text{--}\Moebius}
-\newcommand{\StiffTerm}{\alpha_{\SigMoeb} a^{-6}}
+% Safe in text and math: \Sigma forced into math, rest typeset as text
+\newcommand{\SigMoeb}{\ensuremath{\Sigma}\text{--}\Moebius}
+% Math-safe stiff term, usable in text and math
+\newcommand{\StiffTerm}{\ensuremath{\alpha_{\text{\SigMoeb}}\, a^{-6}}}
 
 \title{Geometrodynamics of Entropy: Fermion Mass Quantization and Cosmological Bounce from an Extended Wheeler-DeWitt Framework}
 
@@ -99,7 +120,7 @@ $m_f$ & Fermion mass: $m_f=m_{0,\text{sector}}\,\varphi^{\,n_f}$ \\
 $m_0^{(\ell)}$ & \textbf{Calibrated} leptonic base scale (electron mass = 0.511 MeV); all other $m_0$ are \textbf{derived} \\
 $m_0^{(u,d)}$ & \textbf{Derived} from $m_0^{(\ell)}/\varphi^2$ (up) and $m_0^{(\ell)} \cdot \varphi \cdot \eta$ (down), not fitted \\
 $\alpha$ & \textbf{Calibrated} \SigMoeb\ stiffness in Friedmann (\StiffTerm) controlling the bounce; $\alpha \sim 7.3 \times 10^{-14} H_0^2$ \\
-$\eta \simeq 0.93$ & \textbf{Derived} holographic projection efficiency from $C_5$ orientability projector (Sec.~\ref{sec:eta_derivation}); $\eta = 3\sqrt{5}/5$ \\
+$\eta \simeq 0.93$ & \textbf{Derived} holographic projection efficiency from $C_5$ orientability projector (Sec.~\ref{sec:eta_derivation}); $\eta = \frac{3\sqrt{5}}{5}$ \\
 $\mathcal{L}$ & Effective 4D Lagrangian (GoE sector) after dimensional reduction \\
 $z_b$ & Bounce redshift $\sim 3.68\times10^4$ (CMB/BBN--safe) \\
 $\Delta_{C_5}$ & Laplacian on $C_5$; $\mathrm{Spec}(\Delta_{C_5})=\{0,\,2-\varphi^{-1},\,2+\varphi\}$ \\
@@ -174,9 +195,9 @@ All later results are specializations of this chain.
 \paragraph{What is derived vs. what is calibrated.}
 To avoid confusion, we explicitly distinguish:
 \begin{itemize}
-\item \textbf{Derived (0 free parameters):} The golden ratio $\varphi = (1+\sqrt{5})/2$ from $\mathrm{Spec}(\Delta_{C_5})$; holographic efficiency $\eta = 3\sqrt{5}/5 \approx 0.93$ from the $C_5$ projector; semi-integer KK modes $k \in \mathbb{Z}+\tfrac{1}{2}$ from M\"obius holonomy; dihedral selection rules $H_{\text{sector}} \subset \mathbb{Z}_5$ from $D_5$ representation theory.
+\item \textbf{Derived (0 free parameters):} The golden ratio $\varphi = (1+\sqrt{5})/2$ from $\mathrm{Spec}(\Delta_{C_5})$; holographic efficiency $\eta = \frac{3\sqrt{5}}{5} \approx 0.93$ from the $C_5$ projector; semi-integer KK modes $k \in \mathbb{Z}+\tfrac{1}{2}$ from M\"obius holonomy; dihedral selection rules $H_{\text{sector}} \subset \mathbb{Z}_5$ from $D_5$ representation theory.
 
-\item \textbf{Calibrated (2 constants):} The leptonic base mass $m_0^{(\ell)} = 0.511$ MeV (electron, single-point anchor from PDG) and the stiffness $\alpha \sim 7.3 \times 10^{-14} H_0^2$ controlling the bounce redshift. The quark sector bases are \textbf{derived}: $m_0^{(u)} = m_0^{(\ell)}/\varphi^2 = 2.16$ MeV and $m_0^{(d)} = m_0^{(\ell)} \cdot \varphi \cdot \eta = 4.67$ MeV, where $\eta = 3\sqrt{5}/5 \approx 0.93$ is the holographic projection efficiency (see Sec.~\ref{sec:eta_derivation}).
+\item \textbf{Calibrated (2 constants):} The leptonic base mass $m_0^{(\ell)} = 0.511$ MeV (electron, single-point anchor from PDG) and the stiffness $\alpha \sim 7.3 \times 10^{-14} H_0^2$ controlling the bounce redshift. The quark sector bases are \textbf{derived}: $m_0^{(u)} = m_0^{(\ell)}/\varphi^2 = 2.16$ MeV and $m_0^{(d)} = m_0^{(\ell)} \cdot \varphi \cdot \eta = 4.67$ MeV, where $\eta = \frac{3\sqrt{5}}{5} \approx 0.93$ is the holographic projection efficiency (see Sec.~\ref{sec:eta_derivation}).
 
 \item \textbf{Identified (not fitted):} The integer topological charges $n_f$ are determined by requiring (i) consistency with measured mass ratios, (ii) additivity $n(\tau/e) = n(\mu/e) + n(\tau/\mu)$, and (iii) minimal LOOCV error—not by free parameter fitting.
 \end{itemize}
@@ -993,7 +1014,7 @@ The $\varphi^n$ quantization formula $m_f = m_0 \varphi^{n_f}$ has been subjecte
 
 \item \textbf{Permutation Test (500k randomizations):} Tests null hypothesis that $n_f$ assignments are accidental. Observed structure rejects chance at $p = 0.004476$ with median separation ratio 3.47e+05. Original MAPE = 6.91\% vs permuted median = 2400797.17\%.
 
-\item \textbf{Effect Size Metrics:} Kolmogorov-Smirnov statistic = 0.995524 (near-perfect separation); Cohen's $d$ = -1.014 (large effect); Mann-Whitney $p = 4.23e-02.
+\item \textbf{Effect Size Metrics:} Kolmogorov-Smirnov statistic = 0.995524 (near-perfect separation); Cohen's $d$ = -1.014 (large effect); Mann-Whitney $p = 4.23\times 10^{-2}$.
 \end{enumerate}
 
 \begin{table}[h]
@@ -1238,9 +1259,9 @@ Combining both contributions:
 \begin{equation}
 \eta = \frac{1}{2} + \eta_{\text{twist}} = \frac{1}{2} + 0.4271 = 0.9271\ldots \approx \boxed{0.93}.
 \end{equation}
-Equivalently, this can be expressed in closed form as $\eta = 3\sqrt{5}/5 = 0.927050\ldots$
+Equivalently, this can be expressed in closed form as $\eta = \dfrac{3\sqrt{5}}{5} = 0.927050\ldots$
 
-\paragraph{Verification:} Numerically, $3\sqrt{5}/5 = 3 \times 2.236.../5 = 6.708.../5 = 0.9270...$, confirming the analytic result.
+\paragraph{Verification:} Numerically, $\dfrac{3\sqrt{5}}{5} = \dfrac{3 \times 2.236\ldots}{5} = \dfrac{6.708\ldots}{5} = 0.9270\ldots$, confirming the analytic result.
 
 \textbf{Status:} \textit{Derived constant — not fitted.} This value is a pure consequence of $C_5$ topology and M\"obius holonomy. If the hermitian conjugate "$+ \text{h.c.}$" were purely algebraic (no geometric twist), we would have $\eta = 1$; the deviation to 0.93 is the geometric signature of 6D$\to$4D projection through a non-orientable fiber.
 

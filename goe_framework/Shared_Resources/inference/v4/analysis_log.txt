@@ -1,0 +1,117 @@
+Traceback (most recent call last):
+================================================================================
+BAYESIAN INFERENCE V4 - VALIDATION ANALYSIS
+================================================================================
+
+Data loaded:
+  Chains: 4
+  Samples per chain: 400
+  Parameters: 5
+
+================================================================================
+CHAIN STATISTICS
+================================================================================
+
+Parameter Statistics:
+--------------------------------------------------------------------------------
+
+H_sigma:
+  Global mean: 2.268527e+04
+  Global std:  5.416500e+05
+  Global min:  -9.083698e+05
+  Global max:  1.582529e+06
+  Range span:  2.490898e+06
+  CV:          23.8767
+
+  Chain means: [ 4.04705806e+05 -7.86279339e+00  2.43387416e+05 -5.57344273e+05]
+  Chain stds:  [7.44190783e+05 2.54411953e+00 1.75787847e+05 2.39205850e+05]
+
+rho_crit_NET:
+  Global mean: -1.172375e+04
+  Global std:  1.757552e+04
+  Global min:  -4.196099e+04
+  File "D:\2025-Geometrodynamics_of_Entropy\Geometrodynamics_of_Entropy_Dark_Matter\01_camargo_goe_\goe_framework\Shared_Resources\inference\v4\analyze_validation_results.py", line 211, in <module>
+  Global max:  3.006373e+01
+  Range span:  4.199106e+04
+  CV:          1.4991
+
+  Chain means: [ 1.36996376e+00 -4.19609919e+04 -4.96543587e+03  3.00637208e+01]
+  Chain stds:  [2.10116441e+00 3.56521923e-10 1.86700436e-09 2.26020737e-06]
+
+a_min:
+  Global mean: -5.440959e+05
+  Global std:  9.400266e+05
+  Global min:  -2.172266e+06
+  Global max:  3.730987e+02
+  Range span:  2.172639e+06
+  CV:          1.7277
+
+  Chain means: [-4.49074202e+03  3.73098698e+02 -2.17226638e+06  3.71818811e-01]
+  Chain stds:  [4.29628990e-10 5.00925352e-12 1.72294676e-08 2.29528413e-02]
+
+M_seed:
+  Global mean: 1.028581e+05
+  Global std:  2.355546e+05
+  Global min:  -4.199210e+05
+  Global max:  8.499612e+05
+  Range span:  1.269882e+06
+  CV:          2.2901
+
+  Chain means: [298988.20686415   6348.74558629 -18734.83952827 124830.443183  ]
+  Chain stds:  [3.52896500e+05 6.56371083e+03 4.00177669e-11 1.85246164e+05]
+
+f_NET:
+  Global mean: 3.550782e+05
+  Global std:  5.674975e+05
+  Global min:  -2.716246e+05
+  Global max:  1.832451e+06
+  Range span:  2.104075e+06
+  CV:          1.5982
+
+  Chain means: [-170050.01002651   16010.89863726 1105344.76906515  469007.09069804]
+  Chain stds:  [113332.13197367  10023.36635139 549961.69909035  78772.37868334]
+
+Log-Posterior Statistics:
+--------------------------------------------------------------------------------
+  Global mean: -2957.006519
+  Global std:  2866.989673
+  Global min:  -9641.630737
+  Global max:  -390.379292
+  Span:        9251.251446
+
+  Chain means: [-4075.63720088  -734.58038579 -6386.04215426  -631.76633383]
+  Chain stds:  [2309.98416743  672.60592342 1836.23567067  602.32242273]
+
+================================================================================
+CONVERGENCE DIAGNOSTICS
+================================================================================
+
+R-hat Statistics (target: < 1.1):
+--------------------------------------------------------------------------------
+  H_sigma        : R-hat = 1.448754  [POOR]
+  rho_crit_NET   : R-hat = 19293.190976  [POOR]
+  a_min          : R-hat = 94462516.093831  [POOR]
+  M_seed         : R-hat = 1.235005  [POOR]
+  f_NET          : R-hat = 2.234922  [POOR]
+
+Effective Sample Size (ESS):
+--------------------------------------------------------------------------------
+  H_sigma        : ESS =     19.6 / 1600 = 0.012  [LOW]
+  rho_crit_NET   : ESS =     17.7 / 1600 = 0.011  [LOW]
+  a_min          : ESS =     17.7 / 1600 = 0.011  [LOW]
+  M_seed         : ESS =     20.6 / 1600 = 0.013  [LOW]
+  f_NET          : ESS =     17.7 / 1600 = 0.011  [LOW]
+
+================================================================================
+GEOMETRIC HEALTH INDICATORS
+================================================================================
+
+Parameter Space Volume Explored:
+  Delta(H_sigma) x Delta(a_min) x Delta(M_seed) = 6.071908e+29
+
+Inter-chain Separation (mean L2 distance):
+    print(f"  <||\u03b8_i - \u03b8_j||> = {chain_separation:.6e}")
+  File "C:\Program Files\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u03b8' in position 5: character maps to <undefined>

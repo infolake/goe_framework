@@ -1,0 +1,384 @@
+INDIVIDUAL FILE DESCRIPTIONS
+============================
+
+This document provides detailed descriptions of each file in the
+ancillary materials directory.
+
+============================
+DOCUMENTATION FILES
+============================
+
+README.txt
+----------
+Purpose: Master documentation file
+Content: Overview of all ancillary files, key results, citations
+When to read: Start here for orientation
+Format: Plain text, 80-column width
+
+INSTALL.txt
+-----------
+Purpose: Software installation guide
+Content: Step-by-step Python environment setup
+When to read: Before first use
+Format: Plain text with command examples
+Estimated time: 15-20 minutes to complete
+
+REPRODUCE.txt
+-------------
+Purpose: Reproduction guide for all results
+Content: Three methods (quick, interactive, full MCMC)
+When to read: After installation complete
+Format: Plain text with detailed instructions
+Estimated time: 15 seconds to 4 hours depending on method
+
+FILE_DESCRIPTIONS.txt
+---------------------
+Purpose: This file - individual file descriptions
+Content: Detailed metadata for each ancillary file
+When to read: For detailed file information
+Format: Plain text
+
+============================
+COMPUTATIONAL NOTEBOOKS
+============================
+
+01_goe_fermion_hierarchy_pentagonal.ipynb
+------------------------------------------
+Purpose: Core validation of fermion mass quantization
+Language: Python (Jupyter notebook)
+Size: ~43 KB
+Cells: ~30 code cells, 20 markdown cells
+
+Key computations:
+  - Fermion mass quantization via phi^n
+  - MCMC validation (1M samples)
+  - Leave-One-Out Cross-Validation
+  - Permutation test (p=0.004476)
+  - Bootstrap confidence intervals
+  - Model comparison (BIC = 13.545)
+
+Output:
+  - Statistical tables
+  - Convergence diagnostics
+  - Publication-quality plots
+  - CSV/JSON data files
+
+Runtime:
+  Quick mode (10k samples): ~5 minutes
+  Full mode (1M samples): ~2-4 hours
+
+Requirements:
+  numpy, scipy, matplotlib, pandas, emcee (optional)
+
+Figures generated:
+  - Figure 1: Fermion mass hierarchy
+  - Figure 2: LOOCV scatter plot
+  - Figure 3: Permutation histogram
+  - Figure 4: Bootstrap distributions
+
+Reproducibility:
+  Random seed fixed: np.random.seed(42)
+  Results stable within ±0.1%
+
+02_goe_computational_protocol.ipynb
+------------------------------------
+Purpose: Extended computational protocol and supplementary analysis
+Language: Python (Jupyter notebook)
+Size: ~515 KB
+Cells: ~50 code cells, 30 markdown cells
+
+Key computations:
+  - Bayesian information criterion analysis
+  - Convergence diagnostics (Gelman-Rubin)
+  - Effective sample size calculations
+  - Autocorrelation analysis
+  - Prior sensitivity tests
+  - Posterior predictive checks
+
+Output:
+  - Extended statistical tables
+  - Diagnostic plots
+  - Supplementary material figures
+  - Additional validation metrics
+
+Runtime:
+  ~10-15 minutes (without heavy MCMC)
+
+Requirements:
+  numpy, scipy, matplotlib, pandas, arviz (for diagnostics)
+
+Figures generated:
+  - Trace plots
+  - Corner plots (posterior distributions)
+  - Autocorrelation plots
+  - Prior/posterior comparisons
+
+============================
+VALIDATION SCRIPTS
+============================
+
+validation_fermion_models_comparison.py
+----------------------------------------
+Purpose: Model A vs Model B comparison for fermion masses
+Language: Python 3.10+
+Size: ~24 KB
+Lines of code: ~725
+
+Key functions:
+  PowerLawModel class:
+    - fit_sector(): Fit power law m ~ |q|^p
+    - validate(): Calculate errors and statistics
+    
+  GoldenRatioModel class:
+    - extract_n(): Determine quantum numbers
+    - predict_mass(): Calculate m_f = m_0 * phi^n
+    - validate(): LOOCV and statistical tests
+    
+  compare_models(): Bayesian information criterion
+  export_to_json(): Save results with metadata
+  export_to_csv(): Tabular format output
+
+Input data:
+  PDG 2025 experimental masses (hardcoded)
+  - Electron: 0.51099895000 MeV (11 decimal places)
+  - Muon: 105.6583755 MeV
+  - Tau: 1776.86 MeV
+  - Up, charm, top quarks
+  - Down, strange, bottom quarks
+
+Output files:
+  - fermion_models_comparison_results.json
+  - fermion_models_comparison_results.csv
+  - goe_models_comparison_leptons.pdf
+  - goe_models_comparison_up_quarks.pdf
+  - goe_models_comparison_down_quarks.pdf
+
+Runtime: ~10-15 seconds
+Memory: ~50 MB
+
+Key results:
+  Delta_BIC = 13.545 (decisive for Model B)
+  MAPE (Model B) = 7.28%
+  All sectors prefer Model B
+
+Usage:
+  python validation_fermion_models_comparison.py
+
+validation_strong_force_analysis.py
+------------------------------------
+Purpose: Nuclear fiber analysis and hadron mass predictions
+Language: Python 3.10+
+Size: ~20 KB
+Lines of code: ~572
+
+Key functions:
+  strong_coupling_goe(): Calculate alpha_s(Q)
+    Formula: alpha_s = 1/(beta_0 * ln(Q²/Lambda²)) + 1/phi^4
+    
+  quark_potential_goe(): Interquark potential
+    Components: Coulomb + Linear + Geometric
+    
+  meson_masses_goe(): Meson mass predictions
+    Base: pi0 mass, quantization via phi^n
+    
+  baryon_masses_goe(): Baryon mass predictions
+    Base: proton mass, quantization via phi^n
+    
+  plot_strong_force_goe(): Generate 4-panel figure
+  export_to_json(): Save complete analysis
+  export_to_csv(): Hadron masses and coupling data
+
+Input constants:
+  PHI = 1.618... (golden ratio)
+  LAMBDA_QCD = 0.200 GeV (confinement scale)
+  ALPHA_EM = 1/137.036 (fine structure constant)
+
+Output files:
+  - strong_force_analysis_results.json
+  - strong_force_analysis_results.csv
+  - strong_force_analysis_coupling.csv
+  - goe_strong_force_analysis.pdf
+
+Runtime: ~10-15 seconds
+Memory: ~50 MB
+
+Key results:
+  alpha_s(inf) = 0.1459 (geometric correction)
+  Nuclear fiber: R_N = 0.987 fm
+  Hadron masses follow phi^n structure
+
+Usage:
+  python validation_strong_force_analysis.py
+
+============================
+DATA FILES
+============================
+
+fermion_models_comparison_results.json
+---------------------------------------
+Purpose: Complete model comparison data
+Format: JSON (JavaScript Object Notation)
+Size: ~6 KB
+Structure:
+  metadata: {date, pdg_version, script_name}
+  experimental_data: {masses_MeV, uncertainties, source}
+  results: [array of sector results]
+    sector: "leptons" | "up_quarks" | "down_quarks"
+    fermions: [list of particle names]
+    model_A: {parameters, predictions, errors, statistics}
+    model_B: {parameters, predictions, errors, statistics}
+    comparison: {delta_BIC, preference}
+  combined_statistics: {total_BIC_A, total_BIC_B, total_delta_BIC}
+
+Key fields:
+  model_B.statistics.mean_error_percent: 7.28%
+  combined_statistics.total_delta_BIC: 13.545
+  model_B.n_values: quantum numbers for each fermion
+
+Usage:
+  import json
+  with open('fermion_models_comparison_results.json') as f:
+      data = json.load(f)
+  print(data['combined_statistics'])
+
+fermion_models_comparison_results.csv
+--------------------------------------
+Purpose: Tabular format for spreadsheet analysis
+Format: CSV (Comma-Separated Values)
+Size: ~2 KB
+Rows: 10 (header + 9 fermions)
+Columns: 15
+
+Column descriptions:
+  sector: "leptons", "up_quarks", or "down_quarks"
+  fermion: Particle name (e, mu, tau, u, c, t, d, s, b)
+  mass_exp_MeV: Experimental mass (PDG 2025)
+  mass_uncertainty: Error bars (symmetric or asymmetric)
+  model_A_prediction_MeV: Power law prediction
+  model_A_error_percent: Error percentage for Model A
+  model_A_A: Fitted parameter A
+  model_A_p: Fitted exponent p
+  model_B_n: Quantum number (integer)
+  model_B_prediction_MeV: phi^n prediction
+  model_B_error_percent: Error percentage for Model B
+  model_B_m0: Mass anchor for sector
+  model_B_phi: Golden ratio value (1.618...)
+
+Usage:
+  import pandas as pd
+  df = pd.read_csv('fermion_models_comparison_results.csv')
+  print(df[['fermion', 'model_B_n', 'model_B_error_percent']])
+
+strong_force_analysis_results.json
+-----------------------------------
+Purpose: Complete strong force analysis data
+Format: JSON
+Size: ~13 KB
+Structure:
+  metadata: {date, pdg_version, script_name, description}
+  constants: {phi, alpha_em, hbar_c, Lambda_QCD, R_N, L_N}
+  strong_coupling: {Q_values_GeV, alpha_s_values}
+  quark_potential: {r_values_fm, V_total_GeV, description}
+  hadron_masses: {mesons, baryons}
+
+Key fields:
+  constants.R_N_fm: Nuclear fiber radius = 0.987 fm
+  constants.Lambda_QCD_GeV: Confinement scale = 0.200 GeV
+  strong_coupling: 100 data points from 0.1 to 100 GeV
+  hadron_masses.mesons: pi0, eta, rho, omega, K0, J/psi, Upsilon
+  hadron_masses.baryons: p, n, Lambda, Sigma, Delta, Omega
+
+Usage:
+  import json
+  with open('strong_force_analysis_results.json') as f:
+      data = json.load(f)
+  alpha_s = data['strong_coupling']['alpha_s_values']
+
+strong_force_analysis_coupling.csv
+-----------------------------------
+Purpose: Strong coupling constant evolution
+Format: CSV
+Size: ~4 KB
+Rows: 101 (header + 100 data points)
+Columns: 2
+
+Column descriptions:
+  Q_GeV: Energy scale (logarithmically spaced)
+  alpha_s: Strong coupling constant value
+
+Energy range:
+  Minimum: 0.1 GeV (infrared)
+  Maximum: 100 GeV (Z boson scale)
+  Points: 100 (log-spaced)
+
+Key values:
+  Q = 0.5 GeV: alpha_s ~ 0.91 (confinement)
+  Q = 1.0 GeV: alpha_s ~ 0.58
+  Q = 10.0 GeV: alpha_s ~ 0.32
+  Q = 91.2 GeV: alpha_s ~ 0.12 (Z mass)
+  Q → ∞: alpha_s → 0.1459 (geometric correction)
+
+Usage:
+  import pandas as pd
+  df = pd.read_csv('strong_force_analysis_coupling.csv')
+  import matplotlib.pyplot as plt
+  plt.loglog(df['Q_GeV'], df['alpha_s'])
+
+============================
+FILE SIZES AND COUNTS
+============================
+
+Total files: 11
+Total size: ~600 KB (excluding large MCMC data)
+
+Documentation: 4 files, ~30 KB
+Notebooks: 2 files, ~560 KB
+Scripts: 2 files, ~44 KB
+Data: 4 files, ~25 KB
+
+============================
+FILE INTEGRITY
+============================
+
+All files are:
+  - Plain text or standard formats (JSON, CSV, IPYNB)
+  - UTF-8 encoded
+  - Version controlled
+  - Checksums available on GitHub
+
+Verification:
+  SHA256 hashes available in repository
+  Git commit: 62dfe3f
+
+============================
+UPDATES AND VERSIONS
+============================
+
+Current version: 1.0 (October 2025)
+
+Changes from previous versions:
+  - PDG 2023 → PDG 2025 data
+  - All text translated to English
+  - JSON/CSV export added
+  - Full documentation suite
+
+Future updates:
+  Check GitHub repository for latest versions
+  https://github.com/infolake/goe_framework
+
+============================
+LICENSE AND USAGE
+============================
+
+All files: MIT License
+Free for research and educational use
+Attribution required (see README.txt for citation)
+
+============================
+CONTACT
+============================
+
+Questions about specific files:
+  Email: camargo@phiq.io
+  GitHub: https://github.com/infolake/goe_framework/issues
+

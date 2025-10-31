@@ -1,0 +1,192 @@
+FILE MANIFEST
+=============
+
+This manifest lists all ancillary files for arXiv submission.
+Last updated: October 30, 2025
+
+=============
+DOCUMENTATION (4 files, 29.3 KB)
+=============
+
+README.txt (4.6 KB)
+  Master documentation and overview
+  
+INSTALL.txt (5.0 KB)
+  Installation instructions and requirements
+  
+REPRODUCE.txt (8.9 KB)
+  Step-by-step reproduction guide
+  
+FILE_DESCRIPTIONS.txt (10.8 KB)
+  Detailed individual file descriptions
+
+=============
+NOTEBOOKS (2 files, 558.6 KB)
+=============
+
+01_goe_fermion_hierarchy_pentagonal.ipynb (43.4 KB)
+  Core fermion mass quantization validation
+  MCMC, LOOCV, permutation, bootstrap tests
+  
+02_goe_computational_protocol.ipynb (515.2 KB)
+  Extended computational protocol
+  Bayesian analysis, convergence diagnostics
+
+=============
+VALIDATION SCRIPTS (2 files, 43.5 KB)
+=============
+
+validation_fermion_models_comparison.py (23.6 KB)
+  Model A vs Model B comparison
+  PDG 2025 data, BIC analysis
+  
+validation_strong_force_analysis.py (19.9 KB)
+  Nuclear fiber and hadron masses
+  Strong coupling constant calculation
+
+=============
+DATA FILES (4 files, 24.5 KB)
+=============
+
+fermion_models_comparison_results.json (6.1 KB)
+  Complete model comparison statistics
+  
+fermion_models_comparison_results.csv (1.6 KB)
+  Tabular format for all fermions
+  
+strong_force_analysis_results.json (13.0 KB)
+  Hadron masses and coupling constants
+  
+strong_force_analysis_coupling.csv (3.8 KB)
+  Alpha_s(Q) evolution data
+
+=============
+TOTAL: 12 files, 655.9 KB
+=============
+
+=============
+FILE CHECKSUMS (SHA256)
+=============
+
+To verify file integrity, compute SHA256 hashes and compare with:
+  GitHub repository: https://github.com/infolake/goe_framework
+  Zenodo archive: DOI 10.5281/zenodo.17479743
+
+=============
+USAGE ORDER
+=============
+
+Recommended reading/execution order:
+
+1. README.txt - Start here
+2. INSTALL.txt - Set up environment
+3. REPRODUCE.txt - Choose reproduction method
+4. validation_*.py - Run quick validation (~15 seconds)
+5. 01_*.ipynb - Interactive exploration (~5 min quick mode)
+6. 02_*.ipynb - Extended analysis (~10 min)
+7. FILE_DESCRIPTIONS.txt - For detailed information
+
+=============
+ARXIV SUBMISSION NOTES
+=============
+
+Directory structure for arXiv:
+  main.tex
+  references.bib
+  figures/
+    *.pdf
+  anc/
+    (all these files)
+
+Submission format:
+  tar.gz or zip containing main paper + anc/ directory
+
+Size limits:
+  Main submission: <50 MB
+  Ancillary files: <500 MB total
+  Individual files: <200 MB
+
+Current status:
+  Main paper: ~2 MB
+  Ancillary files: 655.9 KB
+  Total: ~2.7 MB
+  Status: Well within limits
+
+=============
+FILE COMPATIBILITY
+=============
+
+All files compatible with:
+  - Windows 10/11
+  - Linux (all distributions)
+  - macOS 10.15+
+
+Text encoding: UTF-8
+Line endings: LF (Unix style)
+Archive format: ZIP or TAR.GZ
+
+=============
+VERSION INFORMATION
+=============
+
+Package version: 1.0
+Release date: October 2025
+Git commit: 62dfe3f
+PDG data version: 2025
+
+=============
+SUPPORT AND UPDATES
+=============
+
+Latest versions:
+  GitHub: https://github.com/infolake/goe_framework
+  
+Permanent archive:
+  Zenodo: DOI 10.5281/zenodo.17479743
+  
+Contact:
+  Email: camargo@phiq.io
+  
+Issue tracking:
+  GitHub Issues: https://github.com/infolake/goe_framework/issues
+
+=============
+LICENSE
+=============
+
+MIT License
+Copyright (c) 2025 Guilherme de Camargo
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files, to deal
+in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+=============
+CITATION
+=============
+
+If you use these materials, please cite:
+
+  G. de Camargo, "Geometrodynamics of Entropy: Fermion Mass 
+  Quantization and Cosmological Bounce from an Extended 
+  Wheeler-DeWitt Framework," arXiv:XXXX.XXXXX [hep-th] (2025).
+
+BibTeX:
+  @article{Camargo2025GoE,
+    title={Geometrodynamics of Entropy: Fermion Mass Quantization 
+           and Cosmological Bounce from an Extended Wheeler-DeWitt 
+           Framework},
+    author={de Camargo, Guilherme},
+    journal={arXiv preprint arXiv:XXXX.XXXXX},
+    year={2025}
+  }
+
+=============
+END OF MANIFEST
+=============
+

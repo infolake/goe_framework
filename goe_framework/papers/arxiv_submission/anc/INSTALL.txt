@@ -1,0 +1,214 @@
+INSTALLATION INSTRUCTIONS
+=========================
+
+This document provides step-by-step instructions to set up the
+computational environment for reproducing all results in the paper.
+
+=========================
+SYSTEM REQUIREMENTS
+=========================
+
+Minimum:
+  - Operating System: Windows 10/11, Linux, or macOS
+  - RAM: 8 GB (16 GB recommended for full MCMC)
+  - Disk Space: 500 MB
+  - Python: 3.10 or higher
+
+Recommended for MCMC:
+  - RAM: 16 GB or more
+  - CPU: Multi-core processor (4+ cores)
+  - GPU: NVIDIA GPU with CUDA support (optional)
+
+=========================
+PYTHON INSTALLATION
+=========================
+
+Option 1: Using Conda (Recommended)
+------------------------------------
+
+1. Install Miniconda or Anaconda:
+   https://docs.conda.io/en/latest/miniconda.html
+
+2. Create environment:
+   conda create -n goe python=3.11
+   conda activate goe
+
+Option 2: Using pip with venv
+------------------------------
+
+1. Create virtual environment:
+   python -m venv goe_env
+
+2. Activate environment:
+   Windows: goe_env\Scripts\activate
+   Linux/Mac: source goe_env/bin/activate
+
+=========================
+REQUIRED PACKAGES
+=========================
+
+Core Dependencies:
+------------------
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.8.0
+pandas>=2.0.0
+
+Install via pip:
+  pip install numpy scipy matplotlib pandas
+
+Or via conda:
+  conda install numpy scipy matplotlib pandas
+
+Jupyter Support:
+----------------
+jupyter>=1.0.0
+notebook>=6.5.0
+
+Install:
+  pip install jupyter notebook
+
+Optional (for MCMC acceleration):
+----------------------------------
+numba>=0.57.0       # JIT compilation
+emcee>=3.1.0        # MCMC sampler
+corner>=2.2.0       # Corner plots
+
+Install:
+  pip install numba emcee corner
+
+GPU Support (Optional):
+-----------------------
+pytorch>=2.0.0      # For GPU-accelerated MCMC
+cuda-toolkit        # NVIDIA CUDA
+
+Install PyTorch (with CUDA):
+  pip install torch --index-url https://download.pytorch.org/whl/cu118
+
+Or via conda:
+  conda install pytorch pytorch-cuda=11.8 -c pytorch -c nvidia
+
+=========================
+COMPLETE INSTALLATION
+=========================
+
+Method 1: Using requirements.txt
+---------------------------------
+
+Create requirements.txt:
+  numpy>=1.24.0
+  scipy>=1.10.0
+  matplotlib>=3.8.0
+  pandas>=2.0.0
+  jupyter>=1.0.0
+  notebook>=6.5.0
+  seaborn>=0.12.0
+
+Install all:
+  pip install -r requirements.txt
+
+Method 2: One-line install
+---------------------------
+
+pip install numpy scipy matplotlib pandas jupyter notebook seaborn
+
+=========================
+VERIFICATION
+=========================
+
+Test Python installation:
+-------------------------
+
+python --version
+  Expected: Python 3.10.0 or higher
+
+Test package imports:
+---------------------
+
+python -c "import numpy; print('NumPy:', numpy.__version__)"
+python -c "import scipy; print('SciPy:', scipy.__version__)"
+python -c "import matplotlib; print('Matplotlib:', matplotlib.__version__)"
+python -c "import pandas; print('Pandas:', pandas.__version__)"
+
+All should run without errors.
+
+Test Jupyter:
+-------------
+
+jupyter notebook --version
+  Expected: 6.5.0 or higher
+
+=========================
+TROUBLESHOOTING
+=========================
+
+Issue: "No module named 'numpy'"
+Solution: Ensure virtual environment is activated
+          pip install numpy
+
+Issue: "CUDA not available" (for GPU acceleration)
+Solution: This is optional. Scripts will run on CPU.
+          For GPU support, install PyTorch with CUDA.
+
+Issue: Jupyter kernel not found
+Solution: python -m ipykernel install --user --name=goe
+
+Issue: Permission denied (Linux/Mac)
+Solution: Use --user flag: pip install --user numpy scipy
+
+=========================
+PLATFORM-SPECIFIC NOTES
+=========================
+
+Windows:
+--------
+- Use Anaconda or Miniconda (recommended)
+- Some packages may require Visual C++ Build Tools
+- Download from: https://visualstudio.microsoft.com/downloads/
+
+Linux:
+------
+- Most distributions include Python 3
+- May need: sudo apt-get install python3-dev python3-pip
+- For plotting: sudo apt-get install python3-tk
+
+macOS:
+------
+- Use Homebrew: brew install python
+- May need Xcode Command Line Tools
+- Install: xcode-select --install
+
+=========================
+NEXT STEPS
+=========================
+
+After successful installation:
+1. See REPRODUCE.txt for execution instructions
+2. Open Jupyter: jupyter notebook
+3. Navigate to ancillary files directory
+4. Open: 01_goe_fermion_hierarchy_pentagonal.ipynb
+
+=========================
+ESTIMATED INSTALL TIME
+=========================
+
+Fresh Python install: ~10-15 minutes
+Packages only: ~2-5 minutes
+Verification: ~1 minute
+
+Total: ~15-20 minutes
+
+=========================
+SUPPORT
+=========================
+
+For installation issues:
+  GitHub: https://github.com/infolake/goe_framework/issues
+  Email: camargo@phiq.io
+
+Package documentation:
+  NumPy: https://numpy.org/doc/
+  SciPy: https://scipy.org/
+  Matplotlib: https://matplotlib.org/
+  Pandas: https://pandas.pydata.org/
+

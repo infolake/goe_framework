@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "date": "2025-10-30T19:59:48.535655",
+    "date": "2025-10-30T22:20:46.412365",
     "pdg_version": "2025",
     "script": "goe_fermion_models_comparison.py",
     "description": "Comparison of fermion mass models in GoE framework"

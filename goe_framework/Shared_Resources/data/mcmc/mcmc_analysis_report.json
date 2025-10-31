@@ -1,0 +1,81 @@
+{
+  "data_files": [
+    {
+      "file": "mcmc_results_large.npz",
+      "type": "npz",
+      "keys": [
+        "posterior",
+        "best_params",
+        "elapsed"
+      ],
+      "size_mb": 37.15040397644043,
+      "data_info": {
+        "posterior": {
+          "shape": [
+            1000000,
+            5
+          ],
+          "dtype": "float64",
+          "size": 5000000,
+          "mean": 1254.3352614295572,
+          "std": 13523.850148094789,
+          "min": -0.31827234501419266,
+          "max": 1033747.9136175108
+        },
+        "best_params": {
+          "shape": [
+            5
+          ],
+          "dtype": "float64",
+          "size": 5,
+          "mean": 311.76006298646354,
+          "std": 622.7487573210883,
+          "min": 5.322278196276965e-13,
+          "max": 1557.2570039279226
+        },
+        "elapsed": {
+          "shape": [],
+          "dtype": "float64",
+          "size": 1,
+          "mean": 6.567450523376465,
+          "std": 0.0,
+          "min": 6.567450523376465,
+          "max": 6.567450523376465
+        }
+      },
+      "quality_score": 8.0,
+      "importance_score": 5.0
+    }
+  ],
+  "plot_files": [
+    {
+      "file": "mcmc_diagnostics_complete.png",
+      "type": "plot",
+      "format": ".png",
+      "size_mb": 1.830535888671875,
+      "exists": true,
+      "quality_score": 4.0,
+      "importance_score": 5.0
+    }
+  ],
+  "summary": {
+    "total_data_files": 1,
+    "total_plot_files": 1,
+    "high_quality_data": [
+      "mcmc_results_large.npz"
+    ],
+    "high_importance_data": [],
+    "high_quality_plots": [],
+    "high_importance_plots": [],
+    "categories": {
+      "critical": [],
+      "important": [
+        "mcmc_results_large.npz"
+      ],
+      "supporting": [
+        "mcmc_diagnostics_complete.png"
+      ],
+      "low_priority": []
+    }
+  }
+}

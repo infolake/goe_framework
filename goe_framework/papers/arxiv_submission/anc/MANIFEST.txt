@@ -21,7 +21,7 @@ FILE_DESCRIPTIONS.txt (10.8 KB)
   Detailed individual file descriptions
 
 =============
-NOTEBOOKS (2 files, 558.6 KB)
+NOTEBOOKS (3 files, 982.0 KB)
 =============
 
 01_goe_fermion_hierarchy_pentagonal.ipynb (43.4 KB)
@@ -29,8 +29,14 @@ NOTEBOOKS (2 files, 558.6 KB)
   MCMC, LOOCV, permutation, bootstrap tests
   
 02_goe_computational_protocol.ipynb (515.2 KB)
-  Extended computational protocol
+  Extended computational protocol (CITED in paper)
   Bayesian analysis, convergence diagnostics
+  Referenced: lines 906, 937, 1688
+  
+03_goe_unified_quantum_foundations.ipynb (423.4 KB)
+  Unified quantum foundations (Preprint Ready)
+  Wheeler-DeWitt + natural bounce
+  CMB/BBN constraints, JWST LRD, Einstein-Cartan
 
 =============
 VALIDATION SCRIPTS (2 files, 43.5 KB)
@@ -61,7 +67,7 @@ strong_force_analysis_coupling.csv (3.8 KB)
   Alpha_s(Q) evolution data
 
 =============
-TOTAL: 12 files, 655.9 KB
+TOTAL: 13 files, 1079.3 KB (~1.1 MB)
 =============
 
 =============

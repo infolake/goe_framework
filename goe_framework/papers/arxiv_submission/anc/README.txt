@@ -28,10 +28,18 @@ COMPUTATIONAL NOTEBOOKS:
     - Figures 1-4 in main paper
     
   02_goe_computational_protocol.ipynb
-    - Extended computational protocol
+    - Extended computational protocol (CITED in paper)
     - Bayesian model comparison (BIC analysis)
     - Convergence diagnostics
     - Supplementary material figures
+    - Referenced in main text (lines 906, 937, 1688)
+    
+  03_goe_unified_quantum_foundations.ipynb
+    - Unified quantum foundations (Preprint Ready)
+    - Wheeler-DeWitt + natural bounce from first principles
+    - CMB/BBN constraints with comparison table
+    - JWST LRD phenomena explained
+    - Einstein-Cartan connection (torsion-spin coupling)
 
 VALIDATION SCRIPTS:
   validation_fermion_models_comparison.py

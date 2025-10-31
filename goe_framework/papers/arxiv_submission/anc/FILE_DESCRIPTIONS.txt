@@ -86,6 +86,7 @@ Purpose: Extended computational protocol and supplementary analysis
 Language: Python (Jupyter notebook)
 Size: ~515 KB
 Cells: ~50 code cells, 30 markdown cells
+Status: CITED in main paper (lines 906, 937, 1688)
 
 Key computations:
   - Bayesian information criterion analysis
@@ -112,6 +113,59 @@ Figures generated:
   - Corner plots (posterior distributions)
   - Autocorrelation plots
   - Prior/posterior comparisons
+
+Paper references:
+  - Line 906: "verified in our computational protocol"
+  - Lines 937-938: Direct GitHub URL
+  - Lines 1688-1691: Interactive protocol section with Colab link
+
+03_goe_unified_quantum_foundations.ipynb
+-----------------------------------------
+Purpose: Unified quantum foundations with natural bounce
+Language: Python (Jupyter notebook)
+Size: ~423 KB
+Cells: ~22 total (6 code, 16 markdown)
+Status: Preprint Ready
+
+Key content:
+  - 6D manifold structure (R³ × S¹_EM × S¹_N / Möbius)
+  - Wheeler-DeWitt equation with entropic field
+  - Natural bounce from geometric stiff matter (a⁻⁶)
+  - Einstein-Cartan connection (torsion-spin coupling)
+  - CMB/BBN constraints with comparison table
+  - JWST LRD phenomena explained
+  - Spin structure (Pin±/Scherk-Schwarz)
+
+Key results:
+  - Bounce redshift: z_b ≳ 10⁴ (CMB-safe)
+  - Comparison table: z_b = 17 (ruled out) vs z_b > 10⁴ (viable)
+  - Ω_s constraint: |Ω_s| ≲ 7.4×10⁻¹³
+  - Geometric stiff term: ρ ∝ a⁻⁶ (w = 1)
+
+Output:
+  - Bounce evolution plots (H², z vs a)
+  - WDW potential landscape U(a,σ)
+  - Möbius fiber structure visualization
+  - CMB constraint analysis
+
+Runtime:
+  ~5-10 minutes (analytical + plotting)
+
+Requirements:
+  numpy, scipy, matplotlib, mpl_toolkits (for 3D plots)
+
+Figures generated:
+  - Cosmological bounce with entropy term
+  - Wheeler-DeWitt potential
+  - Möbius topology and spin structure
+  - CMB/BBN constraint regions
+
+Unique features:
+  - Most polished presentation ("Preprint Ready")
+  - Clear focus on observational constraints
+  - Quantitative comparison table (z_b scenarios)
+  - Explicit Einstein-Cartan derivation
+  - JWST high-z galaxy explanation
 
 ============================
 VALIDATION SCRIPTS

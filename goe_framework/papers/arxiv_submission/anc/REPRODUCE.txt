@@ -123,6 +123,7 @@ Step 4: Extended protocol (optional)
 -------------------------------------
 
 Open: 02_goe_computational_protocol.ipynb
+      (This notebook is CITED in the main paper)
 
 Run All Cells
 
@@ -132,6 +133,26 @@ Expected output:
   - Convergence diagnostics
   - Additional statistical tests
   - Supplementary figures
+
+Step 5: Unified foundations (optional, highly recommended)
+-----------------------------------------------------------
+
+Open: 03_goe_unified_quantum_foundations.ipynb
+      (Preprint Ready - most polished version)
+
+Run All Cells
+
+Expected runtime: ~5-10 minutes
+Expected output:
+  - Bounce evolution plots
+  - Wheeler-DeWitt potential landscape
+  - Möbius fiber visualization
+  - CMB/BBN constraint analysis
+  
+Key features:
+  - Natural bounce from Einstein-Cartan (torsion)
+  - Comparison table: z_b = 17 vs z_b > 10^4
+  - JWST LRD phenomena explained
 
 ==================
 FULL MCMC REPRODUCTION

@@ -193,23 +193,44 @@ class GPUAcceleratedTests:
     # GPU-ACCELERATED PERMUTATION TEST (100k permutations)
     # =========================================================================
     
-    def permutation_test_gpu(self, n_permutations=100000):
+    def permutation_test_gpu(self, n_permutations=100000, n_values=None, m0=None, phi=PHI):
         """
-        GPU-accelerated permutation test with 100k permutations
+        GPU-accelerated permutation test with CORRECT method (as in paper)
+        
+        Permutes N-VALUES (not predictions) to test if n-value assignments are accidental
+        
+        Parameters:
+        -----------
+        n_values : array-like
+            Integer topological charges for this sector
+        m0 : float
+            Base mass for this sector
+        phi : float
+            Golden ratio constant
         
         RTX 4090: ~5-10 seconds for 100k permutations
         """
-        print(f"  Running GPU Permutation Test with {n_permutations:,} permutations...")
+        print(f"  Running GPU Permutation Test (n-values) with {n_permutations:,} permutations...")
+        
+        if n_values is None or m0 is None:
+            # Fallback to old method (for compatibility)
+            return self._permutation_test_predictions_legacy(n_permutations)
         
         start_time = torch.cuda.Event(enable_timing=True)
         end_time = torch.cuda.Event(enable_timing=True)
         
         start_time.record()
         
-        # Observed statistic
+        # Observed statistic (negative MAPE for maximization)
         observed_stat = -torch.mean(self.percent_errors_torch)
         
-        # Generate null distribution by permuting predictions
+        # Convert to GPU tensors
+        n_values_torch = torch.tensor(n_values, dtype=torch.float32, device=device)
+        m0_torch = torch.tensor(m0, dtype=torch.float32, device=device)
+        phi_torch = torch.tensor(phi, dtype=torch.float32, device=device)
+        masses_exp_torch = self.masses_exp_torch
+        
+        # Generate null distribution by permuting n-values
         null_stats = torch.zeros(n_permutations, device=device)
         
         # Process in batches to avoid OOM
@@ -221,37 +242,99 @@ class GPUAcceleratedTests:
             end_idx = min((i + 1) * batch_size, n_permutations)
             current_batch_size = end_idx - start_idx
             
-            # Random permutations of predictions
-            perm_indices = torch.argsort(torch.rand(current_batch_size, self.n, device=device), dim=1)
-            perm_pred = self.masses_pred_torch[perm_indices]
+            # Random permutations of n-values (shuffle within this sector)
+            batch_mape = torch.zeros(current_batch_size, device=device)
             
-            # Calculate errors for permuted predictions
-            perm_errors = torch.abs(perm_pred - self.masses_exp_torch.unsqueeze(0)) / self.masses_exp_torch.unsqueeze(0) * 100
+            for j in range(current_batch_size):
+                # Shuffle n-values
+                perm_indices = torch.randperm(self.n, device=device)
+                n_perm = n_values_torch[perm_indices]
+                
+                # Recalculate predictions with permuted n-values
+                masses_pred_perm = m0_torch * (phi_torch ** n_perm)
+                
+                # Calculate percent errors
+                perm_errors = torch.abs(masses_pred_perm - masses_exp_torch) / masses_exp_torch * 100
+                
+                # MAPE (negative for maximization)
+                batch_mape[j] = -torch.mean(perm_errors)
             
-            # Mean errors (negative for maximization)
-            null_stats[start_idx:end_idx] = -torch.mean(perm_errors, dim=1)
+            null_stats[start_idx:end_idx] = batch_mape
         
-        # Calculate p-value
+        # Calculate p-value (how many permuted MAPEs are as good or better than observed)
         p_value = torch.sum(null_stats >= observed_stat).float() / n_permutations
         
         end_time.record()
         torch.cuda.synchronize()
         elapsed_time = start_time.elapsed_time(end_time) / 1000
         
+        # Calculate statistics
+        permuted_mape_median = -torch.median(null_stats).cpu()
+        permuted_mape_mean = -torch.mean(null_stats).cpu()
+        separation_ratio = permuted_mape_mean / torch.mean(self.percent_errors_torch).cpu()
+        
         print(f"    Completed in {elapsed_time:.2f} seconds")
         print(f"    Throughput: {n_permutations/elapsed_time:.0f} permutations/sec")
+        print(f"    Original MAPE: {torch.mean(self.percent_errors_torch).item():.2f}%")
+        print(f"    Permuted MAPE (median): {permuted_mape_median:.2f}%")
+        print(f"    Separation ratio: {separation_ratio:.2e}")
         
         return {
-            'test_name': 'GPU Permutation Test',
+            'test_name': 'GPU Permutation Test (n-values)',
             'n_permutations': n_permutations,
             'observed_statistic': float(observed_stat.cpu()),
+            'observed_mape': float(torch.mean(self.percent_errors_torch).cpu()),
+            'permuted_mape_median': float(permuted_mape_median),
+            'permuted_mape_mean': float(permuted_mape_mean),
+            'separation_ratio': float(separation_ratio),
             'null_mean': float(torch.mean(null_stats).cpu()),
             'null_std': float(torch.std(null_stats).cpu()),
             'p_value': float(p_value.cpu()),
-            'interpretation': 'Significantly better than random' if p_value < 0.05 else 'Not significant',
+            'interpretation': 'HIGHLY SIGNIFICANT - n-values are NOT arbitrary' if p_value < 0.01 else ('Significantly better than random' if p_value < 0.05 else 'Not significant'),
             'reject_H0': bool(p_value < 0.05),
             'gpu_time_seconds': elapsed_time,
             'permutations_per_second': int(n_permutations/elapsed_time)
+        }
+    
+    def _permutation_test_predictions_legacy(self, n_permutations=100000):
+        """Legacy method - permutes predictions (not recommended, kept for compatibility)"""
+        print(f"  Running GPU Permutation Test (LEGACY - predictions) with {n_permutations:,} permutations...")
+        
+        start_time = torch.cuda.Event(enable_timing=True)
+        end_time = torch.cuda.Event(enable_timing=True)
+        
+        start_time.record()
+        
+        observed_stat = -torch.mean(self.percent_errors_torch)
+        null_stats = torch.zeros(n_permutations, device=device)
+        
+        batch_size = 10000
+        n_batches = (n_permutations + batch_size - 1) // batch_size
+        
+        for i in range(n_batches):
+            start_idx = i * batch_size
+            end_idx = min((i + 1) * batch_size, n_permutations)
+            current_batch_size = end_idx - start_idx
+            
+            perm_indices = torch.argsort(torch.rand(current_batch_size, self.n, device=device), dim=1)
+            perm_pred = self.masses_pred_torch[perm_indices]
+            perm_errors = torch.abs(perm_pred - self.masses_exp_torch.unsqueeze(0)) / self.masses_exp_torch.unsqueeze(0) * 100
+            null_stats[start_idx:end_idx] = -torch.mean(perm_errors, dim=1)
+        
+        p_value = torch.sum(null_stats >= observed_stat).float() / n_permutations
+        
+        end_time.record()
+        torch.cuda.synchronize()
+        elapsed_time = start_time.elapsed_time(end_time) / 1000
+        
+        return {
+            'test_name': 'GPU Permutation Test (LEGACY - predictions)',
+            'n_permutations': n_permutations,
+            'observed_statistic': float(observed_stat.cpu()),
+            'p_value': float(p_value.cpu()),
+            'interpretation': 'NOTE: This tests predictions, not n-values. Use n-value permutation for geometric structure.',
+            'reject_H0': bool(p_value < 0.05),
+            'gpu_time_seconds': elapsed_time
         }
     
     # =========================================================================
@@ -354,7 +437,7 @@ class GPUAcceleratedTests:
             'min_error_percent': float(min_err.cpu())
         }
     
-    def run_all_gpu_tests(self, n_params=1, n_bootstrap=100000, n_permutations=100000):
+    def run_all_gpu_tests(self, n_params=1, n_bootstrap=100000, n_permutations=100000, n_values=None, m0=None, phi=PHI):
         """Run all GPU-accelerated tests"""
         results = {}
         
@@ -377,7 +460,7 @@ class GPUAcceleratedTests:
         results['bootstrap_gpu'] = self.bootstrap_gpu(n_bootstrap, confidence=0.95)
         
         print(f"  [7/7] GPU Permutation test ({n_permutations:,})...")
-        results['permutation_gpu'] = self.permutation_test_gpu(n_permutations)
+        results['permutation_gpu'] = self.permutation_test_gpu(n_permutations, n_values=n_values, m0=m0, phi=phi)
         
         return results
 
@@ -430,7 +513,10 @@ def analyze_sector_gpu(sector_name, n_bootstrap=100000, n_permutations=100000, s
     results = tester.run_all_gpu_tests(
         n_params=1,
         n_bootstrap=n_bootstrap,
-        n_permutations=n_permutations
+        n_permutations=n_permutations,
+        n_values=n_rounded,  # Pass n-values for correct permutation test
+        m0=m0,                # Pass m0 for recalculation
+        phi=PHI              # Pass phi constant
     )
     
     # Add sector info

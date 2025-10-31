@@ -1,0 +1,363 @@
+REPRODUCTION GUIDE
+==================
+
+This document provides step-by-step instructions to reproduce all
+numerical results, statistical validations, and figures from the paper.
+
+==================
+QUICK START
+==================
+
+Minimum reproduction (validation only):
+  Time: 10-15 seconds
+  Command: python validation_fermion_models_comparison.py
+
+Full reproduction (with notebooks):
+  Time: 5-10 minutes (without MCMC)
+  Command: jupyter notebook 01_goe_fermion_hierarchy_pentagonal.ipynb
+
+Complete reproduction (with 1M MCMC):
+  Time: 2-4 hours
+  See: Section "FULL MCMC REPRODUCTION" below
+
+==================
+PREREQUISITES
+==================
+
+1. Python environment set up (see INSTALL.txt)
+2. All ancillary files in same directory
+3. Virtual environment activated (if using one)
+
+==================
+METHOD 1: VALIDATION SCRIPTS
+==================
+
+Purpose: Reproduce Model A vs Model B comparison
+Output: CSV/JSON files, PDF plots
+Time: ~15 seconds
+
+Step 1: Run fermion models comparison
+--------------------------------------
+
+python validation_fermion_models_comparison.py
+
+Expected output:
+  - Console: Statistical metrics for leptons, up-quarks, down-quarks
+  - Files created:
+    * fermion_models_comparison_results.json (6 KB)
+    * fermion_models_comparison_results.csv (2 KB)
+    * goe_models_comparison_leptons.pdf
+    * goe_models_comparison_up_quarks.pdf
+    * goe_models_comparison_down_quarks.pdf
+
+Key results to verify:
+  - Total Delta_BIC = 13.545
+  - MAPE (Model B) = 7.28%
+  - All sectors show "Strong preference for Model B"
+
+Step 2: Run strong force analysis
+----------------------------------
+
+python validation_strong_force_analysis.py
+
+Expected output:
+  - Console: Coupling constants, hadron masses
+  - Files created:
+    * strong_force_analysis_results.json (13 KB)
+    * strong_force_analysis_results.csv (1 KB)
+    * strong_force_analysis_coupling.csv (4 KB)
+    * goe_strong_force_analysis.pdf
+
+Key results to verify:
+  - alpha_s(inf) ~ 0.1459 (geometric correction)
+  - Meson mass predictions
+  - Hadron quantization via phi^n
+
+==================
+METHOD 2: JUPYTER NOTEBOOKS
+==================
+
+Purpose: Interactive exploration and full validation suite
+Output: All figures in paper, complete statistical analysis
+Time: 5-10 minutes (quick run), 2-4 hours (full MCMC)
+
+Step 1: Launch Jupyter
+-----------------------
+
+jupyter notebook
+
+This opens browser at http://localhost:8888
+
+Step 2: Open primary notebook
+------------------------------
+
+Navigate to: 01_goe_fermion_hierarchy_pentagonal.ipynb
+
+Click to open.
+
+Step 3: Quick validation (recommended first)
+---------------------------------------------
+
+In notebook, find cell with:
+  N_SAMPLES = 1000000  # 1M samples for publication
+
+Change to:
+  N_SAMPLES = 10000    # Quick test
+
+Then: Cell > Run All
+
+Expected runtime: ~5 minutes
+Expected output:
+  - LOOCV analysis
+  - Monte Carlo propagation (10k samples)
+  - Permutation test (reduced)
+  - Bootstrap confidence intervals
+  - All figures
+
+Key results to verify (will differ slightly from paper due to reduced samples):
+  - LOOCV MAPE ~ 7-8%
+  - Monte Carlo MAPE ~ 7-8%
+  - Permutation p-value < 0.01
+
+Step 4: Extended protocol (optional)
+-------------------------------------
+
+Open: 02_goe_computational_protocol.ipynb
+
+Run All Cells
+
+Expected runtime: ~10 minutes
+Expected output:
+  - Bayesian model comparison
+  - Convergence diagnostics
+  - Additional statistical tests
+  - Supplementary figures
+
+==================
+FULL MCMC REPRODUCTION
+==================
+
+Purpose: Exact reproduction of paper results with 1M MCMC samples
+Time: 2-4 hours (CPU), 20-40 minutes (GPU)
+
+WARNING: Requires significant computational resources
+  - 16 GB RAM recommended
+  - Multi-core CPU or GPU
+
+Step 1: Configure for full MCMC
+--------------------------------
+
+In notebook 01_goe_fermion_hierarchy_pentagonal.ipynb:
+
+Ensure:
+  N_SAMPLES = 1000000      # 1M samples
+  N_PERMUTATION = 50000    # 50k permutations
+  N_BOOTSTRAP = 100000     # 100k bootstrap
+
+Step 2: Run full analysis
+--------------------------
+
+Cell > Run All
+
+Expected runtime:
+  - CPU (8 cores): ~2-4 hours
+  - GPU (CUDA): ~20-40 minutes
+
+Progress indicators:
+  - MCMC: Progress bar shows chain advancement
+  - Permutation: Shows completion percentage
+  - Bootstrap: Shows iteration count
+
+Step 3: Verify results
+----------------------
+
+Compare with paper Table 2:
+  LOOCV Median MAPE: 7.28%
+  LOOCV P95: 15.8%
+  Monte Carlo Median: 7.275%
+  Monte Carlo P95: 15.851%
+  Permutation p-value: 0.004476
+  Bootstrap CI95: [7.266, 7.285]%
+  KS statistic: 0.995524
+
+Tolerance: Results should match within ±0.1% due to random sampling
+
+==================
+FIGURE REPRODUCTION
+==================
+
+Main Paper Figures:
+-------------------
+
+Figure 1: Fermion mass hierarchy
+  Source: validation_fermion_models_comparison.py
+  File: goe_models_comparison_leptons.pdf
+
+Figure 2: Model comparison (all sectors)
+  Source: validation_fermion_models_comparison.py
+  Files: goe_models_comparison_*.pdf
+
+Figure 3: Statistical validation summary
+  Source: Notebook 01, Cell 15-20
+  Data: Tables in console output
+
+Figure 4: Strong force analysis
+  Source: validation_strong_force_analysis.py
+  File: goe_strong_force_analysis.pdf
+
+==================
+DATA FILE FORMATS
+==================
+
+JSON files:
+-----------
+Structure:
+  {
+    "metadata": {...},
+    "experimental_data": {...},
+    "results": [...],
+    "combined_statistics": {...}
+  }
+
+Read with:
+  import json
+  with open('fermion_models_comparison_results.json') as f:
+      data = json.load(f)
+
+CSV files:
+----------
+Standard format with headers
+  
+Read with:
+  import pandas as pd
+  df = pd.read_csv('fermion_models_comparison_results.csv')
+
+==================
+TROUBLESHOOTING
+==================
+
+Issue: Script fails with "No module named..."
+Solution: Check INSTALL.txt, ensure all packages installed
+
+Issue: "Memory Error" during MCMC
+Solution: Reduce N_SAMPLES to 100000 or use GPU acceleration
+
+Issue: Figures not displaying in notebook
+Solution: Add at top of notebook: %matplotlib inline
+
+Issue: Results differ significantly from paper
+Solution: 
+  - Check random seed is set (provided in notebooks)
+  - Verify N_SAMPLES matches paper (1M)
+  - Small variations (<1%) are normal due to sampling
+
+Issue: "CUDA out of memory"
+Solution: Reduce batch size or use CPU mode
+
+Issue: Notebook kernel dies
+Solution: Restart kernel, reduce sample sizes
+
+==================
+EXPECTED OUTPUTS
+==================
+
+Validation Scripts (Method 1):
+-------------------------------
+Files: 9 total
+  - 4 PDF plots
+  - 2 JSON results
+  - 3 CSV data files
+
+Total size: ~200 KB
+Time: ~15 seconds
+
+Notebooks (Method 2 - Quick):
+-----------------------------
+Files: Multiple figures embedded in notebook
+  - ~10 plots
+  - Statistical tables
+  - Console outputs
+
+Time: ~5 minutes
+
+Notebooks (Method 2 - Full):
+----------------------------
+Files: Complete analysis
+  - All figures from paper
+  - Complete statistical suite
+  - Diagnostic plots
+
+Time: 2-4 hours
+Size: ~50 MB (MCMC chain data)
+
+==================
+VERIFICATION CHECKLIST
+==================
+
+[ ] Python 3.10+ installed and verified
+[ ] All packages installed (numpy, scipy, matplotlib, pandas)
+[ ] Virtual environment activated (if using)
+[ ] All ancillary files present in same directory
+[ ] Validation scripts run successfully
+[ ] JSON/CSV files generated
+[ ] PDF plots created
+[ ] Jupyter notebooks open
+[ ] Quick validation runs (~5 min)
+[ ] Results match paper within tolerance
+
+Optional (full reproduction):
+[ ] 16+ GB RAM available
+[ ] Full MCMC completes (2-4 hours)
+[ ] All statistics match paper (±0.1%)
+
+==================
+PERFORMANCE TIPS
+==================
+
+Speed up MCMC:
+--------------
+1. Use GPU if available
+2. Reduce N_SAMPLES for testing (10k-100k)
+3. Use parallel chains (if multicore CPU)
+4. Enable JIT compilation (numba)
+
+Memory optimization:
+-------------------
+1. Close other applications
+2. Use streaming for large data
+3. Clear variables after processing
+4. Run in batches if needed
+
+==================
+SUPPORT
+==================
+
+If reproduction fails:
+  1. Check INSTALL.txt for setup
+  2. Review error messages
+  3. Consult troubleshooting section
+  4. Contact: camargo@phiq.io
+
+GitHub repository:
+  https://github.com/infolake/goe_framework
+  
+Zenodo archive:
+  DOI: 10.5281/zenodo.17479743
+
+==================
+CITATION
+==================
+
+If you use or modify these scripts, please cite:
+
+  G. de Camargo, "Geometrodynamics of Entropy: Fermion Mass 
+  Quantization and Cosmological Bounce from an Extended 
+  Wheeler-DeWitt Framework," arXiv:XXXX.XXXXX [hep-th] (2025).
+
+==================
+LICENSE
+==================
+
+MIT License - See GitHub repository for details
+All code freely available for research and education
+

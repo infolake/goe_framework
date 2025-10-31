@@ -1,0 +1,309 @@
+{
+  "metadata": {
+    "analysis_date": "2025-10-31T14:54:43.865330",
+    "pdg_version": "2025",
+    "model": "Golden Ratio Quantization",
+    "gpu_device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 4090",
+    "bootstrap_samples": 100000,
+    "permutation_tests": 100000,
+    "total_time_seconds": 6.308422,
+    "phi": 1.618033988749895
+  },
+  "sectors": {
+    "leptons": {
+      "basic_metrics": {
+        "test_name": "Basic Metrics",
+        "MAPE": 2.150438070297241,
+        "RMSE": 27.759746551513672,
+        "MAE": 17.29479217529297,
+        "max_error_percent": 3.754570245742798,
+        "min_error_percent": 0.0
+      },
+      "chi_squared": {
+        "test_name": "Chi-Squared Test",
+        "chi2": 2974902394505.9995,
+        "dof": 2,
+        "chi2_reduced": 1487451197252.9998,
+        "p_value": 0.0,
+        "interpretation": "Poor fit",
+        "reject_H0": true
+      },
+      "shapiro_wilk": {
+        "test_name": "Shapiro-Wilk Test",
+        "statistic": 0.8069834128620763,
+        "p_value": 0.13128143850703589,
+        "interpretation": "Normal",
+        "reject_H0": false
+      },
+      "kolmogorov_smirnov": {
+        "test_name": "Kolmogorov-Smirnov Test",
+        "statistic": 0.3994706900238062,
+        "p_value": 0.5961347299553759,
+        "interpretation": "Residuals normal",
+        "reject_H0": false
+      },
+      "information_criteria": {
+        "test_name": "Information Criteria",
+        "AIC": 30.45515284382032,
+        "BIC": 29.55376513248843,
+        "log_likelihood": -14.22757642191016,
+        "R_squared": 0.9988362171998936,
+        "R_squared_adjusted": 0.9976724343997871
+      },
+      "bootstrap_gpu": {
+        "test_name": "GPU Bootstrap",
+        "n_bootstrap": 100000,
+        "confidence_level": 0.95,
+        "mean_error_ci": [
+          0.0,
+          3.754570484161377
+        ],
+        "std_error_ci": [
+          0.0,
+          2.1677021980285645
+        ],
+        "mean_estimate": 2.150438070297241,
+        "std_estimate": 1.93598473072052,
+        "gpu_time_seconds": 0.027396928787231444,
+        "samples_per_second": 3650044
+      },
+      "permutation_gpu": {
+        "test_name": "GPU Permutation Test",
+        "n_permutations": 100000,
+        "observed_statistic": -2.150438070297241,
+        "null_mean": -42007.03515625,
+        "null_std": 54462.63671875,
+        "p_value": 0.1662599891424179,
+        "interpretation": "Not significant",
+        "reject_H0": false,
+        "gpu_time_seconds": 0.07469427490234375,
+        "permutations_per_second": 1338790
+      },
+      "sector": "leptons",
+      "fermions": [
+        "e",
+        "mu",
+        "tau"
+      ],
+      "masses_experimental": [
+        0.51099895,
+        105.6583755,
+        1776.86
+      ],
+      "masses_predicted": [
+        0.51099895,
+        101.69135881908025,
+        1824.7773935468674
+      ],
+      "n_values_rounded": [
+        0.0,
+        11.0,
+        17.0
+      ],
+      "n_values_extracted": [
+        0.0,
+        11.079525653272569,
+        16.944701604429376
+      ],
+      "m0": 0.51099895,
+      "phi": 1.618033988749895
+    },
+    "up_quarks": {
+      "basic_metrics": {
+        "test_name": "Basic Metrics",
+        "MAPE": 10.453141212463379,
+        "RMSE": 19681.685546875,
+        "MAE": 11412.33203125,
+        "max_error_percent": 19.761947631835938,
+        "min_error_percent": 0.0
+      },
+      "chi_squared": {
+        "test_name": "Chi-Squared Test",
+        "chi2": 5678.4108669110365,
+        "dof": 2,
+        "chi2_reduced": 2839.2054334555182,
+        "p_value": 0.0,
+        "interpretation": "Poor fit",
+        "reject_H0": true
+      },
+      "shapiro_wilk": {
+        "test_name": "Shapiro-Wilk Test",
+        "statistic": 0.7532480754818383,
+        "p_value": 0.0071786775562801,
+        "interpretation": "Non-normal",
+        "reject_H0": true
+      },
+      "kolmogorov_smirnov": {
+        "test_name": "Kolmogorov-Smirnov Test",
+        "statistic": 0.4254824411312294,
+        "p_value": 0.5244536709325347,
+        "interpretation": "Residuals normal",
+        "reject_H0": false
+      },
+      "information_criteria": {
+        "test_name": "Information Criteria",
+        "AIC": 69.83829245411084,
+        "BIC": 68.93690474277895,
+        "log_likelihood": -33.91914622705542,
+        "R_squared": 0.9409856759753942,
+        "R_squared_adjusted": 0.8819713519507884
+      },
+      "bootstrap_gpu": {
+        "test_name": "GPU Bootstrap",
+        "n_bootstrap": 100000,
+        "confidence_level": 0.95,
+        "mean_error_ci": [
+          0.0,
+          19.761947631835938
+        ],
+        "std_error_ci": [
+          0.0,
+          11.409565925598145
+        ],
+        "mean_estimate": 10.453141212463379,
+        "std_estimate": 9.930546760559082,
+        "gpu_time_seconds": 0.00022435200214385986,
+        "samples_per_second": 445728137
+      },
+      "permutation_gpu": {
+        "test_name": "GPU Permutation Test",
+        "n_permutations": 100000,
+        "observed_statistic": -10.453141212463379,
+        "null_mean": -716758.6875,
+        "null_std": 1001175.9375,
+        "p_value": 0.16613999009132385,
+        "interpretation": "Not significant",
+        "reject_H0": false,
+        "gpu_time_seconds": 0.00216214394569397,
+        "permutations_per_second": 46250389
+      },
+      "sector": "up_quarks",
+      "fermions": [
+        "u",
+        "c",
+        "t"
+      ],
+      "masses_experimental": [
+        2.16,
+        1273.0,
+        172500.0
+      ],
+      "masses_predicted": [
+        2.16,
+        1125.3641458580476,
+        138410.6400337085
+      ],
+      "n_values_rounded": [
+        0.0,
+        13.0,
+        23.0
+      ],
+      "n_values_extracted": [
+        0.0,
+        13.256165049708034,
+        23.457537213179098
+      ],
+      "m0": 2.16,
+      "phi": 1.618033988749895
+    },
+    "down_quarks": {
+      "basic_metrics": {
+        "test_name": "Basic Metrics",
+        "MAPE": 5.388087749481201,
+        "RMSE": 142.2490997314453,
+        "MAE": 85.26527404785156,
+        "max_error_percent": 10.278640747070312,
+        "min_error_percent": 0.0
+      },
+      "chi_squared": {
+        "test_name": "Chi-Squared Test",
+        "chi2": 1239.5448703956317,
+        "dof": 2,
+        "chi2_reduced": 619.7724351978159,
+        "p_value": 0.0,
+        "interpretation": "Poor fit",
+        "reject_H0": true
+      },
+      "shapiro_wilk": {
+        "test_name": "Shapiro-Wilk Test",
+        "statistic": 0.779199605328498,
+        "p_value": 0.06575274383393714,
+        "interpretation": "Normal",
+        "reject_H0": false
+      },
+      "kolmogorov_smirnov": {
+        "test_name": "Kolmogorov-Smirnov Test",
+        "statistic": 0.413491235270287,
+        "p_value": 0.5573532465873197,
+        "interpretation": "Residuals normal",
+        "reject_H0": false
+      },
+      "information_criteria": {
+        "test_name": "Information Criteria",
+        "AIC": 40.25910887561963,
+        "BIC": 39.35772116428774,
+        "log_likelihood": -19.129554437809816,
+        "R_squared": 0.9946736716238185,
+        "R_squared_adjusted": 0.989347343247637
+      },
+      "bootstrap_gpu": {
+        "test_name": "GPU Bootstrap",
+        "n_bootstrap": 100000,
+        "confidence_level": 0.95,
+        "mean_error_ci": [
+          0.0,
+          10.278640747070312
+        ],
+        "std_error_ci": [
+          0.0,
+          5.934376239776611
+        ],
+        "mean_estimate": 5.388087749481201,
+        "std_estimate": 5.157351016998291,
+        "gpu_time_seconds": 0.0001717119961977005,
+        "samples_per_second": 582370493
+      },
+      "permutation_gpu": {
+        "test_name": "GPU Permutation Test",
+        "n_permutations": 100000,
+        "observed_statistic": -5.388087749481201,
+        "null_mean": -10038.193359375,
+        "null_std": 12802.224609375,
+        "p_value": 0.16721999645233154,
+        "interpretation": "Not significant",
+        "reject_H0": false,
+        "gpu_time_seconds": 0.0020980799198150636,
+        "permutations_per_second": 47662626
+      },
+      "sector": "down_quarks",
+      "fermions": [
+        "d",
+        "s",
+        "b"
+      ],
+      "masses_experimental": [
+        4.67,
+        93.4,
+        4183.0
+      ],
+      "masses_predicted": [
+        4.67,
+        83.79974981969609,
+        3936.804460253179
+      ],
+      "n_values_rounded": [
+        0.0,
+        6.0,
+        14.0
+      ],
+      "n_values_extracted": [
+        0.0,
+        6.225392057194222,
+        14.126055399655714
+      ],
+      "m0": 4.67,
+      "phi": 1.618033988749895
+    }
+  }
+}
